@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:platform_call="http://www.eclipse.org/efbt/platform_call" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description">
+  <viewpoint:DAnalysis uid="_0hOhQOhYEeupAdzyEdU8XQ" selectedViews="_L76qEOhZEeupAdzyEdU8XQ" version="14.5.0.202104161500">
+    <semanticResources>src/sdd_import.platform_call</semanticResources>
+    <semanticResources>src/cube_structure_items.efbt_data_definition</semanticResources>
+    <semanticResources>file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition</semanticResources>
+    <semanticResources>file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition</semanticResources>
+    <semanticResources>file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//domains.efbt_data_definition</semanticResources>
+    <semanticResources>file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition</semanticResources>
+    <semanticResources>src/cube_structures.efbt_data_definition</semanticResources>
+    <semanticResources>src/cubes.efbt_data_definition</semanticResources>
+    <semanticResources>src/domains.efbt_data_definition</semanticResources>
+    <semanticResources>src/members.efbt_data_definition</semanticResources>
+    <semanticResources>src/test.program</semanticResources>
+    <semanticResources>file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//test_def.test_definition</semanticResources>
+    <semanticResources>file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cubes.efbt_data_definition</semanticResources>
+    <semanticResources>src/variables.efbt_data_definition</semanticResources>
+    <semanticResources>src/test1_definition.test_definition</semanticResources>
+    <semanticResources>src/CRR2.requirements_text</semanticResources>
+    <semanticResources>src/test_def.test_definition</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_L76qEOhZEeupAdzyEdU8XQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.efbt.controller.platformcall.ui.sirius.core/description/controller.odesign#//@ownedViewpoints[name='Modules']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_MKyzkOhZEeupAdzyEdU8XQ" name="new PlatformCall" repPath="#_MKUScOhZEeupAdzyEdU8XQ" changeId="a7fca1ba-aa7e-49a3-b9bc-70de2fe17883">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.efbt.controller.platformcall.ui.sirius.core/description/controller.odesign#//@ownedViewpoints[name='Modules']/@ownedRepresentations[name='PlatformCall']"/>
+        <target xmi:type="platform_call:TranslateBIRDWithNewTestFormatToCocason" href="src/sdd_import.platform_call#load_bird"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_MKUScOhZEeupAdzyEdU8XQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_MLsygOhZEeupAdzyEdU8XQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_MLsygehZEeupAdzyEdU8XQ" type="Sirius" element="_MKUScOhZEeupAdzyEdU8XQ" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_MLsyguhZEeupAdzyEdU8XQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_ML1VYOhZEeupAdzyEdU8XQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_ML1VYehZEeupAdzyEdU8XQ"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.efbt.controller.platformcall.ui.sirius.core/description/controller.odesign#//@ownedViewpoints[name='Modules']/@ownedRepresentations[name='PlatformCall']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_MKkKEOhZEeupAdzyEdU8XQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.efbt.controller.platformcall.ui.sirius.core/description/controller.odesign#//@ownedViewpoints[name='Modules']/@ownedRepresentations[name='PlatformCall']/@defaultLayer"/>
+    <target xmi:type="platform_call:TranslateBIRDWithNewTestFormatToCocason" href="src/sdd_import.platform_call#load_bird"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

@@ -1,0 +1,4119 @@
+{
+  "eClass" : "http://www.eclipse.org/efbt/efbt_data_definition#//CubeModule",
+  "name" : "cubesModule",
+  "cubes" : [ {
+    "code" : "ANCRDT_ACCNTNG_C",
+    "cube_id" : "ANCRDT_ACCNTNG_C_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#ANCRDT_ACCNTNG_C_1"
+    },
+    "cube_type" : "C",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_ACCNTNG_C_1",
+    "displayName" : "Accounting"
+  }, {
+    "code" : "ANCRDT_ENTTY_DFLT_C",
+    "cube_id" : "ANCRDT_ENTTY_DFLT_C_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#ANCRDT_ENTTY_DFLT_C_1"
+    },
+    "cube_type" : "C",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_ENTTY_DFLT_C_1",
+    "displayName" : "Counterparty default"
+  }, {
+    "code" : "ANCRDT_ENTTY_INSTRMNT_C",
+    "cube_id" : "ANCRDT_ENTTY_INSTRMNT_C_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#ANCRDT_ENTTY_INSTRMNT_C_1"
+    },
+    "cube_type" : "C",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_ENTTY_INSTRMNT_C_1",
+    "displayName" : "Counterparty-instrument"
+  }, {
+    "code" : "ANCRDT_ENTTY_RSK_C",
+    "cube_id" : "ANCRDT_ENTTY_RSK_C_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#ANCRDT_ENTTY_RSK_C_1"
+    },
+    "cube_type" : "C",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_ENTTY_RSK_C_1",
+    "displayName" : "Counterparty risk"
+  }, {
+    "code" : "ANCRDT_FNNCL_C",
+    "cube_id" : "ANCRDT_FNNCL_C_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#ANCRDT_FNNCL_C_1"
+    },
+    "cube_type" : "C",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_FNNCL_C_1",
+    "displayName" : "Financial"
+  }, {
+    "code" : "ANCRDT_INSTRMNT_C",
+    "cube_id" : "ANCRDT_INSTRMNT_C_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#ANCRDT_INSTRMNT_C_1"
+    },
+    "cube_type" : "C",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_INSTRMNT_C_1",
+    "displayName" : "Instrument"
+  }, {
+    "code" : "ANCRDT_INSTRMNT_PRTCTN_RCVD_C",
+    "cube_id" : "ANCRDT_INSTRMNT_PRTCTN_RCVD_C_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#ANCRDT_INSTRMNT_PRTCTN_RCVD_C_1"
+    },
+    "cube_type" : "C",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_INSTRMNT_PRTCTN_RCVD_C_1",
+    "displayName" : "Instrument-protection"
+  }, {
+    "code" : "ANCRDT_JNT_LBLTS_C",
+    "cube_id" : "ANCRDT_JNT_LBLTS_C_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#ANCRDT_JNT_LBLTS_C_1"
+    },
+    "cube_type" : "C",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_JNT_LBLTS_C_1",
+    "displayName" : "Joint liabilities"
+  }, {
+    "code" : "ANCRDT_PRTCTN_RCVD_C",
+    "cube_id" : "ANCRDT_PRTCTN_RCVD_C_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#ANCRDT_PRTCTN_RCVD_C_1"
+    },
+    "cube_type" : "C",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_PRTCTN_RCVD_C_1",
+    "displayName" : "Protection received"
+  }, {
+    "code" : "ADVNCS_NT_LNS",
+    "cube_id" : "BIRD_ADVNCS_NT_LNS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_ADVNCS_NT_LNS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ADVNCS_NT_LNS_1",
+    "displayName" : "Advances (that are not loans)"
+  }, {
+    "code" : "ADVNCS_NT_LNS",
+    "cube_id" : "BIRD_ADVNCS_NT_LNS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_ADVNCS_NT_LNS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ADVNCS_NT_LNS_2",
+    "displayName" : "Advances (that are not loans)"
+  }, {
+    "code" : "ADVNCS_NT_LNS",
+    "cube_id" : "BIRD_ADVNCS_NT_LNS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_ADVNCS_NT_LNS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ADVNCS_NT_LNS_3",
+    "displayName" : "Advances (that are not loans)"
+  }, {
+    "code" : "ADVNCS_NT_LNS_E",
+    "cube_id" : "BIRD_ADVNCS_NT_LNS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_ADVNCS_NT_LNS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ADVNCS_NT_LNS_E_1",
+    "displayName" : "Advances (that are not loans) - enriched"
+  }, {
+    "code" : "BIRD_ADVNCS_NT_LNS_IL",
+    "cube_id" : "BIRD_ADVNCS_NT_LNS_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_ADVNCS_NT_LNS_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ADVNCS_NT_LNS_IL_4",
+    "displayName" : "Advances (that are not loans)"
+  }, {
+    "code" : "ASST_PLDGD_LBLTY",
+    "cube_id" : "BIRD_ASST_PLDGD_LBLTY_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_ASST_PLDGD_LBLTY_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ASST_PLDGD_LBLTY_1",
+    "displayName" : "Asset pledged for liability"
+  }, {
+    "code" : "ASST_PLDGD_OFF_BLNC_SHT_ITM_RCVD",
+    "cube_id" : "BIRD_ASST_PLDGD_OFF_BLNC_SHT_ITM_RCVD_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_ASST_PLDGD_OFF_BLNC_SHT_ITM_RCVD_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ASST_PLDGD_OFF_BLNC_SHT_ITM_RCVD_1",
+    "displayName" : "Asset pledged for off-balance sheet items received"
+  }, {
+    "code" : "BIRD_CIU_HRRCHY_1",
+    "cube_id" : "BIRD_CIU_HRRCHY_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CIU_HRRCHY_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CIU_HRRCHY_1",
+    "displayName" : "CIU Hierarchy"
+  }, {
+    "code" : "BIRD_CIU_HRRCHY_STRCTR_1",
+    "cube_id" : "BIRD_CIU_HRRCHY_STRCTR_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CIU_HRRCHY_STRCTR_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CIU_HRRCHY_STRCTR_1",
+    "displayName" : "CIU Hierarchy Structure"
+  }, {
+    "code" : "CLLTRLSD_DPST_OPRTN",
+    "cube_id" : "BIRD_CLLTRLSD_DPST_OPRTN_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CLLTRLSD_DPST_OPRTN_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CLLTRLSD_DPST_OPRTN_1",
+    "displayName" : "Collateralised deposit operation"
+  }, {
+    "code" : "CMMTMNT_PRTCTN",
+    "cube_id" : "BIRD_CMMTMNT_PRTCTN_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMMTMNT_PRTCTN_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_PRTCTN_1",
+    "displayName" : "Commitments-protections"
+  }, {
+    "code" : "CMMTMNT_PRTCTN",
+    "cube_id" : "BIRD_CMMTMNT_PRTCTN_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMMTMNT_PRTCTN_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_PRTCTN_2",
+    "displayName" : "Commitments-protections"
+  }, {
+    "code" : "BIRD_CMMTMNT_PRTCTN_EIL",
+    "cube_id" : "BIRD_CMMTMNT_PRTCTN_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMMTMNT_PRTCTN_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_PRTCTN_EIL_1",
+    "displayName" : "Commitment-Protection - Enriched"
+  }, {
+    "code" : "BIRD_CMMTMNT_PRTCTN_IL",
+    "cube_id" : "BIRD_CMMTMNT_PRTCTN_IL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMMTMNT_PRTCTN_IL_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_PRTCTN_IL_3",
+    "displayName" : "Commitments-protections"
+  }, {
+    "code" : "CMMTMNT_RCVD",
+    "cube_id" : "BIRD_CMMTMNT_RCVD_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMMTMNT_RCVD_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_RCVD_1",
+    "displayName" : "Commitment Received"
+  }, {
+    "code" : "CMMTMNT_RCVD",
+    "cube_id" : "BIRD_CMMTMNT_RCVD_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMMTMNT_RCVD_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_RCVD_2",
+    "displayName" : "Commitment Received"
+  }, {
+    "code" : "BIRD_CMMTMNT_RCVD_EIL",
+    "cube_id" : "BIRD_CMMTMNT_RCVD_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMMTMNT_RCVD_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_RCVD_EIL_1",
+    "displayName" : "Commitments received - enriched"
+  }, {
+    "code" : "BIRD_CMMTMNT_RCVD_IL",
+    "cube_id" : "BIRD_CMMTMNT_RCVD_IL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMMTMNT_RCVD_IL_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_RCVD_IL_3",
+    "displayName" : "Commitment Received"
+  }, {
+    "code" : "CMMTMNTS_GVN_CSTMRS_RLTNSHP_E",
+    "cube_id" : "BIRD_CMMTMNTS_GVN_CSTMRS_RLTNSHP_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMMTMNTS_GVN_CSTMRS_RLTNSHP_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNTS_GVN_CSTMRS_RLTNSHP_E_1",
+    "displayName" : "Commitments given-customers (relationship) - enriched"
+  }, {
+    "code" : "BIRD_CMMTMNTS_GVN_CSTMRS_RLTNSHP_EIL",
+    "cube_id" : "BIRD_CMMTMNTS_GVN_CSTMRS_RLTNSHP_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMMTMNTS_GVN_CSTMRS_RLTNSHP_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNTS_GVN_CSTMRS_RLTNSHP_EIL_2",
+    "displayName" : "Commitments given-customers (relationship) - enriched"
+  }, {
+    "code" : "CMMTMNTS_GVN_E",
+    "cube_id" : "BIRD_CMMTMNTS_GVN_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMMTMNTS_GVN_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNTS_GVN_E_1",
+    "displayName" : "Commitments given - enriched"
+  }, {
+    "code" : "BIRD_CMMTMNTS_GVN_EIL",
+    "cube_id" : "BIRD_CMMTMNTS_GVN_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMMTMNTS_GVN_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNTS_GVN_EIL_2",
+    "displayName" : "Commitments given - enriched"
+  }, {
+    "code" : "CMMTMNTS_GVN_PRTCTNS_E",
+    "cube_id" : "BIRD_CMMTMNTS_GVN_PRTCTNS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMMTMNTS_GVN_PRTCTNS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNTS_GVN_PRTCTNS_E_1",
+    "displayName" : "Commitments given-protections - enriched"
+  }, {
+    "code" : "CMMTMNTS_RCVD_CSTMRS_RLTNSHP_E",
+    "cube_id" : "BIRD_CMMTMNTS_RCVD_CSTMRS_RLTNSHP_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMMTMNTS_RCVD_CSTMRS_RLTNSHP_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNTS_RCVD_CSTMRS_RLTNSHP_E_1",
+    "displayName" : "Commitments received-customers (relationship) - enriched"
+  }, {
+    "code" : "BIRD_CMMTMNTS_RCVD_CSTMRS_RLTNSHP_EIL",
+    "cube_id" : "BIRD_CMMTMNTS_RCVD_CSTMRS_RLTNSHP_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMMTMNTS_RCVD_CSTMRS_RLTNSHP_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNTS_RCVD_CSTMRS_RLTNSHP_EIL_2",
+    "displayName" : "Commitments received-customers (relationship) - enriched"
+  }, {
+    "code" : "BIRD_CMPSTN_LGL_ENTTY_EIL",
+    "cube_id" : "BIRD_CMPSTN_LGL_ENTTY_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMPSTN_LGL_ENTTY_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMPSTN_LGL_ENTTY_EIL_1",
+    "displayName" : "Composition of the Legal Entity - Enriched"
+  }, {
+    "code" : "BIRD_CMPSTN_LGL_ENTTY_IL",
+    "cube_id" : "BIRD_CMPSTN_LGL_ENTTY_IL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CMPSTN_LGL_ENTTY_IL_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMPSTN_LGL_ENTTY_IL_2",
+    "displayName" : "Composition of the legal entity"
+  }, {
+    "code" : "CNTRPRTS",
+    "cube_id" : "BIRD_CNTRPRTS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CNTRPRTS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRPRTS_2",
+    "displayName" : "Counterparties"
+  }, {
+    "code" : "CNTRPRTS",
+    "cube_id" : "BIRD_CNTRPRTS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CNTRPRTS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRPRTS_3",
+    "displayName" : "Counterparties"
+  }, {
+    "code" : "BIRD_CNTRPRTS_CDS_IL",
+    "cube_id" : "BIRD_CNTRPRTS_CDS_IL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CNTRPRTS_CDS_IL_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRPRTS_CDS_IL_2",
+    "displayName" : "Counterparty codes"
+  }, {
+    "code" : "CNTRPRTS_E",
+    "cube_id" : "BIRD_CNTRPRTS_E_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CNTRPRTS_E_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRPRTS_E_2",
+    "displayName" : "Counterparties - enriched"
+  }, {
+    "code" : "BIRD_CNTRPRTS_EIL",
+    "cube_id" : "BIRD_CNTRPRTS_EIL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CNTRPRTS_EIL_3"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRPRTS_EIL_3",
+    "displayName" : "Counterparties - enriched"
+  }, {
+    "code" : "BIRD_CNTRPRTS_IL",
+    "cube_id" : "BIRD_CNTRPRTS_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CNTRPRTS_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRPRTS_IL_4",
+    "displayName" : "Counterparties"
+  }, {
+    "code" : "BIRD_CNTRY_EIL",
+    "cube_id" : "BIRD_CNTRY_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CNTRY_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRY_EIL_2",
+    "displayName" : "Countries reference information - Enriched"
+  }, {
+    "code" : "BIRD_CNTRY_IL",
+    "cube_id" : "BIRD_CNTRY_IL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CNTRY_IL_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRY_IL_2",
+    "displayName" : "Countries reference information"
+  }, {
+    "code" : "CRDT_CRD_DBT",
+    "cube_id" : "BIRD_CRDT_CRD_DBT_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_CRD_DBT_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_CRD_DBT_1",
+    "displayName" : "Credit card debt"
+  }, {
+    "code" : "CRDT_CRD_DBT",
+    "cube_id" : "BIRD_CRDT_CRD_DBT_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_CRD_DBT_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_CRD_DBT_2",
+    "displayName" : "Credit card debt"
+  }, {
+    "code" : "CRDT_CRD_DBT",
+    "cube_id" : "BIRD_CRDT_CRD_DBT_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_CRD_DBT_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_CRD_DBT_3",
+    "displayName" : "Credit card debt"
+  }, {
+    "code" : "BIRD_CRDT_CRD_DBT_IL",
+    "cube_id" : "BIRD_CRDT_CRD_DBT_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_CRD_DBT_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_CRD_DBT_IL_4",
+    "displayName" : "Credit card debt"
+  }, {
+    "code" : "CRDT_DRVTV",
+    "cube_id" : "BIRD_CRDT_DRVTV_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_DRVTV_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_DRVTV_1",
+    "displayName" : "Credit derivatives"
+  }, {
+    "code" : "CRDT_DRVTV",
+    "cube_id" : "BIRD_CRDT_DRVTV_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_DRVTV_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_DRVTV_2",
+    "displayName" : "Credit derivatives"
+  }, {
+    "code" : "CRDT_DRVTV",
+    "cube_id" : "BIRD_CRDT_DRVTV_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_DRVTV_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_DRVTV_3",
+    "displayName" : "Credit derivatives"
+  }, {
+    "code" : "BIRD_CRDT_DRVTV_IL",
+    "cube_id" : "BIRD_CRDT_DRVTV_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_DRVTV_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_DRVTV_IL_4",
+    "displayName" : "Credit derivatives"
+  }, {
+    "code" : "CRDT_FCLTS",
+    "cube_id" : "BIRD_CRDT_FCLTS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_FCLTS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_2",
+    "displayName" : "Credit facilities"
+  }, {
+    "code" : "CRDT_FCLTS",
+    "cube_id" : "BIRD_CRDT_FCLTS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_FCLTS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_3",
+    "displayName" : "Credit facilities"
+  }, {
+    "code" : "BIRD_CRDT_FCLTS_EIL",
+    "cube_id" : "BIRD_CRDT_FCLTS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_FCLTS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_EIL_2",
+    "displayName" : "Credit facilities - Enriched"
+  }, {
+    "code" : "BIRD_CRDT_FCLTS_IL",
+    "cube_id" : "BIRD_CRDT_FCLTS_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_FCLTS_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_IL_4",
+    "displayName" : "Credit facilities"
+  }, {
+    "code" : "CRDT_FCLTS_INSTRMNTS",
+    "cube_id" : "BIRD_CRDT_FCLTS_INSTRMNTS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_FCLTS_INSTRMNTS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_INSTRMNTS_2",
+    "displayName" : "Credit facilities-Instruments"
+  }, {
+    "code" : "CRDT_FCLTS_INSTRMNTS_E",
+    "cube_id" : "BIRD_CRDT_FCLTS_INSTRMNTS_E_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_FCLTS_INSTRMNTS_E_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_INSTRMNTS_E_2",
+    "displayName" : "Credit facilities-Instruments - enriched"
+  }, {
+    "code" : "BIRD_CRDT_FCLTS_INSTRMNTS_EIL",
+    "cube_id" : "BIRD_CRDT_FCLTS_INSTRMNTS_EIL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_FCLTS_INSTRMNTS_EIL_3"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_INSTRMNTS_EIL_3",
+    "displayName" : "Credit facilities-Instruments - enriched"
+  }, {
+    "code" : "BIRD_CRDT_FCLTS_INSTRMNTS_IL",
+    "cube_id" : "BIRD_CRDT_FCLTS_INSTRMNTS_IL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRDT_FCLTS_INSTRMNTS_IL_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_INSTRMNTS_IL_3",
+    "displayName" : "Credit facilities-Instruments"
+  }, {
+    "code" : "CRRNT_ACCNT",
+    "cube_id" : "BIRD_CRRNT_ACCNT_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRRNT_ACCNT_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRRNT_ACCNT_1",
+    "displayName" : "Current account (including Transferable deposits)"
+  }, {
+    "code" : "CRRNT_ACCNT",
+    "cube_id" : "BIRD_CRRNT_ACCNT_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRRNT_ACCNT_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRRNT_ACCNT_2",
+    "displayName" : "Current account (including Transferable deposits)"
+  }, {
+    "code" : "CRRNT_ACCNT",
+    "cube_id" : "BIRD_CRRNT_ACCNT_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRRNT_ACCNT_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRRNT_ACCNT_3",
+    "displayName" : "Current account (including Transferable deposits)"
+  }, {
+    "code" : "CRRNT_ACCNT",
+    "cube_id" : "BIRD_CRRNT_ACCNT_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRRNT_ACCNT_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRRNT_ACCNT_4",
+    "displayName" : "Current account (including Transferable deposits)"
+  }, {
+    "code" : "CRRNT_ACCNT_AE_AXLRY",
+    "cube_id" : "BIRD_CRRNT_ACCNT_AE_AXLRY_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRRNT_ACCNT_AE_AXLRY_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRRNT_ACCNT_AE_AXLRY_1",
+    "displayName" : "Current account (including Transferable deposits) - AE Auxiliary"
+  }, {
+    "code" : "CRRNT_ACCNT_AE_AXLRY",
+    "cube_id" : "BIRD_CRRNT_ACCNT_AE_AXLRY_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRRNT_ACCNT_AE_AXLRY_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRRNT_ACCNT_AE_AXLRY_2",
+    "displayName" : "Current account (including Transferable deposits) - AE Auxiliary"
+  }, {
+    "code" : "BIRD_CRRNT_ACCNT_IL",
+    "cube_id" : "BIRD_CRRNT_ACCNT_IL_5",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CRRNT_ACCNT_IL_5"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRRNT_ACCNT_IL_5",
+    "displayName" : "Current account (including Transferable deposits)"
+  }, {
+    "code" : "CSH_ON_HND",
+    "cube_id" : "BIRD_CSH_ON_HND_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CSH_ON_HND_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CSH_ON_HND_1",
+    "displayName" : "Cash on hand"
+  }, {
+    "code" : "BIRD_CSH_ON_HND_EIL",
+    "cube_id" : "BIRD_CSH_ON_HND_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CSH_ON_HND_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CSH_ON_HND_EIL_1",
+    "displayName" : "Cash on hand - enriched"
+  }, {
+    "code" : "BIRD_CSH_ON_HND_IL",
+    "cube_id" : "BIRD_CSH_ON_HND_IL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CSH_ON_HND_IL_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CSH_ON_HND_IL_2",
+    "displayName" : "Cash on hand"
+  }, {
+    "code" : "CVRD_BND_PRGRM",
+    "cube_id" : "BIRD_CVRD_BND_PRGRM_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CVRD_BND_PRGRM_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CVRD_BND_PRGRM_1",
+    "displayName" : "Covered bond program"
+  }, {
+    "code" : "CVRD_BND_PRGRM_DRVTV",
+    "cube_id" : "BIRD_CVRD_BND_PRGRM_DRVTV_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CVRD_BND_PRGRM_DRVTV_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CVRD_BND_PRGRM_DRVTV_1",
+    "displayName" : "Covered bond program-derivative"
+  }, {
+    "code" : "DBT_SCRTS_E",
+    "cube_id" : "BIRD_DBT_SCRTS_E",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_DBT_SCRTS_E_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DBT_SCRTS_E",
+    "displayName" : "Debt securities - enriched"
+  }, {
+    "code" : "DPSTS_LBLTS",
+    "cube_id" : "BIRD_DPSTS_LBLTS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_DPSTS_LBLTS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DPSTS_LBLTS_1",
+    "displayName" : "Deposits (liabilities)"
+  }, {
+    "code" : "BIRD_DPSTS_LBLTS_IL",
+    "cube_id" : "BIRD_DPSTS_LBLTS_IL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_DPSTS_LBLTS_IL_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DPSTS_LBLTS_IL_2",
+    "displayName" : "Deposits (liabilities)"
+  }, {
+    "code" : "DPSTS_THT_LBLTS_E",
+    "cube_id" : "BIRD_DPSTS_THT_LBLTS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_DPSTS_THT_LBLTS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DPSTS_THT_LBLTS_E_1",
+    "displayName" : "Deposits that are liabilities - enriched"
+  }, {
+    "code" : "BIRD_DPSTS_THT_LBLTS_EIL",
+    "cube_id" : "BIRD_DPSTS_THT_LBLTS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_DPSTS_THT_LBLTS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DPSTS_THT_LBLTS_EIL_2",
+    "displayName" : "Deposits that are liabilities - enriched"
+  }, {
+    "code" : "DRVTV_E",
+    "cube_id" : "BIRD_DRVTV_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_DRVTV_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DRVTV_E_1",
+    "displayName" : "Derivatives"
+  }, {
+    "code" : "DRVTVS_CSTMRS_RLTSHP_E",
+    "cube_id" : "BIRD_DRVTVS_CSTMRS_RLTSHP_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_DRVTVS_CSTMRS_RLTSHP_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DRVTVS_CSTMRS_RLTSHP_E_1",
+    "displayName" : "Derivatives-customers (relationship) - enriched"
+  }, {
+    "code" : "BIRD_DRVTVS_CSTMRS_RLTSHP_EIL",
+    "cube_id" : "BIRD_DRVTVS_CSTMRS_RLTSHP_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_DRVTVS_CSTMRS_RLTSHP_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DRVTVS_CSTMRS_RLTSHP_EIL_2",
+    "displayName" : "Derivatives-customers (relationship) - enriched"
+  }, {
+    "code" : "CNTRPRTS_E",
+    "cube_id" : "BIRD_EIL_CNTRPRTS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_CNTRPRTS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_CNTRPRTS_E_1",
+    "displayName" : "Counterparties - Enriched"
+  }, {
+    "code" : "CNTRY_E",
+    "cube_id" : "BIRD_EIL_CNTRY_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_CNTRY_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_CNTRY_E_1",
+    "displayName" : "Countries reference information - Enriched"
+  }, {
+    "code" : "CRDT_FCLTS_E",
+    "cube_id" : "BIRD_EIL_CRDT_FCLTS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_CRDT_FCLTS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_CRDT_FCLTS_E_1",
+    "displayName" : "Credit facilities - Enriched"
+  }, {
+    "code" : "CRDT_FCLTS_INSTRMNTS_E",
+    "cube_id" : "BIRD_EIL_CRDT_FCLTS_INSTRMNTS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_CRDT_FCLTS_INSTRMNTS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_CRDT_FCLTS_INSTRMNTS_E_1",
+    "displayName" : "Credit facilities-instruments - Enriched"
+  }, {
+    "code" : "INSTRMNTS_PRTCTNS_E",
+    "cube_id" : "BIRD_EIL_INSTRMNTS_PRTCTNS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_INSTRMNTS_PRTCTNS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_INSTRMNTS_PRTCTNS_E_1",
+    "displayName" : "Instruments-protections - Enriched"
+  }, {
+    "code" : "JNT_CNTRPRTS_E",
+    "cube_id" : "BIRD_EIL_JNT_CNTRPRTS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_JNT_CNTRPRTS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_JNT_CNTRPRTS_E_1",
+    "displayName" : "Joint counterparties - Enriched"
+  }, {
+    "code" : "LN_E",
+    "cube_id" : "BIRD_EIL_LN_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_LN_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_LN_E_1",
+    "displayName" : "Loan - Enriched"
+  }, {
+    "code" : "OWND_SCRTY_E",
+    "cube_id" : "BIRD_EIL_OWND_SCRTY_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_OWND_SCRTY_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_OWND_SCRTY_E_1",
+    "displayName" : "Owned security - Enriched"
+  }, {
+    "code" : "PRTCTN_RCVD_E",
+    "cube_id" : "BIRD_EIL_PRTCTN_RCVD_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_PRTCTN_RCVD_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_PRTCTN_RCVD_E_1",
+    "displayName" : "Protection received - Enriched"
+  }, {
+    "code" : "PSTV_CRRNT_ACCNT_E",
+    "cube_id" : "BIRD_EIL_PSTV_CRRNT_ACCNT_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_PSTV_CRRNT_ACCNT_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_PSTV_CRRNT_ACCNT_E_1",
+    "displayName" : "Positive current accounts - Enriched"
+  }, {
+    "code" : "RGSTRY_TBL_SCRTS_E",
+    "cube_id" : "BIRD_EIL_RGSTRY_TBL_SCRTS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_RGSTRY_TBL_SCRTS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_RGSTRY_TBL_SCRTS_E_1",
+    "displayName" : "Registry table of securities - Enriched"
+  }, {
+    "code" : "RL_ESTT_CLM_E",
+    "cube_id" : "BIRD_EIL_RL_ESTT_CLM_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_RL_ESTT_CLM_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_RL_ESTT_CLM_E_1",
+    "displayName" : "Real estate claim - Enriched"
+  }, {
+    "code" : "RL_ESTT_PRTCTN_CLM_E",
+    "cube_id" : "BIRD_EIL_RL_ESTT_PRTCTN_CLM_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_RL_ESTT_PRTCTN_CLM_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_RL_ESTT_PRTCTN_CLM_E_1",
+    "displayName" : "Real estate protection-Real estate claim - Enriched"
+  }, {
+    "code" : "RL_ESTT_PRTCTN_E",
+    "cube_id" : "BIRD_EIL_RL_ESTT_PRTCTN_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_RL_ESTT_PRTCTN_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_RL_ESTT_PRTCTN_E_1",
+    "displayName" : "Real estate protection - Enriched"
+  }, {
+    "code" : "SCRTSTNS_OTHR_CRDT_TRNSFRS_E",
+    "cube_id" : "BIRD_EIL_SCRTSTNS_OTHR_CRDT_TRNSFRS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_SCRTSTNS_OTHR_CRDT_TRNSFRS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_SCRTSTNS_OTHR_CRDT_TRNSFRS_E_1",
+    "displayName" : "Securitisations and other credit transfers - Enriched"
+  }, {
+    "code" : "TRNSCTNS_CNTRPRTS_E",
+    "cube_id" : "BIRD_EIL_TRNSCTNS_CNTRPRTS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EIL_TRNSCTNS_CNTRPRTS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_TRNSCTNS_CNTRPRTS_E_1",
+    "displayName" : "Transactions-Counterparties - Enriched"
+  }, {
+    "code" : "BIRD_ENTRPRS_SZ_PRVS_PRD_IL",
+    "cube_id" : "BIRD_ENTRPRS_SZ_PRVS_PRD_IL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_ENTRPRS_SZ_PRVS_PRD_IL_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ENTRPRS_SZ_PRVS_PRD_IL_2",
+    "displayName" : "Enterprise size (previous period)"
+  }, {
+    "code" : "EQTY_INSTRMNTS_NT_SCRTS",
+    "cube_id" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EQTY_INSTRMNTS_NT_SCRTS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_1",
+    "displayName" : "Equity instruments that are not securities"
+  }, {
+    "code" : "EQTY_INSTRMNTS_NT_SCRTS",
+    "cube_id" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EQTY_INSTRMNTS_NT_SCRTS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_2",
+    "displayName" : "Equity instruments that are not securities"
+  }, {
+    "code" : "EQTY_INSTRMNTS_NT_SCRTS",
+    "cube_id" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EQTY_INSTRMNTS_NT_SCRTS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_3",
+    "displayName" : "Equity instruments that are not securities"
+  }, {
+    "code" : "EQTY_INSTRMNTS_NT_SCRTS_E",
+    "cube_id" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EQTY_INSTRMNTS_NT_SCRTS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_E_1",
+    "displayName" : "Equity instruments that are not securities - enriched"
+  }, {
+    "code" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_EIL",
+    "cube_id" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EQTY_INSTRMNTS_NT_SCRTS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_EIL_2",
+    "displayName" : "Equity instruments that are not securities - enriched"
+  }, {
+    "code" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_IL",
+    "cube_id" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EQTY_INSTRMNTS_NT_SCRTS_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_IL_4",
+    "displayName" : "Equity instruments that are not securities"
+  }, {
+    "code" : "EQTY_SCRTS_E",
+    "cube_id" : "BIRD_EQTY_SCRTS_E_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EQTY_SCRTS_E_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EQTY_SCRTS_E_2",
+    "displayName" : "Equity instruments (in the form of securities) - enriched"
+  }, {
+    "code" : "EXTRNL_CRDT_ASSSSMNT",
+    "cube_id" : "BIRD_EXTRNL_CRDT_ASSSSMNT_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EXTRNL_CRDT_ASSSSMNT_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EXTRNL_CRDT_ASSSSMNT_2",
+    "displayName" : "External credit assessments"
+  }, {
+    "code" : "EXTRNL_CRDT_ASSSSMNT",
+    "cube_id" : "BIRD_EXTRNL_CRDT_ASSSSMNT_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EXTRNL_CRDT_ASSSSMNT_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EXTRNL_CRDT_ASSSSMNT_3",
+    "displayName" : "External credit assessments"
+  }, {
+    "code" : "BIRD_EXTRNL_CRDT_ASSSSMNT_AXLRY",
+    "cube_id" : "BIRD_EXTRNL_CRDT_ASSSSMNT_AXLRY_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EXTRNL_CRDT_ASSSSMNT_AXLRY_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EXTRNL_CRDT_ASSSSMNT_AXLRY_1",
+    "displayName" : "External credit assessment auxiliary"
+  }, {
+    "code" : "BIRD_EXTRNL_CRDT_ASSSSMNT_IL",
+    "cube_id" : "BIRD_EXTRNL_CRDT_ASSSSMNT_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_EXTRNL_CRDT_ASSSSMNT_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EXTRNL_CRDT_ASSSSMNT_IL_4",
+    "displayName" : "External credit assessments"
+  }, {
+    "code" : "FCTRNG",
+    "cube_id" : "BIRD_FCTRNG_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FCTRNG_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_2",
+    "displayName" : "Factoring"
+  }, {
+    "code" : "FCTRNG",
+    "cube_id" : "BIRD_FCTRNG_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FCTRNG_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_3",
+    "displayName" : "Factoring"
+  }, {
+    "code" : "FCTRNG",
+    "cube_id" : "BIRD_FCTRNG_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FCTRNG_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_4",
+    "displayName" : "Factoring"
+  }, {
+    "code" : "FCTRNG_AXLRY",
+    "cube_id" : "BIRD_FCTRNG_AXLRY_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FCTRNG_AXLRY_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_AXLRY_1",
+    "displayName" : "Factoring auxiliary"
+  }, {
+    "code" : "FCTRNG_AXLRY_E",
+    "cube_id" : "BIRD_FCTRNG_AXLRY_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FCTRNG_AXLRY_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_AXLRY_E_1",
+    "displayName" : "Factoring auxiliary - enriched"
+  }, {
+    "code" : "BIRD_FCTRNG_AXLRY_EIL",
+    "cube_id" : "BIRD_FCTRNG_AXLRY_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FCTRNG_AXLRY_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_AXLRY_EIL_2",
+    "displayName" : "Factoring auxiliary - enriched"
+  }, {
+    "code" : "BIRD_FCTRNG_AXLRY_IL",
+    "cube_id" : "BIRD_FCTRNG_AXLRY_IL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FCTRNG_AXLRY_IL_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_AXLRY_IL_2",
+    "displayName" : "Factoring auxiliary"
+  }, {
+    "code" : "BIRD_FCTRNG_IL",
+    "cube_id" : "BIRD_FCTRNG_IL_5",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FCTRNG_IL_5"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_IL_5",
+    "displayName" : "Factoring"
+  }, {
+    "code" : "FNNCL_GRNTS_GVN",
+    "cube_id" : "BIRD_FNNCL_GRNTS_GVN_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FNNCL_GRNTS_GVN_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_GRNTS_GVN_1",
+    "displayName" : "Financial guarantees given"
+  }, {
+    "code" : "FNNCL_GRNTS_GVN",
+    "cube_id" : "BIRD_FNNCL_GRNTS_GVN_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FNNCL_GRNTS_GVN_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_GRNTS_GVN_2",
+    "displayName" : "Financial guarantees given"
+  }, {
+    "code" : "BIRD_FNNCL_GRNTS_GVN_IL",
+    "cube_id" : "BIRD_FNNCL_GRNTS_GVN_IL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FNNCL_GRNTS_GVN_IL_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_GRNTS_GVN_IL_3",
+    "displayName" : "Financial guarantees given"
+  }, {
+    "code" : "FNNCL_LSS",
+    "cube_id" : "BIRD_FNNCL_LSS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FNNCL_LSS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_LSS_2",
+    "displayName" : "Financial leases"
+  }, {
+    "code" : "FNNCL_LSS",
+    "cube_id" : "BIRD_FNNCL_LSS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FNNCL_LSS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_LSS_3",
+    "displayName" : "Financial leases"
+  }, {
+    "code" : "FNNCL_LSS",
+    "cube_id" : "BIRD_FNNCL_LSS_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FNNCL_LSS_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_LSS_4",
+    "displayName" : "Financial leases"
+  }, {
+    "code" : "BIRD_FNNCL_LSS_IL",
+    "cube_id" : "BIRD_FNNCL_LSS_IL_5",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FNNCL_LSS_IL_5"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_LSS_IL_5",
+    "displayName" : "Financial leases"
+  }, {
+    "code" : "FNNCL_OPTN",
+    "cube_id" : "BIRD_FNNCL_OPTN_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FNNCL_OPTN_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_OPTN_1",
+    "displayName" : "Financial options"
+  }, {
+    "code" : "FNNCL_OPTN",
+    "cube_id" : "BIRD_FNNCL_OPTN_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FNNCL_OPTN_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_OPTN_2",
+    "displayName" : "Financial options"
+  }, {
+    "code" : "FNNCL_OPTN",
+    "cube_id" : "BIRD_FNNCL_OPTN_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FNNCL_OPTN_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_OPTN_3",
+    "displayName" : "Financial options"
+  }, {
+    "code" : "BIRD_FNNCL_OPTN_IL",
+    "cube_id" : "BIRD_FNNCL_OPTN_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_FNNCL_OPTN_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_OPTN_IL_4",
+    "displayName" : "Financial options"
+  }, {
+    "code" : "BIRD_GDWLL_EIL",
+    "cube_id" : "BIRD_GDWLL_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_GDWLL_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GDWLL_EIL_1",
+    "displayName" : "Goodwill - enriched"
+  }, {
+    "code" : "BIRD_GDWLL_IL",
+    "cube_id" : "BIRD_GDWLL_IL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_GDWLL_IL_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GDWLL_IL_1",
+    "displayName" : "Goodwill"
+  }, {
+    "code" : "GRP",
+    "cube_id" : "BIRD_GRP_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_GRP_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GRP_2",
+    "displayName" : "Group and related entities"
+  }, {
+    "code" : "GRP_CNTRPRTY_RLTNSHP",
+    "cube_id" : "BIRD_GRP_CNTRPRTY_RLTNSHP_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_GRP_CNTRPRTY_RLTNSHP_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GRP_CNTRPRTY_RLTNSHP_2",
+    "displayName" : "Group counterparty relationship"
+  }, {
+    "code" : "BIRD_GRP_CNTRPRTY_RLTNSHP_IL",
+    "cube_id" : "BIRD_GRP_CNTRPRTY_RLTNSHP_IL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_GRP_CNTRPRTY_RLTNSHP_IL_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GRP_CNTRPRTY_RLTNSHP_IL_3",
+    "displayName" : "Group counterparty relationship"
+  }, {
+    "code" : "BIRD_GRP_DT_IL",
+    "cube_id" : "BIRD_GRP_DT_IL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_GRP_DT_IL_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GRP_DT_IL_2",
+    "displayName" : "Group data"
+  }, {
+    "code" : "GRP_E",
+    "cube_id" : "BIRD_GRP_E_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_GRP_E_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GRP_E_2",
+    "displayName" : "Group and related entities - enriched"
+  }, {
+    "code" : "BIRD_GRP_EIL",
+    "cube_id" : "BIRD_GRP_EIL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_GRP_EIL_3"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GRP_EIL_3",
+    "displayName" : "Group and related entities - enriched"
+  }, {
+    "code" : "BIRD_GRP_IL",
+    "cube_id" : "BIRD_GRP_IL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_GRP_IL_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GRP_IL_3",
+    "displayName" : "Group and related entities"
+  }, {
+    "code" : "CMPSTN_LGL_ENTTY",
+    "cube_id" : "BIRD_IL_CMPSTN_LGL_ENTTY_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_CMPSTN_LGL_ENTTY_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CMPSTN_LGL_ENTTY_1",
+    "displayName" : "Composition of the legal entity"
+  }, {
+    "code" : "CNTRPRTS",
+    "cube_id" : "BIRD_IL_CNTRPRTS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_CNTRPRTS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CNTRPRTS_1",
+    "displayName" : "Counterparties"
+  }, {
+    "code" : "CNTRPRTS_CDS",
+    "cube_id" : "BIRD_IL_CNTRPRTS_CDS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_CNTRPRTS_CDS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CNTRPRTS_CDS_1",
+    "displayName" : "Counterparty codes"
+  }, {
+    "code" : "CNTRPRTS_PD",
+    "cube_id" : "BIRD_IL_CNTRPRTS_PD_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_CNTRPRTS_PD_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CNTRPRTS_PD_1",
+    "displayName" : "Probability of default of the counterparty"
+  }, {
+    "code" : "CNTRY",
+    "cube_id" : "BIRD_IL_CNTRY_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_CNTRY_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CNTRY_1",
+    "displayName" : "Countries reference information"
+  }, {
+    "code" : "CRDT_CRD_DBT_CNVNNC_CRDT",
+    "cube_id" : "BIRD_IL_CRDT_CRD_DBT_CNVNNC_CRDT_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_CRDT_CRD_DBT_CNVNNC_CRDT_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CRDT_CRD_DBT_CNVNNC_CRDT_1",
+    "displayName" : "Credit card debt: convenience credit"
+  }, {
+    "code" : "CRDT_CRD_DBT_EXTNDD_CRDT",
+    "cube_id" : "BIRD_IL_CRDT_CRD_DBT_EXTNDD_CRDT_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_CRDT_CRD_DBT_EXTNDD_CRDT_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CRDT_CRD_DBT_EXTNDD_CRDT_1",
+    "displayName" : "Credit card debt: extended credit"
+  }, {
+    "code" : "CRDT_FCLTS",
+    "cube_id" : "BIRD_IL_CRDT_FCLTS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_CRDT_FCLTS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CRDT_FCLTS_1",
+    "displayName" : "Credit facilities"
+  }, {
+    "code" : "CRDT_FCLTS_INSTRMNTS",
+    "cube_id" : "BIRD_IL_CRDT_FCLTS_INSTRMNTS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_CRDT_FCLTS_INSTRMNTS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CRDT_FCLTS_INSTRMNTS_1",
+    "displayName" : "Credit facilities-Instruments"
+  }, {
+    "code" : "ENTRPRS_SZ_PRVS_PRD",
+    "cube_id" : "BIRD_IL_ENTRPRS_SZ_PRVS_PRD_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_ENTRPRS_SZ_PRVS_PRD_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_ENTRPRS_SZ_PRVS_PRD_1",
+    "displayName" : "Enterprise size (previous period)"
+  }, {
+    "code" : "EXTRNL_CRDT_ASSSSMNT",
+    "cube_id" : "BIRD_IL_EXTRNL_CRDT_ASSSSMNT_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_EXTRNL_CRDT_ASSSSMNT_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_EXTRNL_CRDT_ASSSSMNT_1",
+    "displayName" : "External credit assessments"
+  }, {
+    "code" : "FCTRNG",
+    "cube_id" : "BIRD_IL_FCTRNG_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_FCTRNG_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_FCTRNG_1",
+    "displayName" : "Factoring"
+  }, {
+    "code" : "FNNCL_LSS",
+    "cube_id" : "BIRD_IL_FNNCL_LSS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_FNNCL_LSS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_FNNCL_LSS_1",
+    "displayName" : "Financial leases"
+  }, {
+    "code" : "GRP",
+    "cube_id" : "BIRD_IL_GRP_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_GRP_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_GRP_1",
+    "displayName" : "Group"
+  }, {
+    "code" : "GRP_CNTRPRTY_RLTNSHP",
+    "cube_id" : "BIRD_IL_GRP_CNTRPRTY_RLTNSHP_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_GRP_CNTRPRTY_RLTNSHP_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_GRP_CNTRPRTY_RLTNSHP_1",
+    "displayName" : "Group counterparty relationship"
+  }, {
+    "code" : "GRP_DT",
+    "cube_id" : "BIRD_IL_GRP_DT_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_GRP_DT_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_GRP_DT_1",
+    "displayName" : "Group data"
+  }, {
+    "code" : "INDRCT_FCTRNG",
+    "cube_id" : "BIRD_IL_INDRCT_FCTRNG_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_INDRCT_FCTRNG_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_INDRCT_FCTRNG_1",
+    "displayName" : "Indirect factoring"
+  }, {
+    "code" : "INSTRMNTS_PRTCTNS",
+    "cube_id" : "BIRD_IL_INSTRMNTS_PRTCTNS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_INSTRMNTS_PRTCTNS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_INSTRMNTS_PRTCTNS_1",
+    "displayName" : "Instruments-protections"
+  }, {
+    "code" : "JNT_CNTRPRTS",
+    "cube_id" : "BIRD_IL_JNT_CNTRPRTS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_JNT_CNTRPRTS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_JNT_CNTRPRTS_1",
+    "displayName" : "Joint counterparties"
+  }, {
+    "code" : "LNKD_ENTRPRSS",
+    "cube_id" : "BIRD_IL_LNKD_ENTRPRSS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_LNKD_ENTRPRSS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_LNKD_ENTRPRSS_1",
+    "displayName" : "Linked enterprises"
+  }, {
+    "code" : "OTHR_DPSTS",
+    "cube_id" : "BIRD_IL_OTHR_DPSTS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_OTHR_DPSTS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_OTHR_DPSTS_1",
+    "displayName" : "Other deposits"
+  }, {
+    "code" : "OTHR_FNNCL_PRTCTN",
+    "cube_id" : "BIRD_IL_OTHR_FNNCL_PRTCTN_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_OTHR_FNNCL_PRTCTN_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_OTHR_FNNCL_PRTCTN_1",
+    "displayName" : "Other financial protection"
+  }, {
+    "code" : "OTHR_LNS",
+    "cube_id" : "BIRD_IL_OTHR_LNS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_OTHR_LNS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_OTHR_LNS_1",
+    "displayName" : "Other loans"
+  }, {
+    "code" : "OTHR_PHYSCL_PRTCTN",
+    "cube_id" : "BIRD_IL_OTHR_PHYSCL_PRTCTN_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_OTHR_PHYSCL_PRTCTN_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_OTHR_PHYSCL_PRTCTN_1",
+    "displayName" : "Other physical protection"
+  }, {
+    "code" : "OTHR_TRD_RCVBLS",
+    "cube_id" : "BIRD_IL_OTHR_TRD_RCVBLS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_OTHR_TRD_RCVBLS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_OTHR_TRD_RCVBLS_1",
+    "displayName" : "Other trade receivables"
+  }, {
+    "code" : "OVRDRFTS",
+    "cube_id" : "BIRD_IL_OVRDRFTS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_OVRDRFTS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_OVRDRFTS_1",
+    "displayName" : "Overdrafts"
+  }, {
+    "code" : "OWND_SCRTY",
+    "cube_id" : "BIRD_IL_OWND_SCRTY_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_OWND_SCRTY_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_OWND_SCRTY_1",
+    "displayName" : "Owned securities"
+  }, {
+    "code" : "PL_ITM",
+    "cube_id" : "BIRD_IL_PL_ITM_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_PL_ITM_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_PL_ITM_1",
+    "displayName" : "Pool of (repo) items"
+  }, {
+    "code" : "PRMTR",
+    "cube_id" : "BIRD_IL_PRMTR_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_PRMTR_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_PRMTR_1",
+    "displayName" : "Parameters"
+  }, {
+    "code" : "PRTNR_ENTRPRSS",
+    "cube_id" : "BIRD_IL_PRTNR_ENTRPRSS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_PRTNR_ENTRPRSS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_PRTNR_ENTRPRSS_1",
+    "displayName" : "Partner enterprises"
+  }, {
+    "code" : "PSTV_CRRNT_ACCNT",
+    "cube_id" : "BIRD_IL_PSTV_CRRNT_ACCNT_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_PSTV_CRRNT_ACCNT_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_PSTV_CRRNT_ACCNT_1",
+    "displayName" : "Positive current accounts"
+  }, {
+    "code" : "RGSTRY_TBL_SCRTS",
+    "cube_id" : "BIRD_IL_RGSTRY_TBL_SCRTS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_RGSTRY_TBL_SCRTS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_RGSTRY_TBL_SCRTS_1",
+    "displayName" : "Registry table of securities"
+  }, {
+    "code" : "RL_ESTT_CLM",
+    "cube_id" : "BIRD_IL_RL_ESTT_CLM_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_RL_ESTT_CLM_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_RL_ESTT_CLM_1",
+    "displayName" : "Real estate claim"
+  }, {
+    "code" : "RL_ESTT_PRTCTN",
+    "cube_id" : "BIRD_IL_RL_ESTT_PRTCTN_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_RL_ESTT_PRTCTN_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_RL_ESTT_PRTCTN_1",
+    "displayName" : "Real estate protection"
+  }, {
+    "code" : "RL_ESTT_PRTCTN_CLM",
+    "cube_id" : "BIRD_IL_RL_ESTT_PRTCTN_CLM_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_RL_ESTT_PRTCTN_CLM_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_RL_ESTT_PRTCTN_CLM_1",
+    "displayName" : "Real estate protection-Real estate claim"
+  }, {
+    "code" : "RVRS_RPRCHS_LNS",
+    "cube_id" : "BIRD_IL_RVRS_RPRCHS_LNS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_RVRS_RPRCHS_LNS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_RVRS_RPRCHS_LNS_1",
+    "displayName" : "Reverse repurchase loans"
+  }, {
+    "code" : "SCRTS_PRTCTN",
+    "cube_id" : "BIRD_IL_SCRTS_PRTCTN_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_SCRTS_PRTCTN_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_SCRTS_PRTCTN_1",
+    "displayName" : "Securities protection"
+  }, {
+    "code" : "SCRTSTNS_OTHR_CRDT_TRNSFRS",
+    "cube_id" : "BIRD_IL_SCRTSTNS_OTHR_CRDT_TRNSFRS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_SCRTSTNS_OTHR_CRDT_TRNSFRS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_SCRTSTNS_OTHR_CRDT_TRNSFRS_1",
+    "displayName" : "Securitisations and other credit transfers"
+  }, {
+    "code" : "TRNSCTNS_CNTRPRTS",
+    "cube_id" : "BIRD_IL_TRNSCTNS_CNTRPRTS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_TRNSCTNS_CNTRPRTS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_TRNSCTNS_CNTRPRTS_1",
+    "displayName" : "Transactions-Counterparties"
+  }, {
+    "code" : "TRNSFRBL_DPSTS",
+    "cube_id" : "BIRD_IL_TRNSFRBL_DPSTS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_TRNSFRBL_DPSTS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_TRNSFRBL_DPSTS_1",
+    "displayName" : "Transferable deposits"
+  }, {
+    "code" : "TRNSFRBL_DPSTS",
+    "cube_id" : "BIRD_IL_TRNSFRBL_DPSTS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_IL_TRNSFRBL_DPSTS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_TRNSFRBL_DPSTS_2",
+    "displayName" : "Transferable deposits"
+  }, {
+    "code" : "INSTRMNTS_BNFCRS_E",
+    "cube_id" : "BIRD_INSTRMNTS_BNFCRS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_BNFCRS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_BNFCRS_E_1",
+    "displayName" : "Instruments-beneficiaries - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_BNFCRS_EIL",
+    "cube_id" : "BIRD_INSTRMNTS_BNFCRS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_BNFCRS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_BNFCRS_EIL_2",
+    "displayName" : "Instruments-beneficiaries - enriched"
+  }, {
+    "code" : "INSTRMNTS_CRDTRS_E",
+    "cube_id" : "BIRD_INSTRMNTS_CRDTRS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_CRDTRS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_CRDTRS_E_1",
+    "displayName" : "Instruments-creditors - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_CRDTRS_EIL",
+    "cube_id" : "BIRD_INSTRMNTS_CRDTRS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_CRDTRS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_CRDTRS_EIL_2",
+    "displayName" : "Instruments-creditors - enriched"
+  }, {
+    "code" : "INSTRMNTS_CSTMRS_E",
+    "cube_id" : "BIRD_INSTRMNTS_CSTMRS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_CSTMRS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_CSTMRS_E_1",
+    "displayName" : "Instruments-customers - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_CSTMRS_EIL",
+    "cube_id" : "BIRD_INSTRMNTS_CSTMRS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_CSTMRS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_CSTMRS_EIL_2",
+    "displayName" : "Instruments-customers - enriched"
+  }, {
+    "code" : "INSTRMNTS_ORGNTRS_E",
+    "cube_id" : "BIRD_INSTRMNTS_ORGNTRS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_ORGNTRS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_ORGNTRS_E_1",
+    "displayName" : "Instruments-originators - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_ORGNTRS_EIL",
+    "cube_id" : "BIRD_INSTRMNTS_ORGNTRS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_ORGNTRS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_ORGNTRS_EIL_2",
+    "displayName" : "Instruments-originators - enriched"
+  }, {
+    "code" : "INSTRMNTS_PRTCTNS",
+    "cube_id" : "BIRD_INSTRMNTS_PRTCTNS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_PRTCTNS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_PRTCTNS_2",
+    "displayName" : "Instruments-protections"
+  }, {
+    "code" : "INSTRMNTS_PRTCTNS",
+    "cube_id" : "BIRD_INSTRMNTS_PRTCTNS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_PRTCTNS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_PRTCTNS_3",
+    "displayName" : "Instruments-protections"
+  }, {
+    "code" : "BIRD_INSTRMNTS_PRTCTNS_EIL",
+    "cube_id" : "BIRD_INSTRMNTS_PRTCTNS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_PRTCTNS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_PRTCTNS_EIL_2",
+    "displayName" : "Instruments-protections - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_PRTCTNS_IL",
+    "cube_id" : "BIRD_INSTRMNTS_PRTCTNS_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_PRTCTNS_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_PRTCTNS_IL_4",
+    "displayName" : "Instruments-protections"
+  }, {
+    "code" : "INSTRMNTS_SRVCRS_E",
+    "cube_id" : "BIRD_INSTRMNTS_SRVCRS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_SRVCRS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_SRVCRS_E_1",
+    "displayName" : "Instruments-servicers - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_SRVCRS_EIL",
+    "cube_id" : "BIRD_INSTRMNTS_SRVCRS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_SRVCRS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_SRVCRS_EIL_2",
+    "displayName" : "Instruments-servicers - enriched"
+  }, {
+    "code" : "INVSTMNT_PRPRTY",
+    "cube_id" : "BIRD_INVSTMNT_PRPRTY_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INVSTMNT_PRPRTY_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INVSTMNT_PRPRTY_1",
+    "displayName" : "Investment property"
+  }, {
+    "code" : "INVSTMNT_PRPRTY",
+    "cube_id" : "BIRD_INVSTMNT_PRPRTY_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INVSTMNT_PRPRTY_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INVSTMNT_PRPRTY_2",
+    "displayName" : "Investment property"
+  }, {
+    "code" : "BIRD_INVSTMNT_PRPRTY_EIL",
+    "cube_id" : "BIRD_INVSTMNT_PRPRTY_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INVSTMNT_PRPRTY_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INVSTMNT_PRPRTY_EIL_1",
+    "displayName" : "Investment property - enriched"
+  }, {
+    "code" : "BIRD_INVSTMNT_PRPRTY_IL",
+    "cube_id" : "BIRD_INVSTMNT_PRPRTY_IL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INVSTMNT_PRPRTY_IL_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INVSTMNT_PRPRTY_IL_3",
+    "displayName" : "Investment property"
+  }, {
+    "code" : "JNT_CNTRPRTS",
+    "cube_id" : "BIRD_JNT_CNTRPRTS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_JNT_CNTRPRTS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_JNT_CNTRPRTS_2",
+    "displayName" : "Joint counterparties"
+  }, {
+    "code" : "BIRD_JNT_CNTRPRTS_EIL",
+    "cube_id" : "BIRD_JNT_CNTRPRTS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_JNT_CNTRPRTS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_JNT_CNTRPRTS_EIL_2",
+    "displayName" : "Joint counterparties - enriched"
+  }, {
+    "code" : "BIRD_JNT_CNTRPRTS_IL",
+    "cube_id" : "BIRD_JNT_CNTRPRTS_IL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_JNT_CNTRPRTS_IL_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_JNT_CNTRPRTS_IL_3",
+    "displayName" : "Joint counterparties"
+  }, {
+    "code" : "LBLTY_PL_CVRD_BND",
+    "cube_id" : "BIRD_LBLTY_PL_CVRD_BND_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_LBLTY_PL_CVRD_BND_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LBLTY_PL_CVRD_BND_1",
+    "displayName" : "Liability pool for covered bonds"
+  }, {
+    "code" : "LBLTY_PL_CVRD_BND_FRCST",
+    "cube_id" : "BIRD_LBLTY_PL_CVRD_BND_FRCST_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_LBLTY_PL_CVRD_BND_FRCST_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LBLTY_PL_CVRD_BND_FRCST_1",
+    "displayName" : "Liability pool for covered bonds - forecast"
+  }, {
+    "code" : "LBLTY_PL_CVRD_BND_SCRTS_ISSD",
+    "cube_id" : "BIRD_LBLTY_PL_CVRD_BND_SCRTS_ISSD_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_LBLTY_PL_CVRD_BND_SCRTS_ISSD_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LBLTY_PL_CVRD_BND_SCRTS_ISSD_1",
+    "displayName" : "Liability pool for covered bonds-securities issued"
+  }, {
+    "code" : "LBLTY_PL_OTHR",
+    "cube_id" : "BIRD_LBLTY_PL_OTHR_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_LBLTY_PL_OTHR_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LBLTY_PL_OTHR_1",
+    "displayName" : "Liability pool for other structures"
+  }, {
+    "code" : "LBLTY_PL_OTHR_INSTRMNT",
+    "cube_id" : "BIRD_LBLTY_PL_OTHR_INSTRMNT_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_LBLTY_PL_OTHR_INSTRMNT_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LBLTY_PL_OTHR_INSTRMNT_1",
+    "displayName" : "Liability pool for other structures-instrument"
+  }, {
+    "code" : "LBLTY_PL_SCRTSTN_INSTRMNT",
+    "cube_id" : "BIRD_LBLTY_PL_SCRTSTN_INSTRMNT_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_LBLTY_PL_SCRTSTN_INSTRMNT_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LBLTY_PL_SCRTSTN_INSTRMNT_1",
+    "displayName" : "Liability pool for securitisations-instrument"
+  }, {
+    "code" : "LNG_STTLMNT_TRNSCTN",
+    "cube_id" : "BIRD_LNG_STTLMNT_TRNSCTN_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_LNG_STTLMNT_TRNSCTN_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LNG_STTLMNT_TRNSCTN_1",
+    "displayName" : "Long Settlement Transaction"
+  }, {
+    "code" : "BIRD_LNKD_ENTRPRSS_IL",
+    "cube_id" : "BIRD_LNKD_ENTRPRSS_IL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_LNKD_ENTRPRSS_IL_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LNKD_ENTRPRSS_IL_2",
+    "displayName" : "Linked enterprises"
+  }, {
+    "code" : "BIRD_LNS_ADVNCS_EIL",
+    "cube_id" : "BIRD_LNS_ADVNCS_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_LNS_ADVNCS_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LNS_ADVNCS_EIL_1",
+    "displayName" : "Loans and Advances"
+  }, {
+    "code" : "LNS_E",
+    "cube_id" : "BIRD_LNS_E_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_LNS_E_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LNS_E_2",
+    "displayName" : "Loans - enriched"
+  }, {
+    "code" : "MSTR_NTTNG_AGRMNT",
+    "cube_id" : "BIRD_MSTR_NTTNG_AGRMNT_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_MSTR_NTTNG_AGRMNT_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_MSTR_NTTNG_AGRMNT_1",
+    "displayName" : "Master netting agreement"
+  }, {
+    "code" : "MSTR_NTTNG_AGRMNT",
+    "cube_id" : "BIRD_MSTR_NTTNG_AGRMNT_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_MSTR_NTTNG_AGRMNT_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_MSTR_NTTNG_AGRMNT_2",
+    "displayName" : "Master netting agreement"
+  }, {
+    "code" : "BIRD_MSTR_NTTNG_AGRMNT_EIL",
+    "cube_id" : "BIRD_MSTR_NTTNG_AGRMNT_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_MSTR_NTTNG_AGRMNT_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_MSTR_NTTNG_AGRMNT_EIL_1",
+    "displayName" : "Master netting agreement - enriched"
+  }, {
+    "code" : "BIRD_MSTR_NTTNG_AGRMNT_IL",
+    "cube_id" : "BIRD_MSTR_NTTNG_AGRMNT_IL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_MSTR_NTTNG_AGRMNT_IL_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_MSTR_NTTNG_AGRMNT_IL_3",
+    "displayName" : "Master netting agreement"
+  }, {
+    "code" : "BIRD_MSTR_NTTNG_PRTCTN",
+    "cube_id" : "BIRD_MSTR_NTTNG_PRTCTN_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_MSTR_NTTNG_PRTCTN_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_MSTR_NTTNG_PRTCTN_1",
+    "displayName" : "Master netting protection."
+  }, {
+    "code" : "BIRD_MSTR_NTTNG_PRTCTN",
+    "cube_id" : "BIRD_MSTR_NTTNG_PRTCTN_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_MSTR_NTTNG_PRTCTN_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_MSTR_NTTNG_PRTCTN_2",
+    "displayName" : "Master netting protection."
+  }, {
+    "code" : "BIRD_NN_FNNCL_ASSTS_EIL",
+    "cube_id" : "BIRD_NN_FNNCL_ASSTS_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_NN_FNNCL_ASSTS_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_NN_FNNCL_ASSTS_EIL_1",
+    "displayName" : "Non-financial assets (excluding tangible and intangible assets) - enriched"
+  }, {
+    "code" : "BIRD_NN_FNNCL_ASSTS_IL",
+    "cube_id" : "BIRD_NN_FNNCL_ASSTS_IL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_NN_FNNCL_ASSTS_IL_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_NN_FNNCL_ASSTS_IL_1",
+    "displayName" : "Non-financial assets (excluding tangible and intangible assets)"
+  }, {
+    "code" : "BIRD_NN_FNNCL_LBLTS_EIL",
+    "cube_id" : "BIRD_NN_FNNCL_LBLTS_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_NN_FNNCL_LBLTS_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_NN_FNNCL_LBLTS_EIL_1",
+    "displayName" : "Non-financial liabilities and provisions (excluding financial guarantees and commitments given) - enriched"
+  }, {
+    "code" : "BIRD_NN_FNNCL_LBLTS_IL",
+    "cube_id" : "BIRD_NN_FNNCL_LBLTS_IL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_NN_FNNCL_LBLTS_IL_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_NN_FNNCL_LBLTS_IL_1",
+    "displayName" : "Non-financial liabilities and provisions (excluding financial guarantees and commitments given)"
+  }, {
+    "code" : "OTHR_ASSTS",
+    "cube_id" : "BIRD_OTHR_ASSTS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_ASSTS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_ASSTS_1",
+    "displayName" : "Other assets"
+  }, {
+    "code" : "OTHR_ASSTS",
+    "cube_id" : "BIRD_OTHR_ASSTS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_ASSTS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_ASSTS_2",
+    "displayName" : "Other assets"
+  }, {
+    "code" : "OTHR_ASSTS",
+    "cube_id" : "BIRD_OTHR_ASSTS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_ASSTS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_ASSTS_3",
+    "displayName" : "Other assets"
+  }, {
+    "code" : "OTHR_ASSTS_E",
+    "cube_id" : "BIRD_OTHR_ASSTS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_ASSTS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_ASSTS_E_1",
+    "displayName" : "Other assets - enriched"
+  }, {
+    "code" : "BIRD_OTHR_ASSTS_EIL",
+    "cube_id" : "BIRD_OTHR_ASSTS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_ASSTS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_ASSTS_EIL_2",
+    "displayName" : "Other assets - enriched"
+  }, {
+    "code" : "BIRD_OTHR_ASSTS_IL",
+    "cube_id" : "BIRD_OTHR_ASSTS_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_ASSTS_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_ASSTS_IL_4",
+    "displayName" : "Other assets"
+  }, {
+    "code" : "OTHR_CMMTMNTS_GVN",
+    "cube_id" : "BIRD_OTHR_CMMTMNTS_GVN_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_CMMTMNTS_GVN_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_CMMTMNTS_GVN_1",
+    "displayName" : "Commitments given other than credit facilities"
+  }, {
+    "code" : "OTHR_CMMTMNTS_GVN",
+    "cube_id" : "BIRD_OTHR_CMMTMNTS_GVN_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_CMMTMNTS_GVN_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_CMMTMNTS_GVN_2",
+    "displayName" : "Commitments given other than credit facilities"
+  }, {
+    "code" : "BIRD_OTHR_CMMTMNTS_GVN_IL",
+    "cube_id" : "BIRD_OTHR_CMMTMNTS_GVN_IL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_CMMTMNTS_GVN_IL_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_CMMTMNTS_GVN_IL_3",
+    "displayName" : "Commitments given other than credit facilities"
+  }, {
+    "code" : "OTHR_DPSTS",
+    "cube_id" : "BIRD_OTHR_DPSTS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_DPSTS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_DPSTS_2",
+    "displayName" : "Other deposits (assets)"
+  }, {
+    "code" : "OTHR_DPSTS",
+    "cube_id" : "BIRD_OTHR_DPSTS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_DPSTS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_DPSTS_3",
+    "displayName" : "Other deposits (assets)"
+  }, {
+    "code" : "OTHR_DPSTS",
+    "cube_id" : "BIRD_OTHR_DPSTS_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_DPSTS_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_DPSTS_4",
+    "displayName" : "Other deposits (assets)"
+  }, {
+    "code" : "OTHR_DPSTS_AE_AXLRY",
+    "cube_id" : "BIRD_OTHR_DPSTS_AE_AXLRY_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_DPSTS_AE_AXLRY_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_DPSTS_AE_AXLRY_1",
+    "displayName" : "Other deposits (assets) - AE Auxiliary"
+  }, {
+    "code" : "OTHR_DPSTS_AE_AXLRY",
+    "cube_id" : "BIRD_OTHR_DPSTS_AE_AXLRY_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_DPSTS_AE_AXLRY_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_DPSTS_AE_AXLRY_2",
+    "displayName" : "Other deposits (assets) - AE Auxiliary"
+  }, {
+    "code" : "BIRD_OTHR_DPSTS_IL",
+    "cube_id" : "BIRD_OTHR_DPSTS_IL_5",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_DPSTS_IL_5"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_DPSTS_IL_5",
+    "displayName" : "Other deposits (assets)"
+  }, {
+    "code" : "OTHR_FNNCL_DRVTV",
+    "cube_id" : "BIRD_OTHR_FNNCL_DRVTV_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_FNNCL_DRVTV_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_DRVTV_1",
+    "displayName" : "Financial swaps and forwards"
+  }, {
+    "code" : "OTHR_FNNCL_DRVTV",
+    "cube_id" : "BIRD_OTHR_FNNCL_DRVTV_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_FNNCL_DRVTV_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_DRVTV_2",
+    "displayName" : "Financial swaps and forwards"
+  }, {
+    "code" : "OTHR_FNNCL_DRVTV",
+    "cube_id" : "BIRD_OTHR_FNNCL_DRVTV_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_FNNCL_DRVTV_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_DRVTV_3",
+    "displayName" : "Financial swaps and forwards"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_DRVTV_IL",
+    "cube_id" : "BIRD_OTHR_FNNCL_DRVTV_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_FNNCL_DRVTV_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_DRVTV_IL_4",
+    "displayName" : "Financial swaps and forwards"
+  }, {
+    "code" : "OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN",
+    "cube_id" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_1",
+    "displayName" : "Other financial liabilities (excluding Financial guarantees and loan commitments given)"
+  }, {
+    "code" : "OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN",
+    "cube_id" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_2",
+    "displayName" : "Other financial liabilities (excluding Financial guarantees and loan commitments given)"
+  }, {
+    "code" : "OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN",
+    "cube_id" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_3",
+    "displayName" : "Other financial liabilities (excluding Financial guarantees and loan commitments given)"
+  }, {
+    "code" : "OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_E",
+    "cube_id" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_E_1",
+    "displayName" : "Other financial liabilities (excluding Financial guarantees and loan commitments given) - enriched"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_EIL",
+    "cube_id" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_EIL_2",
+    "displayName" : "Other financial liabilities (excluding Financial guarantees and loan commitments given) - enriched"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_IL",
+    "cube_id" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_IL_4",
+    "displayName" : "Other financial liabilities (excluding Financial guarantees and loan commitments given)"
+  }, {
+    "code" : "OTHR_FNNCL_PRTCTN",
+    "cube_id" : "BIRD_OTHR_FNNCL_PRTCTN_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_FNNCL_PRTCTN_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_PRTCTN_2",
+    "displayName" : "Other financial protection"
+  }, {
+    "code" : "OTHR_FNNCL_PRTCTN",
+    "cube_id" : "BIRD_OTHR_FNNCL_PRTCTN_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_FNNCL_PRTCTN_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_PRTCTN_3",
+    "displayName" : "Other financial protection"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_PRTCTN_IL",
+    "cube_id" : "BIRD_OTHR_FNNCL_PRTCTN_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_FNNCL_PRTCTN_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_PRTCTN_IL_4",
+    "displayName" : "Other financial protection"
+  }, {
+    "code" : "OTHR_INTNGBL_ASSTS",
+    "cube_id" : "BIRD_OTHR_INTNGBL_ASSTS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_INTNGBL_ASSTS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_INTNGBL_ASSTS_1",
+    "displayName" : "Other intangible assets"
+  }, {
+    "code" : "OTHR_INTNGBL_ASSTS",
+    "cube_id" : "BIRD_OTHR_INTNGBL_ASSTS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_INTNGBL_ASSTS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_INTNGBL_ASSTS_2",
+    "displayName" : "Other intangible assets"
+  }, {
+    "code" : "BIRD_OTHR_INTNGBL_ASSTS_EIL",
+    "cube_id" : "BIRD_OTHR_INTNGBL_ASSTS_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_INTNGBL_ASSTS_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_INTNGBL_ASSTS_EIL_1",
+    "displayName" : "Other intangible assets - enriched"
+  }, {
+    "code" : "BIRD_OTHR_INTNGBL_ASSTS_IL",
+    "cube_id" : "BIRD_OTHR_INTNGBL_ASSTS_IL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_INTNGBL_ASSTS_IL_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_INTNGBL_ASSTS_IL_3",
+    "displayName" : "Other intangible assets"
+  }, {
+    "code" : "OTHR_LNS",
+    "cube_id" : "BIRD_OTHR_LNS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_LNS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_2",
+    "displayName" : "Other loans"
+  }, {
+    "code" : "OTHR_LNS",
+    "cube_id" : "BIRD_OTHR_LNS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_LNS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_3",
+    "displayName" : "Other loans"
+  }, {
+    "code" : "OTHR_LNS",
+    "cube_id" : "BIRD_OTHR_LNS_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_LNS_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_4",
+    "displayName" : "Other loans"
+  }, {
+    "code" : "OTHR_LNS_AE_AXLRY",
+    "cube_id" : "BIRD_OTHR_LNS_AE_AXLRY_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_LNS_AE_AXLRY_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_AE_AXLRY_1",
+    "displayName" : "Other loans - AE Auxiliary"
+  }, {
+    "code" : "OTHR_LNS_AE_AXLRY",
+    "cube_id" : "BIRD_OTHR_LNS_AE_AXLRY_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_LNS_AE_AXLRY_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_AE_AXLRY_2",
+    "displayName" : "Other loans - AE Auxiliary"
+  }, {
+    "code" : "BIRD_OTHR_LNS_AE_AXLRY_EIL",
+    "cube_id" : "BIRD_OTHR_LNS_AE_AXLRY_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_LNS_AE_AXLRY_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_AE_AXLRY_EIL_1",
+    "displayName" : "Other loans - Asset encumbrance auxiliary - Enriched"
+  }, {
+    "code" : "BIRD_OTHR_LNS_AE_AXLRY_IL",
+    "cube_id" : "BIRD_OTHR_LNS_AE_AXLRY_IL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_LNS_AE_AXLRY_IL_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_AE_AXLRY_IL_3",
+    "displayName" : "Other loans - AE Auxiliary"
+  }, {
+    "code" : "BIRD_OTHR_LNS_IL",
+    "cube_id" : "BIRD_OTHR_LNS_IL_5",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_LNS_IL_5"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_IL_5",
+    "displayName" : "Other loans"
+  }, {
+    "code" : "OTHR_PHYSCL_PRTCTN",
+    "cube_id" : "BIRD_OTHR_PHYSCL_PRTCTN_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_PHYSCL_PRTCTN_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_PHYSCL_PRTCTN_2",
+    "displayName" : "Other physical protection"
+  }, {
+    "code" : "OTHR_PHYSCL_PRTCTN",
+    "cube_id" : "BIRD_OTHR_PHYSCL_PRTCTN_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_PHYSCL_PRTCTN_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_PHYSCL_PRTCTN_3",
+    "displayName" : "Other physical protection"
+  }, {
+    "code" : "BIRD_OTHR_PHYSCL_PRTCTN_IL",
+    "cube_id" : "BIRD_OTHR_PHYSCL_PRTCTN_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_PHYSCL_PRTCTN_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_PHYSCL_PRTCTN_IL_4",
+    "displayName" : "Other physical protection"
+  }, {
+    "code" : "OTHR_TRD_RCVBLS",
+    "cube_id" : "BIRD_OTHR_TRD_RCVBLS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_TRD_RCVBLS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_TRD_RCVBLS_2",
+    "displayName" : "Other trade receivables"
+  }, {
+    "code" : "OTHR_TRD_RCVBLS",
+    "cube_id" : "BIRD_OTHR_TRD_RCVBLS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_TRD_RCVBLS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_TRD_RCVBLS_3",
+    "displayName" : "Other trade receivables"
+  }, {
+    "code" : "OTHR_TRD_RCVBLS",
+    "cube_id" : "BIRD_OTHR_TRD_RCVBLS_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_TRD_RCVBLS_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_TRD_RCVBLS_4",
+    "displayName" : "Other trade receivables"
+  }, {
+    "code" : "BIRD_OTHR_TRD_RCVBLS_IL",
+    "cube_id" : "BIRD_OTHR_TRD_RCVBLS_IL_5",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OTHR_TRD_RCVBLS_IL_5"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_TRD_RCVBLS_IL_5",
+    "displayName" : "Other trade receivables"
+  }, {
+    "code" : "OWND_SCRTS",
+    "cube_id" : "BIRD_OWND_SCRTS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OWND_SCRTS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OWND_SCRTS_2",
+    "displayName" : "Owned securities"
+  }, {
+    "code" : "OWND_SCRTS",
+    "cube_id" : "BIRD_OWND_SCRTS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OWND_SCRTS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OWND_SCRTS_3",
+    "displayName" : "Owned securities"
+  }, {
+    "code" : "OWND_SCRTS",
+    "cube_id" : "BIRD_OWND_SCRTS_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OWND_SCRTS_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OWND_SCRTS_4",
+    "displayName" : "Owned securities"
+  }, {
+    "code" : "OWND_SCRTS_AE_AXLRY",
+    "cube_id" : "BIRD_OWND_SCRTS_AE_AXLRY_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OWND_SCRTS_AE_AXLRY_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OWND_SCRTS_AE_AXLRY_1",
+    "displayName" : "Owned securities - AE Auxiliary"
+  }, {
+    "code" : "BIRD_OWND_SCRTS_EIL",
+    "cube_id" : "BIRD_OWND_SCRTS_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OWND_SCRTS_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OWND_SCRTS_EIL_1",
+    "displayName" : "Owned security - Enriched"
+  }, {
+    "code" : "BIRD_OWND_SCRTS_IL",
+    "cube_id" : "BIRD_OWND_SCRTS_IL_5",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OWND_SCRTS_IL_5"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OWND_SCRTS_IL_5",
+    "displayName" : "Owned securities"
+  }, {
+    "code" : "OWND_SCRTY_SHRT_PSTN",
+    "cube_id" : "BIRD_OWND_SCRTY_SHRT_PSTN_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_OWND_SCRTY_SHRT_PSTN_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OWND_SCRTY_SHRT_PSTN_1",
+    "displayName" : "Owned security-short position"
+  }, {
+    "code" : "BIRD_PL_ITM_IL",
+    "cube_id" : "BIRD_PL_ITM_IL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PL_ITM_IL_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PL_ITM_IL_2",
+    "displayName" : "Pool of (repo) items"
+  }, {
+    "code" : "PRMTR",
+    "cube_id" : "BIRD_PRMTR_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRMTR_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRMTR_2",
+    "displayName" : "Parameters"
+  }, {
+    "code" : "PRMTR",
+    "cube_id" : "BIRD_PRMTR_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRMTR_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRMTR_3",
+    "displayName" : "Parameters"
+  }, {
+    "code" : "BIRD_PRMTR_IL",
+    "cube_id" : "BIRD_PRMTR_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRMTR_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRMTR_IL_4",
+    "displayName" : "Parameters"
+  }, {
+    "code" : "PRPRTY_PLNT_EQPMNT",
+    "cube_id" : "BIRD_PRPRTY_PLNT_EQPMNT_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRPRTY_PLNT_EQPMNT_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRPRTY_PLNT_EQPMNT_1",
+    "displayName" : "Property, plant and equipment"
+  }, {
+    "code" : "PRPRTY_PLNT_EQPMNT",
+    "cube_id" : "BIRD_PRPRTY_PLNT_EQPMNT_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRPRTY_PLNT_EQPMNT_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRPRTY_PLNT_EQPMNT_2",
+    "displayName" : "Property, plant and equipment"
+  }, {
+    "code" : "BIRD_PRPRTY_PLNT_EQPMNT_EIL",
+    "cube_id" : "BIRD_PRPRTY_PLNT_EQPMNT_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRPRTY_PLNT_EQPMNT_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRPRTY_PLNT_EQPMNT_EIL_1",
+    "displayName" : "Property, pland and equipment - enriched"
+  }, {
+    "code" : "BIRD_PRPRTY_PLNT_EQPMNT_IL",
+    "cube_id" : "BIRD_PRPRTY_PLNT_EQPMNT_IL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRPRTY_PLNT_EQPMNT_IL_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRPRTY_PLNT_EQPMNT_IL_3",
+    "displayName" : "Property, plant and equipment"
+  }, {
+    "code" : "BIRD_PRSPCTV_INF_EIL",
+    "cube_id" : "BIRD_PRSPCTV_INF_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRSPCTV_INF_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRSPCTV_INF_EIL_1",
+    "displayName" : "Perspective information - Enriched"
+  }, {
+    "code" : "BIRD_PRSPCTV_INF_IL",
+    "cube_id" : "BIRD_PRSPCTV_INF_IL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRSPCTV_INF_IL_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRSPCTV_INF_IL_1",
+    "displayName" : "Perspective information"
+  }, {
+    "code" : "PRTCTNS_NT_RL_ESTT_E",
+    "cube_id" : "BIRD_PRTCTNS_NT_RL_ESTT_E_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRTCTNS_NT_RL_ESTT_E_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRTCTNS_NT_RL_ESTT_E_2",
+    "displayName" : "Protections not in the form of real estate - enriched"
+  }, {
+    "code" : "BIRD_PRTCTNS_NT_RL_ESTT_EIL",
+    "cube_id" : "BIRD_PRTCTNS_NT_RL_ESTT_EIL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRTCTNS_NT_RL_ESTT_EIL_3"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRTCTNS_NT_RL_ESTT_EIL_3",
+    "displayName" : "Protections not in the form of real estate - enriched"
+  }, {
+    "code" : "PRTCTNS_PRTCTN_PRVDRS_E",
+    "cube_id" : "BIRD_PRTCTNS_PRTCTN_PRVDRS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRTCTNS_PRTCTN_PRVDRS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRTCTNS_PRTCTN_PRVDRS_E_1",
+    "displayName" : "Protections-protection providers - enriched"
+  }, {
+    "code" : "BIRD_PRTCTNS_PRTCTN_PRVDRS_EIL",
+    "cube_id" : "BIRD_PRTCTNS_PRTCTN_PRVDRS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRTCTNS_PRTCTN_PRVDRS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRTCTNS_PRTCTN_PRVDRS_EIL_2",
+    "displayName" : "Protections-protection providers - enriched"
+  }, {
+    "code" : "BIRD_PRTCTNS_RL_ESTT_EIL",
+    "cube_id" : "BIRD_PRTCTNS_RL_ESTT_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRTCTNS_RL_ESTT_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRTCTNS_RL_ESTT_EIL_2",
+    "displayName" : "Protections in the form of real estate - enriched"
+  }, {
+    "code" : "BIRD_PRTNR_ENTRPRSS_IL",
+    "cube_id" : "BIRD_PRTNR_ENTRPRSS_IL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRTNR_ENTRPRSS_IL_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRTNR_ENTRPRSS_IL_2",
+    "displayName" : "Partner enterprises"
+  }, {
+    "code" : "BIRD_PRVSN_FLWS_NT_FNNCL_GRNTS_CMMTMNTS_GVN_EIL",
+    "cube_id" : "BIRD_PRVSN_FLWS_NT_FNNCL_GRNTS_CMMTMNTS_GVN_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRVSN_FLWS_NT_FNNCL_GRNTS_CMMTMNTS_GVN_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRVSN_FLWS_NT_FNNCL_GRNTS_CMMTMNTS_GVN_EIL_1",
+    "displayName" : "Provision flows (excluding Financial guarantees and Commitments given) - enriched"
+  }, {
+    "code" : "BIRD_PRVSN_FLWS_NT_FNNCL_GRNTS_CMMTMNTS_GVN_IL",
+    "cube_id" : "BIRD_PRVSN_FLWS_NT_FNNCL_GRNTS_CMMTMNTS_GVN_IL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRVSN_FLWS_NT_FNNCL_GRNTS_CMMTMNTS_GVN_IL_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRVSN_FLWS_NT_FNNCL_GRNTS_CMMTMNTS_GVN_IL_1",
+    "displayName" : "Provision flows (excluding Financial guarantees and Commitments given)"
+  }, {
+    "code" : "RGSTRY_TBL_SCRTS",
+    "cube_id" : "BIRD_RGSTRY_TBL_SCRTS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RGSTRY_TBL_SCRTS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RGSTRY_TBL_SCRTS_2",
+    "displayName" : "Registry table of securities"
+  }, {
+    "code" : "RGSTRY_TBL_SCRTS",
+    "cube_id" : "BIRD_RGSTRY_TBL_SCRTS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RGSTRY_TBL_SCRTS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RGSTRY_TBL_SCRTS_3",
+    "displayName" : "Registry table of securities"
+  }, {
+    "code" : "RGSTRY_TBL_SCRTS",
+    "cube_id" : "BIRD_RGSTRY_TBL_SCRTS_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RGSTRY_TBL_SCRTS_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RGSTRY_TBL_SCRTS_4",
+    "displayName" : "Registry table of securities"
+  }, {
+    "code" : "RGSTRY_TBL_SCRTS",
+    "cube_id" : "BIRD_RGSTRY_TBL_SCRTS_5",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RGSTRY_TBL_SCRTS_5"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RGSTRY_TBL_SCRTS_5",
+    "displayName" : "Registry table of securities"
+  }, {
+    "code" : "BIRD_RGSTRY_TBL_SCRTS_IL",
+    "cube_id" : "BIRD_RGSTRY_TBL_SCRTS_IL_6",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RGSTRY_TBL_SCRTS_IL_6"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RGSTRY_TBL_SCRTS_IL_6",
+    "displayName" : "Registry table of securities"
+  }, {
+    "code" : "RL_ESTT_CLM_E",
+    "cube_id" : "BIRD_RL_ESTT_CLM_E_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RL_ESTT_CLM_E_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_CLM_E_2",
+    "displayName" : "Real estate claim - enriched"
+  }, {
+    "code" : "BIRD_RL_ESTT_CLM_IL",
+    "cube_id" : "BIRD_RL_ESTT_CLM_IL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RL_ESTT_CLM_IL_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_CLM_IL_2",
+    "displayName" : "Real estate claim"
+  }, {
+    "code" : "RL_ESTT_PRTCTN",
+    "cube_id" : "BIRD_RL_ESTT_PRTCTN_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RL_ESTT_PRTCTN_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_PRTCTN_2",
+    "displayName" : "Real estate protection"
+  }, {
+    "code" : "RL_ESTT_PRTCTN",
+    "cube_id" : "BIRD_RL_ESTT_PRTCTN_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RL_ESTT_PRTCTN_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_PRTCTN_3",
+    "displayName" : "Real estate protection"
+  }, {
+    "code" : "RL_ESTT_PRTCTN_CLM",
+    "cube_id" : "BIRD_RL_ESTT_PRTCTN_CLM_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RL_ESTT_PRTCTN_CLM_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_PRTCTN_CLM_2",
+    "displayName" : "Real estate protection-Real estate claim"
+  }, {
+    "code" : "RL_ESTT_PRTCTN_CLM_E",
+    "cube_id" : "BIRD_RL_ESTT_PRTCTN_CLM_E_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RL_ESTT_PRTCTN_CLM_E_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_PRTCTN_CLM_E_2",
+    "displayName" : "Real estate protection-Real estate claim - enriched"
+  }, {
+    "code" : "BIRD_RL_ESTT_PRTCTN_CLM_IL",
+    "cube_id" : "BIRD_RL_ESTT_PRTCTN_CLM_IL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RL_ESTT_PRTCTN_CLM_IL_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_PRTCTN_CLM_IL_3",
+    "displayName" : "Real estate protection-Real estate claim"
+  }, {
+    "code" : "RL_ESTT_PRTCTN_E",
+    "cube_id" : "BIRD_RL_ESTT_PRTCTN_E_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RL_ESTT_PRTCTN_E_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_PRTCTN_E_2",
+    "displayName" : "Real estate protection - enriched"
+  }, {
+    "code" : "BIRD_RL_ESTT_PRTCTN_IL",
+    "cube_id" : "BIRD_RL_ESTT_PRTCTN_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RL_ESTT_PRTCTN_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_PRTCTN_IL_4",
+    "displayName" : "Real estate protection"
+  }, {
+    "code" : "RPRCHS_AGRMNT",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_1",
+    "displayName" : "Repurchase agreement"
+  }, {
+    "code" : "RPRCHS_AGRMNT",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_2",
+    "displayName" : "Repurchase agreement"
+  }, {
+    "code" : "RPRCHS_AGRMNT",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_3",
+    "displayName" : "Repurchase agreement"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_IL",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_IL_4",
+    "displayName" : "Repurchase agreement"
+  }, {
+    "code" : "RPRCHS_AGRMNT_LNS",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_LNS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_LNS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_LNS_1",
+    "displayName" : "Repurchase agreements-loans"
+  }, {
+    "code" : "RPRCHS_AGRMNT_LNS",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_LNS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_LNS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_LNS_2",
+    "displayName" : "Repurchase agreements-loans"
+  }, {
+    "code" : "RPRCHS_AGRMNT_LNS",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_LNS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_LNS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_LNS_3",
+    "displayName" : "Repurchase agreements-loans"
+  }, {
+    "code" : "RPRCHS_AGRMNT_LNS_E",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_LNS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_LNS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_LNS_E_1",
+    "displayName" : "Repurchase agreements-loans - enriched"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_LNS_EIL",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_LNS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_LNS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_LNS_EIL_2",
+    "displayName" : "Repurchase agreements-loans - enriched"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_LNS_IL",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_LNS_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_LNS_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_LNS_IL_4",
+    "displayName" : "Repurchase agreements-loans"
+  }, {
+    "code" : "RPRCHS_AGRMNT_SCRTS",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_SCRTS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_SCRTS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_SCRTS_1",
+    "displayName" : "Repurchase agreements-securities"
+  }, {
+    "code" : "RPRCHS_AGRMNT_SCRTS",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_SCRTS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_SCRTS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_SCRTS_2",
+    "displayName" : "Repurchase agreements-securities"
+  }, {
+    "code" : "RPRCHS_AGRMNT_SCRTS",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_SCRTS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_SCRTS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_SCRTS_3",
+    "displayName" : "Repurchase agreements-securities"
+  }, {
+    "code" : "RPRCHS_AGRMNT_SCRTS_E",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_SCRTS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_SCRTS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_SCRTS_E_1",
+    "displayName" : "Repurchase agreements-securities - enriched"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_SCRTS_EIL",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_SCRTS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_SCRTS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_SCRTS_EIL_2",
+    "displayName" : "Repurchase agreements-securities - enriched"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_SCRTS_IL",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_SCRTS_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RPRCHS_AGRMNT_SCRTS_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_SCRTS_IL_4",
+    "displayName" : "Repurchase agreements-securities"
+  }, {
+    "code" : "RVRS_RPRCHS_LNS",
+    "cube_id" : "BIRD_RVRS_RPRCHS_LNS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RVRS_RPRCHS_LNS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RVRS_RPRCHS_LNS_2",
+    "displayName" : "Reverse repurchase loans"
+  }, {
+    "code" : "RVRS_RPRCHS_LNS",
+    "cube_id" : "BIRD_RVRS_RPRCHS_LNS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RVRS_RPRCHS_LNS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RVRS_RPRCHS_LNS_3",
+    "displayName" : "Reverse repurchase loans"
+  }, {
+    "code" : "RVRS_RPRCHS_LNS",
+    "cube_id" : "BIRD_RVRS_RPRCHS_LNS_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RVRS_RPRCHS_LNS_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RVRS_RPRCHS_LNS_4",
+    "displayName" : "Reverse repurchase loans"
+  }, {
+    "code" : "BIRD_RVRS_RPRCHS_LNS_IL",
+    "cube_id" : "BIRD_RVRS_RPRCHS_LNS_IL_5",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_RVRS_RPRCHS_LNS_IL_5"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RVRS_RPRCHS_LNS_IL_5",
+    "displayName" : "Reverse repurchase loans"
+  }, {
+    "code" : "SCRTS_BRRWD",
+    "cube_id" : "BIRD_SCRTS_BRRWD_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTS_BRRWD_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_BRRWD_1",
+    "displayName" : "Securities borrowed"
+  }, {
+    "code" : "SCRTS_BRRWD_AE_AXLRY",
+    "cube_id" : "BIRD_SCRTS_BRRWD_AE_AXLRY_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTS_BRRWD_AE_AXLRY_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_BRRWD_AE_AXLRY_1",
+    "displayName" : "Securities borrowed - AE Auxiliary"
+  }, {
+    "code" : "SCRTS_ISSD",
+    "cube_id" : "BIRD_SCRTS_ISSD_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTS_ISSD_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_ISSD_1",
+    "displayName" : "Securities issued"
+  }, {
+    "code" : "SCRTS_ISSD",
+    "cube_id" : "BIRD_SCRTS_ISSD_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTS_ISSD_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_ISSD_2",
+    "displayName" : "Securities issued"
+  }, {
+    "code" : "BIRD_SCRTS_ISSD_EIL",
+    "cube_id" : "BIRD_SCRTS_ISSD_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTS_ISSD_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_ISSD_EIL_1",
+    "displayName" : "Securities issued - enriched"
+  }, {
+    "code" : "BIRD_SCRTS_ISSD_IL",
+    "cube_id" : "BIRD_SCRTS_ISSD_IL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTS_ISSD_IL_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_ISSD_IL_3",
+    "displayName" : "Securities issued"
+  }, {
+    "code" : "SCRTS_PRTCTN",
+    "cube_id" : "BIRD_SCRTS_PRTCTN_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTS_PRTCTN_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_PRTCTN_2",
+    "displayName" : "Securities protection"
+  }, {
+    "code" : "SCRTS_PRTCTN",
+    "cube_id" : "BIRD_SCRTS_PRTCTN_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTS_PRTCTN_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_PRTCTN_3",
+    "displayName" : "Securities protection"
+  }, {
+    "code" : "BIRD_SCRTS_PRTCTN_IL",
+    "cube_id" : "BIRD_SCRTS_PRTCTN_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTS_PRTCTN_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_PRTCTN_IL_4",
+    "displayName" : "Securities protection"
+  }, {
+    "code" : "BIRD_SCRTS_RCVD_EIL",
+    "cube_id" : "BIRD_SCRTS_RCVD_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTS_RCVD_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_RCVD_EIL_1",
+    "displayName" : "Securities received enriched"
+  }, {
+    "code" : "BIRD_SCRTS_RCVD_IL",
+    "cube_id" : "BIRD_SCRTS_RCVD_IL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTS_RCVD_IL_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_RCVD_IL_1",
+    "displayName" : "Securities received"
+  }, {
+    "code" : "SCRTSTNS_ORGNTRS_E",
+    "cube_id" : "BIRD_SCRTSTNS_ORGNTRS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTSTNS_ORGNTRS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_ORGNTRS_E_1",
+    "displayName" : "Securitisations-originators - enriched"
+  }, {
+    "code" : "BIRD_SCRTSTNS_ORGNTRS_EIL",
+    "cube_id" : "BIRD_SCRTSTNS_ORGNTRS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTSTNS_ORGNTRS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_ORGNTRS_EIL_2",
+    "displayName" : "Securitisations-originators - enriched"
+  }, {
+    "code" : "SCRTSTNS_OTHR_CRDT_TRNSFRS",
+    "cube_id" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_2",
+    "displayName" : "Securitisations and other credit transfers"
+  }, {
+    "code" : "SCRTSTNS_OTHR_CRDT_TRNSFRS",
+    "cube_id" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_3",
+    "displayName" : "Securitisations and other credit transfers"
+  }, {
+    "code" : "SCRTSTNS_OTHR_CRDT_TRNSFRS",
+    "cube_id" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_4",
+    "displayName" : "Securitisations and other credit transfers"
+  }, {
+    "code" : "SCRTSTNS_OTHR_CRDT_TRNSFRS_E",
+    "cube_id" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_E_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_E_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_E_2",
+    "displayName" : "Securitisations and other credit transfers - enriched"
+  }, {
+    "code" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_EIL",
+    "cube_id" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_EIL_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_EIL_3"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_EIL_3",
+    "displayName" : "Securitisations and other credit transfers - enriched"
+  }, {
+    "code" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_IL",
+    "cube_id" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_IL_5",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_IL_5"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_IL_5",
+    "displayName" : "Securitisations and other credit transfers"
+  }, {
+    "code" : "SCRTSTNS_SRVCRS_E",
+    "cube_id" : "BIRD_SCRTSTNS_SRVCRS_E_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTSTNS_SRVCRS_E_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_SRVCRS_E_1",
+    "displayName" : "Securitisations-servicers - enriched"
+  }, {
+    "code" : "BIRD_SCRTSTNS_SRVCRS_EIL",
+    "cube_id" : "BIRD_SCRTSTNS_SRVCRS_EIL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTSTNS_SRVCRS_EIL_2"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_SRVCRS_EIL_2",
+    "displayName" : "Securitisations-servicers - enriched"
+  }, {
+    "code" : "SCRTY_FNNCNG_TRNSCTN",
+    "cube_id" : "BIRD_SCRTY_BRRWNG_LNDNG_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTY_BRRWNG_LNDNG_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTY_BRRWNG_LNDNG_1",
+    "displayName" : "Securities or Commodities Lending and Borrowing Transactions"
+  }, {
+    "code" : "BIRD_SCRTY_BRRWNG_LNDNG_SCRTS_BRRWD_1",
+    "cube_id" : "BIRD_SCRTY_BRRWNG_LNDNG_SCRTS_BRRWD_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTY_BRRWNG_LNDNG_SCRTS_BRRWD_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTY_BRRWNG_LNDNG_SCRTS_BRRWD_1",
+    "displayName" : "Securities or Commodities Lending and Borrowing Transactions - Securities Borrowed"
+  }, {
+    "code" : "BIRD_SCRTY_BRRWNG_LNDNG_SCRTS_LNT_1",
+    "cube_id" : "BIRD_SCRTY_BRRWNG_LNDNG_SCRTS_LNT_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTY_BRRWNG_LNDNG_SCRTS_LNT_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTY_BRRWNG_LNDNG_SCRTS_LNT_1",
+    "displayName" : "Securities or Commodities Lending and Borrowing Transactions - Securities Lent"
+  }, {
+    "code" : "BIRD_SCRTY_SHRT_PSTN_EIL",
+    "cube_id" : "BIRD_SCRTY_SHRT_PSTN_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTY_SHRT_PSTN_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTY_SHRT_PSTN_EIL_1",
+    "displayName" : "Security-short position enriched"
+  }, {
+    "code" : "BIRD_SCRTY_SHRT_PSTN_IL",
+    "cube_id" : "BIRD_SCRTY_SHRT_PSTN_IL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SCRTY_SHRT_PSTN_IL_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTY_SHRT_PSTN_IL_1",
+    "displayName" : "Security-short position"
+  }, {
+    "code" : "BIRD_SHRT_PSTNS_EIL",
+    "cube_id" : "BIRD_SHRT_PSTNS_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SHRT_PSTNS_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SHRT_PSTNS_EIL_1",
+    "displayName" : "Short positions - enriched"
+  }, {
+    "code" : "BIRD_SHRT_PSTNS_IL",
+    "cube_id" : "BIRD_SHRT_PSTNS_IL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_SHRT_PSTNS_IL_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SHRT_PSTNS_IL_1",
+    "displayName" : "Short position"
+  }, {
+    "code" : "TRNSCTNS_CNTRPRTS",
+    "cube_id" : "BIRD_TRNSCTNS_CNTRPRTS_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_TRNSCTNS_CNTRPRTS_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_TRNSCTNS_CNTRPRTS_2",
+    "displayName" : "Transactions-Counterparties"
+  }, {
+    "code" : "TRNSCTNS_CNTRPRTS",
+    "cube_id" : "BIRD_TRNSCTNS_CNTRPRTS_3",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_TRNSCTNS_CNTRPRTS_3"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_TRNSCTNS_CNTRPRTS_3",
+    "displayName" : "Transactions-Counterparties"
+  }, {
+    "code" : "BIRD_TRNSCTNS_CNTRPRTS_IL",
+    "cube_id" : "BIRD_TRNSCTNS_CNTRPRTS_IL_4",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_TRNSCTNS_CNTRPRTS_IL_4"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_TRNSCTNS_CNTRPRTS_IL_4",
+    "displayName" : "Transactions-Counterparties"
+  }, {
+    "code" : "UNDRLYNG_PL_ABS",
+    "cube_id" : "BIRD_UNDRLYNG_PL_ABS_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_UNDRLYNG_PL_ABS_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_UNDRLYNG_PL_ABS_1",
+    "displayName" : "Underlying pool for ABSs"
+  }, {
+    "code" : "UNDRLYNG_PL_CVRD_BND",
+    "cube_id" : "BIRD_UNDRLYNG_PL_CVRD_BND_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_UNDRLYNG_PL_CVRD_BND_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_UNDRLYNG_PL_CVRD_BND_1",
+    "displayName" : "Underlying pool for covered bonds"
+  }, {
+    "code" : "UNDRLYNG_PL_CVRD_BND_FRCST",
+    "cube_id" : "BIRD_UNDRLYNG_PL_CVRD_BND_FRCST_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_UNDRLYNG_PL_CVRD_BND_FRCST_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_UNDRLYNG_PL_CVRD_BND_FRCST_1",
+    "displayName" : "Underlying pool for covered bonds - forecast"
+  }, {
+    "code" : "UNDRLYNG_PL_CVRD_BND_INSTRMNT",
+    "cube_id" : "BIRD_UNDRLYNG_PL_CVRD_BND_INSTRMNT_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_UNDRLYNG_PL_CVRD_BND_INSTRMNT_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_UNDRLYNG_PL_CVRD_BND_INSTRMNT_1",
+    "displayName" : "Underlying pool for covered bonds-instrument"
+  }, {
+    "code" : "UNDRLYNG_PL_INSTRMNT",
+    "cube_id" : "BIRD_UNDRLYNG_PL_INSTRMNT_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_UNDRLYNG_PL_INSTRMNT_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_UNDRLYNG_PL_INSTRMNT_1",
+    "displayName" : "Underlying pool-instrument"
+  }, {
+    "code" : "UNDRLYNG_PL_OTHR",
+    "cube_id" : "BIRD_UNDRLYNG_PL_OTHR_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_UNDRLYNG_PL_OTHR_1"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_UNDRLYNG_PL_OTHR_1",
+    "displayName" : "Underlying pool for other structures"
+  }, {
+    "code" : "ECB2_SHS_SHSG4_ENTITY_NROL",
+    "cube_id" : "ECB2_SHS_SHSG4_ENTITY_NROL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#ECB2_SHS_SHSG4_ENTITY_NROL_1"
+    },
+    "cube_type" : "NROL",
+    "description" : "DESCRIPTION",
+    "name" : "ECB2_SHS_SHSG4_ENTITY_NROL_1",
+    "displayName" : "SHSG4_ENTITY"
+  }, {
+    "code" : "ECB2_SHS_SHSG4_GROUP_NROL",
+    "cube_id" : "ECB2_SHS_SHSG4_GROUP_NROL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#ECB2_SHS_SHSG4_GROUP_NROL_1"
+    },
+    "cube_type" : "NROL",
+    "description" : "DESCRIPTION",
+    "name" : "ECB2_SHS_SHSG4_GROUP_NROL_1",
+    "displayName" : "SHSG4_GROUP"
+  }, {
+    "code" : "ECB2_SHS_SHSG4_ISIN_NROL",
+    "cube_id" : "ECB2_SHS_SHSG4_ISIN_NROL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#ECB2_SHS_SHSG4_ISIN_NROL_1"
+    },
+    "cube_type" : "NROL",
+    "description" : "DESCRIPTION",
+    "name" : "ECB2_SHS_SHSG4_ISIN_NROL_1",
+    "displayName" : "SHSG4_ISIN"
+  }, {
+    "code" : "ECB2_SHS_SHSG4_NON_ISIN_NROL",
+    "cube_id" : "ECB2_SHS_SHSG4_NON_ISIN_NROL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#ECB2_SHS_SHSG4_NON_ISIN_NROL_1"
+    },
+    "cube_type" : "NROL",
+    "description" : "DESCRIPTION",
+    "name" : "ECB2_SHS_SHSG4_NON_ISIN_NROL_1",
+    "displayName" : "SHSG4_NON_ISIN"
+  }, {
+    "code" : "SHS_REF_SHSG4_ENTITY_ROL",
+    "cube_id" : "SHS_REF_SHSG4_ENTITY_ROL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#SHS_REF_SHSG4_ENTITY_ROL_1"
+    },
+    "cube_type" : "ROL",
+    "description" : "DESCRIPTION",
+    "name" : "SHS_REF_SHSG4_ENTITY_ROL_1",
+    "displayName" : "SHSG4_ENTITY - Reference"
+  }, {
+    "code" : "SHS_REF_SHSG4_GROUP_ROL",
+    "cube_id" : "SHS_REF_SHSG4_GROUP_ROL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#SHS_REF_SHSG4_GROUP_ROL_1"
+    },
+    "cube_type" : "ROL",
+    "description" : "DESCRIPTION",
+    "name" : "SHS_REF_SHSG4_GROUP_ROL_1",
+    "displayName" : "SHSG4_GROUP - Reference"
+  }, {
+    "code" : "SHS_REF_SHSG4_ISIN_ROL",
+    "cube_id" : "SHS_REF_SHSG4_ISIN_ROL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#SHS_REF_SHSG4_ISIN_ROL_1"
+    },
+    "cube_type" : "ROL",
+    "description" : "DESCRIPTION",
+    "name" : "SHS_REF_SHSG4_ISIN_ROL_1",
+    "displayName" : "SHSG4_ISIN - Reference"
+  }, {
+    "code" : "SHS_REF_SHSG4_NON_ISIN_ROL",
+    "cube_id" : "SHS_REF_SHSG4_NON_ISIN_ROL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#SHS_REF_SHSG4_NON_ISIN_ROL_1"
+    },
+    "cube_type" : "ROL",
+    "description" : "DESCRIPTION",
+    "name" : "SHS_REF_SHSG4_NON_ISIN_ROL_1",
+    "displayName" : "SHSG4_NON_ISIN - Reference"
+  }, {
+    "code" : "BIRD_CNTRPRTS_CDS_EIL",
+    "cube_id" : "BIRD_CNTRPRTS_CDS_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_CNTRPRTS_CDS_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRPRTS_CDS_EIL_1",
+    "displayName" : "Enriched cube on Counterparty codes"
+  }, {
+    "code" : "BIRD_INSTRMNTS_CSTMRS_APPRCH_EIL",
+    "cube_id" : "BIRD_INSTRMNTS_CSTMRS_APPRCH_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_CSTMRS_APPRCH_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_CSTMRS_APPRCH_EIL_1",
+    "displayName" : "Instrument - customers representing components or single debtors"
+  }, {
+    "code" : "BIRD_PRSPCTV_INF_IL",
+    "cube_id" : "BIRD_PRSPCTV_INF_IL_2",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_PRSPCTV_INF_IL_2"
+    },
+    "cube_type" : "IL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRSPCTV_INF_IL_2",
+    "displayName" : "Perspective information"
+  }, {
+    "code" : "BIRD_INSTRMNTS_TRNSFR_EIL",
+    "cube_id" : "BIRD_INSTRMNTS_TRNSFR_EIL_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#BIRD_INSTRMNTS_TRNSFR_EIL_1"
+    },
+    "cube_type" : "EIL",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_TRNSFR_EIL_1",
+    "displayName" : "Instruments-Transferee - Enriched "
+  }, {
+    "code" : "ANCRDT_ENTTY_C",
+    "cube_id" : "ANCRDT_ENTTY_C_1",
+    "cube_structure_id" : {
+      "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE_STRUCTURE",
+      "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cube_structures.efbt_data_definition#ANCRDT_ENTTY_C_1"
+    },
+    "cube_type" : "C",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_ENTTY_C_1",
+    "displayName" : "Counterparty"
+  } ]
+}

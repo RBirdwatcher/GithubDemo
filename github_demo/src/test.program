@@ -1,0 +1,2513 @@
+{
+  "eClass" : "http://www.eclipse.org/efbt/program#//SMCubesRegFunctionalityTestModule",
+  "name" : "TestModule1",
+  "regFunctionalityTests" : [ {
+    "name" : "exampleTest",
+    "testDefinition" : {
+      "eClass" : "http://www.eclipse.org/efbt/test_definition#//RegFunctionalityTestDefinition",
+      "$ref" : "test1_definition.test_definition#standard_test"
+    },
+    "inputData" : {
+      "name" : "exampleTest:Data",
+      "smcubes_inputdata" : [ {
+        "name" : "exampleTest:﻿OTHR_LNS:CubeData",
+        "rows" : [ {
+          "rowID" : "exampleTest:﻿OTHR_LNS:1"
+        } ]
+      }, {
+        "name" : "exampleTest:OTHR_LNS:CubeData",
+        "rows" : [ {
+          "rowID" : "exampleTest:OTHR_LNS:1",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "30/09/2018"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:FVO_DSGNTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#FVO_DSGNTN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#FVO_DSGNTN_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:FV_HRRCHY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#FV_HRRCHY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#FV_HRRCHY_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:GV_RS_CR_PST",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#GV_RS_CR_PST"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:IS_HFS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_HFS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:IS_LW_CRDT_RSK",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_LW_CRDT_RSK"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:IS_NN_PRFRMNG_PRR_FRBRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_NN_PRFRMNG_PRR_FRBRNC"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:IS_TTL_EXTNGSHMNT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_TTL_EXTNGSHMNT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:PRSPCTV_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRSPCTV_ID"
+            },
+            "value" : "BLZ10IRB"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:INSTRMNT_UNQ_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INSTRMNT_UNQ_ID"
+            },
+            "value" : "123321"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:ACCMLTD_IMPRMNT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ACCMLTD_IMPRMNT"
+            },
+            "value" : "17000"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:ACCMLTD_WRTFFS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ACCMLTD_WRTFFS"
+            },
+            "value" : "0"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:ACCNTNG_CLSSFCTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ACCNTNG_CLSSFCTN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ACCNTNG_CLSSFCTN_6"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:ACCRD_INTRST",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ACCRD_INTRST"
+            },
+            "value" : "1912.5"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:ANNLSD_AGRD_RT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ANNLSD_AGRD_RT"
+            },
+            "value" : "0.024"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:APPRCH_CRDT_QLTY_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#APPRCH_CRDT_QLTY_STTS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#APPRCH_CRDT_QLTY_STTS_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:ARRRS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ARRRS"
+            },
+            "value" : "0"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:CMMTMNT_INCPTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CMMTMNT_INCPTN"
+            },
+            "value" : "1000000"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:CNTRCT_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRCT_ID"
+            },
+            "value" : "A810"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:CRDT_QLTY_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CRDT_QLTY_STTS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#CRDT_QLTY_11"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:CRRNCY_DNMNTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CRRNCY_DNMNTN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#CRRNCY_EUR"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:CRRYNG_AMNT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CRRYNG_AMNT"
+            },
+            "value" : "834912.5"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:DT_END_INTRST_ONLY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_END_INTRST_ONLY"
+            },
+            "value" : "01/12/2022"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:DT_FRBRNC_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_FRBRNC_STTS"
+            },
+            "value" : "16/11/2017"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:DT_INCPTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_INCPTN"
+            },
+            "value" : "16/11/2017"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:DT_LGL_FNL_MTRTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_LGL_FNL_MTRTY"
+            },
+            "value" : "01/12/2022"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:DT_NXT_INTRST_RT_RST",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_NXT_INTRST_RT_RST"
+            },
+            "value" : "01/01/2019"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:DT_PRFRMNG_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_PRFRMNG_STTS"
+            },
+            "value" : "16/11/2017"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:DT_STTLMNT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_STTLMNT"
+            },
+            "value" : "01/12/2017"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:FDCRY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#FDCRY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#FDCRY_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:FRBRNC_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#FRBRNC_STTS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#FRBRNC_STTS_8"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:GRSS_CRRYNG_AMNT_E_INTRST",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#GRSS_CRRYNG_AMNT_E_INTRST"
+            },
+            "value" : "833000"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:IMPRMNT_ASSSSMNT_MTHD",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IMPRMNT_ASSSSMNT_MTHD"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#IMPRMNT_ASSSSMNT_MTHD_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:IMPRMNT_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IMPRMNT_STTS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#CRDT_QLTY_23"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:INSTRMNT_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INSTRMNT_ID"
+            },
+            "value" : "123321"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:INTRST_RT_CP",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INTRST_RT_CP"
+            },
+            "value" : "0.042"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:INTRST_RT_FLR",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INTRST_RT_FLR"
+            },
+            "value" : "0.025"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:INTRST_RT_RST_FRQNCY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INTRST_RT_RST_FRQNCY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#FRQNCY_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:INTRST_RT_SPRD",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INTRST_RT_SPRD"
+            },
+            "value" : "0.024"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:IS_CRDT_LN_OTHR_RV_CRDT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_CRDT_LN_OTHR_RV_CRDT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_T"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:IS_DBT_FNNCNG",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_DBT_FNNCNG"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_F"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:IS_RTL_EXPSR",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_RTL_EXPSR"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_F"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:IS_RVLVNG_LN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_RVLVNG_LN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_F"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:IS_SRVCD_OBSRVD_AGNT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_SRVCD_OBSRVD_AGNT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_T"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:OBSRVD_AGNT_INTRNL_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#OBSRVD_AGNT_INTRNL_ID"
+            },
+            "value" : "BLZ10"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:OFF_BLNC_SHT_AMNT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#OFF_BLNC_SHT_AMNT"
+            },
+            "value" : "0"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:OTSTNDNG_NMNL_AMNT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#OTSTNDNG_NMNL_AMNT"
+            },
+            "value" : "850000"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:PRDNTL_PRTFL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRDNTL_PRTFL"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#PRDNTL_PRTFL_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:PRJCT_FNNC_LN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRJCT_FNNC_LN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#PRJCT_FNNC_LN_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:PRPS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRPS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#PRPS_8"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:PYMNT_FRQNCY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PYMNT_FRQNCY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#FRQNCY_8"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:RCRS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#RCRS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#RCRS_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:RFRNC_RT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#RFRNC_RT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#RFRNC_RT_136"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:RLTNSHP_SCRTSTN_CRDT_TRNSFR",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#RLTNSHP_SCRTSTN_CRDT_TRNSFR"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#RLTNSHP_SCRTSTN_CRDT_TRNSFR_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:SBRDNTD_DBT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#SBRDNTD_DBT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#SBRDNTD_DBT_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:SRC_ENCMBRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#SRC_ENCMBRNC"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#SRC_ENCMBRNC_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:TYP_AMRTSTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TYP_AMRTSTN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#TYP_AMRTSTN_3"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:TYP_INTRST_RT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TYP_INTRST_RT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#TYP_INTRST_RT_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:OTHR_LNS:1:PRCHSD_ORGNTD_CRDT_IMPRD",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRCHSD_ORGNTD_CRDT_IMPRD"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#PRCHSD_ORGNTD_0"
+            }
+          } ]
+        } ],
+        "cube" : {
+          "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE",
+          "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cubes.efbt_data_definition#BIRD_IL_OTHR_LNS_1"
+        }
+      }, {
+        "name" : "exampleTest:BIRD_CNTRPRTS_IL:CubeData",
+        "rows" : [ {
+          "rowID" : "exampleTest:BIRD_CNTRPRTS_IL:1",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "30/09/2018"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:IS_RPRTNG_ANCRDT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_RPRTNG_ANCRDT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_T"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:PRSPCTV_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRSPCTV_ID"
+            },
+            "value" : "BLZ10IRB"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:CNTRPRTY_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRPRTY_ID"
+            },
+            "value" : "BLZ10"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:ACCNTNG_FRMWRK_SL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ACCNTNG_FRMWRK_SL"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ACCNTNG_FRMWRK_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:APPRCH_PRDNTL_PRPSS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#APPRCH_PRDNTL_PRPSS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#APPRCH_PRDNTL_PRPSS_66"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:CNTRY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#GGRPHCL_ARS_DE"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:CTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CTY"
+            },
+            "value" : "Frankfur am Main "
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:ECNMC_ACTVTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ECNMC_ACTVTY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ECNMC_ACTVTY_64_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:INSTTTNL_SCTR",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INSTTTNL_SCTR"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#INSTTTNL_SCTR_S122_A_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:INSTTTNL_SCTR_CNTRL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INSTTTNL_SCTR_CNTRL"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#INSTTTNL_SCTR_CNTRL_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:LEI",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#LEI"
+            },
+            "value" : "5299000000000000AA00"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:LGL_FRM",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#LGL_FRM"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#LGL_FRM_DE201"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:NM_ENTTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#NM_ENTTY"
+            },
+            "value" : "Deutsche Grossbank AG "
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:NTNL_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#NTNL_ID"
+            },
+            "value" : "HRB0001-R0001"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:PSTL_CD",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PSTL_CD"
+            },
+            "value" : "DE-60313"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:STRT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#STRT"
+            },
+            "value" : "Hochstrasse 29"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:1:TRRTRL_UNT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TRRTRL_UNT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#GGRPHCL_ARS_DE712"
+            }
+          } ]
+        }, {
+          "rowID" : "exampleTest:BIRD_CNTRPRTS_IL:2",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "30/09/2018"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:IS_RPRTNG_ANCRDT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_RPRTNG_ANCRDT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_T"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:PRSPCTV_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRSPCTV_ID"
+            },
+            "value" : "BLZ10IRB"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:CNTRPRTY_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRPRTY_ID"
+            },
+            "value" : "63829150"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:ACCNTNG_FRMWRK_SL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ACCNTNG_FRMWRK_SL"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ACCNTNG_FRMWRK_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:ANNL_TRNVR",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ANNL_TRNVR"
+            },
+            "value" : "16547890,00"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:PD",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PD"
+            },
+            "value" : "0.0335"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:BLNC_SHT_TTL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#BLNC_SHT_TTL"
+            },
+            "value" : "7000000"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:CNTRY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#GGRPHCL_ARS_DE"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:CRDT_QLTY_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CRDT_QLTY_STTS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#CRDT_QLTY_11"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:CTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CTY"
+            },
+            "value" : "Marburg"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:DT_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_STTS"
+            },
+            "value" : "16/11/2017"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:ECNMC_ACTVTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ECNMC_ACTVTY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ECNMC_ACTVTY_23_32"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:ENTRPRS_SZ_CHC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ENTRPRS_SZ_CHC"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ENTRPRS_SZ_CHC_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:ENTRPRS_SZ_INPT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ENTRPRS_SZ_INPT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#SZ_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:HD_OFFC_UNDRT_ID_STRNG",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#HD_OFFC_UNDRT_ID_STRNG"
+            },
+            "value" : "63829150"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:IMMDT_PRNT_UNDRT_ID_STRNG",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IMMDT_PRNT_UNDRT_ID_STRNG"
+            },
+            "value" : "78451209"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:INSTTTNL_SCTR",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INSTTTNL_SCTR"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#INSTTTNL_SCTR_S11"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:INSTTTNL_SCTR_CNTRL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INSTTTNL_SCTR_CNTRL"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#INSTTTNL_SCTR_CNTRL_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:LGL_FRM",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#LGL_FRM"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#LGL_FRM_DE206"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:LGL_PRCDNG_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#LGL_PRCDNG_STTS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#LGL_PRCDNG_STTS_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:NM_ENTTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#NM_ENTTY"
+            },
+            "value" : "Krueger Bau GmbH"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:NMBR_EMPLYS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#NMBR_EMPLYS"
+            },
+            "value" : "80"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:NTNL_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#NTNL_ID"
+            },
+            "value" : "HRB1234-R1101"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:PSTL_CD",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PSTL_CD"
+            },
+            "value" : "DE-60999"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:STRT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#STRT"
+            },
+            "value" : "Sterr NameStrasse "
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:TRRTRL_UNT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TRRTRL_UNT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#GGRPHCL_ARS_DE724"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:2:ULTMT_PRNT_UNDRT_ID_STRNG",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ULTMT_PRNT_UNDRT_ID_STRNG"
+            },
+            "value" : "78451209"
+          } ]
+        }, {
+          "rowID" : "exampleTest:BIRD_CNTRPRTS_IL:3",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "30/09/2018"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:IS_RPRTNG_ANCRDT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_RPRTNG_ANCRDT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_T"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:PRSPCTV_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRSPCTV_ID"
+            },
+            "value" : "BLZ10IRB"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:CNTRPRTY_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRPRTY_ID"
+            },
+            "value" : "78451209"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:ACCNTNG_FRMWRK_SL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ACCNTNG_FRMWRK_SL"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ACCNTNG_FRMWRK_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:ANNL_TRNVR",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ANNL_TRNVR"
+            },
+            "value" : "31452130"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:PD",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PD"
+            },
+            "value" : "0.0175"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:BLNC_SHT_TTL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#BLNC_SHT_TTL"
+            },
+            "value" : "12505060"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:CNTRY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#GGRPHCL_ARS_DE"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:CRDT_QLTY_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CRDT_QLTY_STTS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#CRDT_QLTY_11"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:CTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CTY"
+            },
+            "value" : "Frankfur am Main "
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:DT_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_STTS"
+            },
+            "value" : "16/11/2017"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:ECNMC_ACTVTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ECNMC_ACTVTY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ECNMC_ACTVTY_23_32"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:ENTRPRS_SZ_CHC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ENTRPRS_SZ_CHC"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ENTRPRS_SZ_CHC_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:ENTRPRS_SZ_INPT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ENTRPRS_SZ_INPT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#SZ_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:HD_OFFC_UNDRT_ID_STRNG",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#HD_OFFC_UNDRT_ID_STRNG"
+            },
+            "value" : "78451209"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:IMMDT_PRNT_UNDRT_ID_STRNG",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IMMDT_PRNT_UNDRT_ID_STRNG"
+            },
+            "value" : "78451209"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:INSTTTNL_SCTR",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INSTTTNL_SCTR"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#INSTTTNL_SCTR_S11"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:INSTTTNL_SCTR_CNTRL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INSTTTNL_SCTR_CNTRL"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#INSTTTNL_SCTR_CNTRL_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:LGL_FRM",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#LGL_FRM"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#LGL_FRM_DE206"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:LGL_PRCDNG_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#LGL_PRCDNG_STTS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#LGL_PRCDNG_STTS_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:NM_ENTTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#NM_ENTTY"
+            },
+            "value" : "Grossbau GmbH"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:NMBR_EMPLYS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#NMBR_EMPLYS"
+            },
+            "value" : "127"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:NTNL_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#NTNL_ID"
+            },
+            "value" : "HRB1234-R7707"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:PSTL_CD",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PSTL_CD"
+            },
+            "value" : "DE-61213"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:STRT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#STRT"
+            },
+            "value" : "Alley NameAllee "
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:TRRTRL_UNT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TRRTRL_UNT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#GGRPHCL_ARS_DE712"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CNTRPRTS_IL:3:ULTMT_PRNT_UNDRT_ID_STRNG",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ULTMT_PRNT_UNDRT_ID_STRNG"
+            },
+            "value" : "78451209"
+          } ]
+        } ],
+        "cube" : {
+          "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE",
+          "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cubes.efbt_data_definition#BIRD_CNTRPRTS_IL_4"
+        }
+      }, {
+        "name" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:CubeData",
+        "rows" : [ {
+          "rowID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:1",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:1:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "30/09/2018"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:1:PRSPCTV_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRSPCTV_ID"
+            },
+            "value" : "BLZ10IRB"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:1:CNTRPRTY_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRPRTY_ID"
+            },
+            "value" : "63829150"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:1:CNTRPRTY_RL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRPRTY_RL"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ENTTY_RL_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:1:TRNSCTN_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TRNSCTN_ID"
+            },
+            "value" : "123321"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:1:TYP_TRNSCTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TYP_TRNSCTN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#TYP_TRNSCTN_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:1:JNT_LBLTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#JNT_LBLTY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#JNT_LBLTY_0"
+            }
+          } ]
+        }, {
+          "rowID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:2",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:2:IS_PRMRY_PRTCTN_PRVDR",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_PRMRY_PRTCTN_PRVDR"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_T"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:2:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "30/09/2018"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:2:PRSPCTV_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRSPCTV_ID"
+            },
+            "value" : "BLZ10IRB"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:2:CNTRPRTY_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRPRTY_ID"
+            },
+            "value" : "78451209"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:2:CNTRPRTY_RL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRPRTY_RL"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ENTTY_RL_4"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:2:TRNSCTN_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TRNSCTN_ID"
+            },
+            "value" : "123321"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:2:TYP_TRNSCTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TYP_TRNSCTN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#TYP_TRNSCTN_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:2:JNT_LBLTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#JNT_LBLTY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#JNT_LBLTY_0"
+            }
+          } ]
+        }, {
+          "rowID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:3",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:3:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "30/09/2018"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:3:PRSPCTV_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRSPCTV_ID"
+            },
+            "value" : "BLZ10IRB"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:3:CNTRPRTY_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRPRTY_ID"
+            },
+            "value" : "BLZ10"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:3:CNTRPRTY_RL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRPRTY_RL"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ENTTY_RL_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:3:TRNSCTN_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TRNSCTN_ID"
+            },
+            "value" : "123321"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:3:TYP_TRNSCTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TYP_TRNSCTN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#TYP_TRNSCTN_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:3:JNT_LBLTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#JNT_LBLTY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#JNT_LBLTY_0"
+            }
+          } ]
+        }, {
+          "rowID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:4",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:4:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "30/09/2018"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:4:PRSPCTV_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRSPCTV_ID"
+            },
+            "value" : "BLZ10IRB"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:4:CNTRPRTY_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRPRTY_ID"
+            },
+            "value" : "BLZ10"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:4:CNTRPRTY_RL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRPRTY_RL"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ENTTY_RL_7"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:4:TRNSCTN_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TRNSCTN_ID"
+            },
+            "value" : "123321"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:4:TYP_TRNSCTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TYP_TRNSCTN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#TYP_TRNSCTN_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_TRNSCTNS_CNTRPRTS_IL:4:JNT_LBLTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#JNT_LBLTY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#JNT_LBLTY_0"
+            }
+          } ]
+        } ],
+        "cube" : {
+          "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE",
+          "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cubes.efbt_data_definition#BIRD_TRNSCTNS_CNTRPRTS_IL_4"
+        }
+      }, {
+        "name" : "exampleTest:BIRD_PRSPCTV_INF_IL:CubeData",
+        "rows" : [ {
+          "rowID" : "exampleTest:BIRD_PRSPCTV_INF_IL:1",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_PRSPCTV_INF_IL:1:ACCNTNG_FRMWRK",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ACCNTNG_FRMWRK"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ACCNTNG_FRMWRK_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_PRSPCTV_INF_IL:1:CNTRPRTY_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRPRTY_ID"
+            },
+            "value" : "BLZ010"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_PRSPCTV_INF_IL:1:PRSPCTV_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRSPCTV_ID"
+            },
+            "value" : "BLZ10IRB"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_PRSPCTV_INF_IL:1:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "31.09.2018"
+          } ]
+        }, {
+          "rowID" : "exampleTest:BIRD_PRSPCTV_INF_IL:2",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_PRSPCTV_INF_IL:2:ACCNTNG_FRMWRK",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ACCNTNG_FRMWRK"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ACCNTNG_FRMWRK_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_PRSPCTV_INF_IL:2:CNTRPRTY_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRPRTY_ID"
+            },
+            "value" : "63829150"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_PRSPCTV_INF_IL:2:PRSPCTV_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRSPCTV_ID"
+            },
+            "value" : "BLZ10IRB"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_PRSPCTV_INF_IL:2:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "31.09.2018"
+          } ]
+        }, {
+          "rowID" : "exampleTest:BIRD_PRSPCTV_INF_IL:3",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_PRSPCTV_INF_IL:3:ACCNTNG_FRMWRK",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ACCNTNG_FRMWRK"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ACCNTNG_FRMWRK_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_PRSPCTV_INF_IL:3:CNTRPRTY_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRPRTY_ID"
+            },
+            "value" : "78451209"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_PRSPCTV_INF_IL:3:PRSPCTV_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRSPCTV_ID"
+            },
+            "value" : "BLZ10IRB"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_PRSPCTV_INF_IL:3:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "31.09.2018"
+          } ]
+        } ],
+        "cube" : {
+          "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE",
+          "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cubes.efbt_data_definition#BIRD_PRSPCTV_INF_IL_1"
+        }
+      }, {
+        "name" : "exampleTest:BIRD_PRMTR_IL:CubeData",
+        "rows" : [ {
+          "rowID" : "exampleTest:BIRD_PRMTR_IL:1",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_PRMTR_IL:1:DT_ACCNTNG_YR",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "31_12"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_PRMTR_IL:1:ACCNTNG_FRMWRK_CNS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ACCNTNG_FRMWRK_CNS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ACCNTNG_FRMWRK_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_PRMTR_IL:1:ACCNTNG_FRMWRK_SL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ACCNTNG_FRMWRK_SL"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ACCNTNG_FRMWRK_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_PRMTR_IL:1:ACCNTNG_RL_WTN_GRP",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ACCNTNG_RL_WTN_GRP"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_PRMTR_IL:1:APPRCH_JNT_LBLTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#APPRCH_JNT_LBLTS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#APPRCH_JNT_LBLTS_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_PRMTR_IL:1:DRGTN_SMLL_TRDNG_BK_BSNSS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DRGTN_SMLL_TRDNG_BK_BSNSS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_PRMTR_IL:1:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "30/09/2018"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_PRMTR_IL:1:FRM_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#FRM_RFRNC"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#FRM_RFRNC_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_PRMTR_IL:1:IS_CRRYNG_AMNT_DRVD",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_CRRYNG_AMNT_DRVD"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_PRMTR_IL:1:IS_SBJCT_CPTL_RQRMNTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_SBJCT_CPTL_RQRMNTS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_PRMTR_IL:1:IS_EXPSR_CLSS_DRVD",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_EXPSR_CLSS_DRVD"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_0"
+            }
+          } ]
+        } ],
+        "cube" : {
+          "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE",
+          "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cubes.efbt_data_definition#BIRD_PRMTR_IL_4"
+        }
+      }, {
+        "name" : "exampleTest:BIRD_INSTRMNTS_PRTCTNS_IL:CubeData",
+        "rows" : [ {
+          "rowID" : "exampleTest:BIRD_INSTRMNTS_PRTCTNS_IL:1",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_INSTRMNTS_PRTCTNS_IL:1:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "30/09/2018"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_INSTRMNTS_PRTCTNS_IL:1:PRSPCTV_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRSPCTV_ID"
+            },
+            "value" : "BLZ10IRB"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_INSTRMNTS_PRTCTNS_IL:1:PRTCTN_CNSDRD_CPD_MX_AMT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRTCTN_CNSDRD_CPD_MX_AMT"
+            },
+            "value" : "500000"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_INSTRMNTS_PRTCTNS_IL:1:INSTRMNT_UNQ_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INSTRMNT_UNQ_ID"
+            },
+            "value" : "123321"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_INSTRMNTS_PRTCTNS_IL:1:PRTCTN_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRTCTN_ID"
+            },
+            "value" : "GUA2856981"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_INSTRMNTS_PRTCTNS_IL:1:PRTCTN_ALLCTD_VL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRTCTN_ALLCTD_VL"
+            },
+            "value" : "500000"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_INSTRMNTS_PRTCTNS_IL:1:THRD_PRTY_PRRTY_CLMS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#THRD_PRTY_PRRTY_CLMS"
+            },
+            "value" : "0"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_INSTRMNTS_PRTCTNS_IL:1:TYP_TRNSCTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TYP_TRNSCTN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#TYP_TRNSCTN_1"
+            }
+          } ]
+        } ],
+        "cube" : {
+          "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE",
+          "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cubes.efbt_data_definition#BIRD_INSTRMNTS_PRTCTNS_IL_4"
+        }
+      }, {
+        "name" : "exampleTest:BIRD_OTHR_FNNCL_PRTCTN_IL:CubeData",
+        "rows" : [ {
+          "rowID" : "exampleTest:BIRD_OTHR_FNNCL_PRTCTN_IL:1",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_OTHR_FNNCL_PRTCTN_IL:1:PRSPCTV_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRSPCTV_ID"
+            },
+            "value" : "BLZ10IRB"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_OTHR_FNNCL_PRTCTN_IL:1:FNNCL_GRNT_CNSDRD_MX_AMNT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#FNNCL_GRNT_CNSDRD_MX_AMNT"
+            },
+            "value" : "500000"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_OTHR_FNNCL_PRTCTN_IL:1:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "30/09/2018"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_OTHR_FNNCL_PRTCTN_IL:1:PRTCTN_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRTCTN_ID"
+            },
+            "value" : "GUA2856981"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_OTHR_FNNCL_PRTCTN_IL:1:DT_ORGNL_PRTCTN_VL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_ORGNL_PRTCTN_VL"
+            },
+            "value" : "16/11/2017"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_OTHR_FNNCL_PRTCTN_IL:1:DT_PRTCTN_VLTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_PRTCTN_VLTN"
+            },
+            "value" : "30/09/2018"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_OTHR_FNNCL_PRTCTN_IL:1:OBSRVD_AGNT_INTRNL_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#OBSRVD_AGNT_INTRNL_ID"
+            },
+            "value" : "BLZ010"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_OTHR_FNNCL_PRTCTN_IL:1:ORGNL_PRTCTN_VL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#ORGNL_PRTCTN_VL"
+            },
+            "value" : "500000"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_OTHR_FNNCL_PRTCTN_IL:1:PRTCTN_VL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRTCTN_VL"
+            },
+            "value" : "500000"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_OTHR_FNNCL_PRTCTN_IL:1:TYP_PRTCTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TYP_PRTCTN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#TYP_PRTCTN_5"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_OTHR_FNNCL_PRTCTN_IL:1:TYP_PRTCTN_VL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TYP_PRTCTN_VL"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#TYP_PRTCTN_VL_4"
+            }
+          } ]
+        } ],
+        "cube" : {
+          "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE",
+          "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cubes.efbt_data_definition#BIRD_OTHR_FNNCL_PRTCTN_IL_4"
+        }
+      }, {
+        "name" : "exampleTest:BIRD_CRDT_FCLTS_IL:CubeData",
+        "rows" : [ {
+          "rowID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:OFF_BLNC_SHT_ACCNTNG_CLSSFCTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#OFF_BLNC_SHT_ACCNTNG_CLSSFCTN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#ACCNTNG_CLSSFCTN_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:FV_HRRCHY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#FV_HRRCHY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#FV_HRRCHY_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:IMPRMNT_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IMPRMNT_STTS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#CRDT_QLTY_11"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "23/09/2018"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:PRSPCTV_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRSPCTV_ID"
+            },
+            "value" : "BLZ010IRB"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:IS_PRFRMNG_FRBRN_UNDR_PRBTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_PRFRMNG_FRBRN_UNDR_PRBTN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_F"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:IS_NN_PRFRMNG_PRR_FRBRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_NN_PRFRMNG_PRR_FRBRNC"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:TYP_CMMTMNT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TYP_CMMTMNT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#TYP_CMMTMNT_18"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:CMMTMNT_UNQ_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CMMTMNT_UNQ_ID"
+            },
+            "value" : "COM_A810 "
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:APPRCH_CRDT_QLTY_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#APPRCH_CRDT_QLTY_STTS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#APPRCH_CRDT_QLTY_STTS_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:CMMTMNT_INCPTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CMMTMNT_INCPTN"
+            },
+            "value" : "1000000"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:CNTRCT_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CNTRCT_ID"
+            },
+            "value" : "A810 "
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:CRDT_QLTY_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CRDT_QLTY_STTS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#CRDT_QLTY_11"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:CRRNCY_DNMNTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CRRNCY_DNMNTN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#CRRNCY_EUR"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:DT_INCPTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_INCPTN"
+            },
+            "value" : "16/11/2017"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:DT_LGL_FNL_MTRTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_LGL_FNL_MTRTY"
+            },
+            "value" : "01/12/2022"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:DT_NXT_INTRST_RT_RST",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_NXT_INTRST_RT_RST"
+            },
+            "value" : "31/10/2018"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:DT_PRFRMNG_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_PRFRMNG_STTS"
+            },
+            "value" : "16/11/2017"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:FRBRNC_STTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#FRBRNC_STTS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#FRBRNC_STTS_8"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:GRNTD_AMNT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#GRNTD_AMNT"
+            },
+            "value" : "850000"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:INSTRMNT_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INSTRMNT_ID"
+            },
+            "value" : "123321"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:INTRST_RT_CP",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INTRST_RT_CP"
+            },
+            "value" : "0.042"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:INTRST_RT_FLR",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INTRST_RT_FLR"
+            },
+            "value" : "0.025"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:INTRST_RT_RST_FRQNCY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INTRST_RT_RST_FRQNCY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#FRQNCY_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:INTRST_RT_SPRD",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INTRST_RT_SPRD"
+            },
+            "value" : "0.024"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:IS_DBT_FNNCNG",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_DBT_FNNCNG"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_F"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:IS_RTL_EXPSR",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_RTL_EXPSR"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:IS_RVCBL",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_RVCBL"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_F"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:IS_SRVCD_OBSRVD_AGNT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#IS_SRVCD_OBSRVD_AGNT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#BLN_T"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:OBSRVD_AGNT_INTRNL_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#OBSRVD_AGNT_INTRNL_ID"
+            },
+            "value" : "BLZ10"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:OFF_BLNC_SHT_AMNT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#OFF_BLNC_SHT_AMNT"
+            },
+            "value" : "0"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:PRJCT_FNNC_LN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRJCT_FNNC_LN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#PRJCT_FNNC_LN_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:PRPS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRPS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#PRPS_8"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:PYMNT_FRQNCY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PYMNT_FRQNCY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#FRQNCY_8"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:RCRS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#RCRS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#RCRS_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:RFRNC_RT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#RFRNC_RT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#RFRNC_RT_44"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:RLTNSHP_SCRTSTN_CRDT_TRNSFR",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#RLTNSHP_SCRTSTN_CRDT_TRNSFR"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#RLTNSHP_SCRTSTN_CRDT_TRNSFR_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:RPYMNT_RGHTS",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#RPYMNT_RGHTS"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#RPYMNT_RGHTS_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:SBRDNTD_DBT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#SBRDNTD_DBT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#SBRDNTD_DBT_2"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:TYP_AMRTSTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TYP_AMRTSTN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#TYP_AMRTSTN_0"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:TYP_FCLTY",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TYP_FCLTY"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#TYP_FCLTY_1"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_IL:1:TYP_INTRST_RT",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TYP_INTRST_RT"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#TYP_INTRST_RT_1"
+            }
+          } ]
+        } ],
+        "cube" : {
+          "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE",
+          "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cubes.efbt_data_definition#BIRD_CRDT_FCLTS_IL_4"
+        }
+      }, {
+        "name" : "exampleTest:BIRD_CRDT_FCLTS_INSTRMNTS_IL:CubeData",
+        "rows" : [ {
+          "rowID" : "exampleTest:BIRD_CRDT_FCLTS_INSTRMNTS_IL:1",
+          "cells" : [ {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_INSTRMNTS_IL:1:PRSPCTV_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#PRSPCTV_ID"
+            },
+            "value" : "BLZ10IRB"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_INSTRMNTS_IL:1:DT_RFRNC",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#DT_RFRNC"
+            },
+            "value" : "30/09/2018"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_INSTRMNTS_IL:1:CMMTMNT_UNQ_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#CMMTMNT_UNQ_ID"
+            },
+            "value" : "COM_A810 "
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_INSTRMNTS_IL:1:INSTRMNT_UNQ_ID",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INSTRMNT_UNQ_ID"
+            },
+            "value" : "123321"
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_INSTRMNTS_IL:1:INSTRMNT_CB",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#INSTRMNT_CB"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#INSTRMNT_CB_10"
+            }
+          }, {
+            "eClass" : "http://www.eclipse.org/efbt/base_column_structured_data#//BaseCellWithEnumeratedValue",
+            "cellID" : "exampleTest:BIRD_CRDT_FCLTS_INSTRMNTS_IL:1:TYP_TRNSCTN",
+            "column" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//VARIABLE",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//variables.efbt_data_definition#TYP_TRNSCTN"
+            },
+            "value" : {
+              "eClass" : "http://www.eclipse.org/efbt/core#//MEMBER",
+              "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#TYP_TRNSCTN_2"
+            }
+          } ]
+        } ],
+        "cube" : {
+          "eClass" : "http://www.eclipse.org/efbt/data_definition#//CUBE",
+          "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//cubes.efbt_data_definition#BIRD_CRDT_FCLTS_INSTRMNTS_IL_3"
+        }
+      } ]
+    }
+  } ]
+}

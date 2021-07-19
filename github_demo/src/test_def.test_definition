@@ -1,0 +1,7 @@
+{
+  "eClass" : "http://www.eclipse.org/efbt/test_definition#//RegFunctionalityTestDefinitionModule",
+  "name" : "testDefinitionsModule",
+  "testDefinitions" : [ {
+    "name" : "standard_test"
+  } ]
+}

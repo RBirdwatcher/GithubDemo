@@ -1,0 +1,1312 @@
+{
+  "eClass" : "http://www.eclipse.org/efbt/efbt_data_definition#//DomainModule",
+  "dependencies" : {
+    "theModules" : [ {
+      "theModule" : {
+        "eClass" : "http://www.eclipse.org/efbt/efbt_data_definition#//MemberModule",
+        "$ref" : "file:/C:/Users//Neil//freebirdtools-developJun21//USER_NeilMackenzie//github_demo//src//members.efbt_data_definition#membersModule"
+      }
+    } ]
+  },
+  "name" : "domainsModule",
+  "domains" : [ {
+    "code" : "NEVS",
+    "domain_id" : "NEVS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "NEVS",
+    "displayName" : "Null explanatory values"
+  }, {
+    "code" : "ACCNTNG_CLSSFCTN",
+    "description" : "None",
+    "domain_id" : "ACCNTNG_CLSSFCTN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "ACCNTNG_CLSSFCTN",
+    "displayName" : "Accounting classification"
+  }, {
+    "code" : "ACCNTNG_FRMWRK",
+    "domain_id" : "ACCNTNG_FRMWRK",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "ACCNTNG_FRMWRK",
+    "displayName" : "Accounting framework"
+  }, {
+    "code" : "AE_ITM",
+    "description" : "Domain comprising Members that allows to distinguish between AE (matching) liability information and AE (underlying) asset / collateral information.",
+    "domain_id" : "AE_ITM",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "AE_ITM",
+    "displayName" : "Asset encumbrance item"
+  }, {
+    "code" : "APPRCH_CRDT_QLTY_STTS",
+    "domain_id" : "APPRCH_CRDT_QLTY_STTS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "APPRCH_CRDT_QLTY_STTS",
+    "displayName" : "Assessment approach for credit quality status"
+  }, {
+    "code" : "APPRCH_JNT_LBLTS",
+    "domain_id" : "APPRCH_JNT_LBLTS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "APPRCH_JNT_LBLTS",
+    "displayName" : "It identifies the approach followed by the reporting institution for joint liabilities"
+  }, {
+    "code" : "APPRCH_PRDNTL_PRPSS",
+    "domain_id" : "APPRCH_PRDNTL_PRPSS",
+    "is_enumerated" : true,
+    "name" : "APPRCH_PRDNTL_PRPSS",
+    "displayName" : "Approach for prudential purposes"
+  }, {
+    "code" : "ASST_CLSS_UNDRLYNG_EXPSR",
+    "domain_id" : "ASST_CLSS_UNDRLYNG_EXPSR",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "ASST_CLSS_UNDRLYNG_EXPSR",
+    "displayName" : "Asset class of the underlying exposure"
+  }, {
+    "code" : "AVLBL_ENCMBRNC",
+    "description" : "Domain covering the members: Available for encumbrance, Not available for encumbrance, Available and not available for encumbrance, Not applicable.\nSee EBA ITS on Asset encumbrance, 2.2.1. General remarks.",
+    "domain_id" : "AVLBL_ENCMBRNC",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "AVLBL_ENCMBRNC",
+    "displayName" : "Available for encumbrance"
+  }, {
+    "code" : "BLN",
+    "data_type" : "String",
+    "description" : "None",
+    "domain_id" : "BLN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "BLN",
+    "displayName" : "Boolean"
+  }, {
+    "code" : "CHRCTRSTCS_CRDT_RSK",
+    "domain_id" : "CHRCTRSTCS_CRDT_RSK",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CHRCTRSTCS_CRDT_RSK",
+    "displayName" : "Characteristics for credit risk"
+  }, {
+    "code" : "CLL_OPTN",
+    "domain_id" : "CLL_OPTN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CLL_OPTN",
+    "displayName" : "Call option"
+  }, {
+    "code" : "CLLCTV_INVSTMNT_UNDRTKNG",
+    "data_type" : "String",
+    "description" : "To identify exposures which could be classified as \"Collective Investment Undertakings - CIUs\" according to Article 4, par. 1 (7) of the Regulation (EU) No 575/2013.",
+    "domain_id" : "CLLCTV_INVSTMNT_UNDRTKNG",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CLLCTV_INVSTMNT_UNDRTKNG",
+    "displayName" : "Collective Investments Undertaking"
+  }, {
+    "code" : "CLLTRL_RCVD",
+    "description" : "Comprises the members Collateral received (1), No collateral received (2).",
+    "domain_id" : "CLLTRL_RCVD",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CLLTRL_RCVD",
+    "displayName" : "Collateral received"
+  }, {
+    "code" : "CMMRCL_RL_ESTT_ACCRDNG_ESRB",
+    "description" : "Commercial real estate property definition, according to ESRB Recommendation 2016/14 on closing real estate data gaps, Section 2, Chapter 1 (1).",
+    "domain_id" : "CMMRCL_RL_ESTT_ACCRDNG_ESRB",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CMMRCL_RL_ESTT_ACCRDNG_ESRB",
+    "displayName" : "Commercial real estate according to ESRB"
+  }, {
+    "code" : "CNSLDTN_MTHD",
+    "description" : "The type of consolidtation method used.",
+    "domain_id" : "CNSLDTN_MTHD",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CNSLDTN_MTHD",
+    "displayName" : "consolidation method"
+  }, {
+    "code" : "CNSLDTN_SCP",
+    "domain_id" : "CNSLDTN_SCP",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CNSLDTN_SCP",
+    "displayName" : "Scope of consolidation"
+  }, {
+    "code" : "CNTRL_CNTRPRTY",
+    "domain_id" : "CNTRL_CNTRPRTY",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CNTRL_CNTRPRTY",
+    "displayName" : "Central Counterparty"
+  }, {
+    "code" : "CNTRL_PBLC_BDS",
+    "domain_id" : "CNTRL_PBLC_BDS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CNTRL_PBLC_BDS",
+    "displayName" : "Control by public bodies"
+  }, {
+    "code" : "CRDT_QLTY",
+    "description" : "None",
+    "domain_id" : "CRDT_QLTY",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CRDT_QLTY",
+    "displayName" : "Credit quality"
+  }, {
+    "code" : "CRDT_QLTY_STP",
+    "domain_id" : "CRDT_QLTY_STP",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CRDT_QLTY_STP",
+    "displayName" : "Credit quality step"
+  }, {
+    "code" : "CRDT_QLTY_STP_ERBA",
+    "domain_id" : "CRDT_QLTY_STP_ERBA",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CRDT_QLTY_STP_ERBA",
+    "displayName" : "Credit quality steps under SEC-ERBA"
+  }, {
+    "code" : "CRM_EFFCT",
+    "data_type" : "String",
+    "description" : "This is the effect of the credit risk mitigation technique used\naccording to Article 193 Part Three, Title II, Chapter 2 of the Regulation (EU) No 575/2013",
+    "domain_id" : "CRM_EFFCT",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CRM_EFFCT",
+    "displayName" : "Credit Risk Mitigation Effect"
+  }, {
+    "code" : "CRM_WGTHNG_MTDH",
+    "description" : "It lists the weigthing methodologies in accordance with Regulation (EU) 575/2013 CRR, Chapter 4, Article 194 and following.",
+    "domain_id" : "CRM_WGTHNG_MTDH",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CRM_WGTHNG_MTDH",
+    "displayName" : "Credit Risk Mitigation Weighting Method"
+  }, {
+    "code" : "CRRLTN_RDCTN",
+    "data_type" : "String",
+    "description" : "Option to use the correlation reduction for RW calculation in Article 153.4 of the Regulation (EU) No 575/2013.",
+    "domain_id" : "CRRLTN_RDCTN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CRRLTN_RDCTN",
+    "displayName" : "Correlation Reduction"
+  }, {
+    "code" : "CRRNCY",
+    "data_type" : "String",
+    "domain_id" : "CRRNCY",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "CRRNCY",
+    "displayName" : "Currencies"
+  }, {
+    "code" : "DGS_CD",
+    "domain_id" : "DGS_CD",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "DGS_CD",
+    "displayName" : "NAME OF Deposit Guarantee schema"
+  }, {
+    "code" : "DGS_DPST",
+    "description" : "Is Deposit according to 2(1) point 3 of the DGS Directive (2014/49/EU)",
+    "domain_id" : "DGS_DPST",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "DGS_DPST",
+    "displayName" : "Deposit according to 2(1) point 3 of the DGS Directive (2014/49/EU)"
+  }, {
+    "code" : "DGS_ELGBL",
+    "description" : "Domain that specifies whether the deposit is eligible for DGS scheme, according to the directive 2014/49/EU on deposit garantee schemes",
+    "domain_id" : "DGS_ELGBL",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "DGS_ELGBL",
+    "displayName" : "Deposit eligible for DGS scheme"
+  }, {
+    "code" : "DLNQNCY_KNWN",
+    "domain_id" : "DLNQNCY_KNWN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "DLNQNCY_KNWN",
+    "displayName" : "Is delinquency known for more than 5% of the portfolio"
+  }, {
+    "code" : "DT",
+    "data_type" : "DateTime",
+    "description" : "None",
+    "domain_id" : "DT",
+    "is_reference" : true,
+    "name" : "DT",
+    "displayName" : "Date"
+  }, {
+    "code" : "ECAI_ECA",
+    "domain_id" : "ECAI_ECA",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "ECAI_ECA",
+    "displayName" : "ECAI/ECA"
+  }, {
+    "code" : "AsSeTy",
+    "domain_id" : "ECB2_AsSeTy",
+    "is_enumerated" : true,
+    "name" : "ECB2_AsSeTy",
+    "displayName" : "Asset Securitisation Type"
+  }, {
+    "code" : "CL_FREQ",
+    "domain_id" : "ECB2_CL_FREQ",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_FREQ",
+    "displayName" : "Frequency code list"
+  }, {
+    "code" : "CL_SHS_ACC_STANDARD",
+    "domain_id" : "ECB2_CL_SHS_ACC_STANDARD",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_ACC_STANDARD",
+    "displayName" : "Accounting Standard"
+  }, {
+    "code" : "CL_SHS_ACCNTNG_CLSSFCTN",
+    "domain_id" : "ECB2_CL_SHS_ACCNTNG_CLSSFCTN",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_ACCNTNG_CLSSFCTN",
+    "displayName" : "Accounting classification"
+  }, {
+    "code" : "CL_SHS_APPRCH_PRDNTL_PRPSS",
+    "domain_id" : "ECB2_CL_SHS_APPRCH_PRDNTL_PRPSS",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_APPRCH_PRDNTL_PRPSS",
+    "displayName" : "Approach for prudential purposes"
+  }, {
+    "code" : "CL_SHS_AREA",
+    "domain_id" : "ECB2_CL_SHS_AREA",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_AREA",
+    "displayName" : "Area code list"
+  }, {
+    "code" : "CL_SHS_COLLATERAL_AREA",
+    "domain_id" : "ECB2_CL_SHS_COLLATERAL_AREA",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_COLLATERAL_AREA",
+    "displayName" : "Collateral geographical location"
+  }, {
+    "code" : "CL_SHS_CURRENCY",
+    "domain_id" : "ECB2_CL_SHS_CURRENCY",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_CURRENCY",
+    "displayName" : "Currency code list"
+  }, {
+    "code" : "CL_SHS_DFLT_STTS",
+    "description" : "Default status in accordance with Article 178 of Regulation (EU) No 575/2013",
+    "domain_id" : "ECB2_CL_SHS_DFLT_STTS",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_DFLT_STTS",
+    "displayName" : "Default status"
+  }, {
+    "code" : "CL_SHS_ENTITY_STATUS",
+    "domain_id" : "ECB2_CL_SHS_ENTITY_STATUS",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_ENTITY_STATUS",
+    "displayName" : "Entity status"
+  }, {
+    "code" : "CL_SHS_EXPSR_CLSS",
+    "domain_id" : "ECB2_CL_SHS_EXPSR_CLSS",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_EXPSR_CLSS",
+    "displayName" : "Exposure class as defined in accordance with Regulation (EU) No 575/2013"
+  }, {
+    "code" : "CL_SHS_FRBRNC_STTS",
+    "domain_id" : "ECB2_CL_SHS_FRBRNC_STTS",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_FRBRNC_STTS",
+    "displayName" : "Status of forbearance and renegotiation"
+  }, {
+    "code" : "CL_SHS_GROUP_TYPE",
+    "domain_id" : "ECB2_CL_SHS_GROUP_TYPE",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_GROUP_TYPE",
+    "displayName" : "Group type code list"
+  }, {
+    "code" : "CL_SHS_ID_TYPE",
+    "domain_id" : "ECB2_CL_SHS_ID_TYPE",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_ID_TYPE",
+    "displayName" : "Group/Entity ID type"
+  }, {
+    "code" : "CL_SHS_IDENTIFIER_TYPE",
+    "domain_id" : "ECB2_CL_SHS_IDENTIFIER_TYPE",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_IDENTIFIER_TYPE",
+    "displayName" : "Identifier type code list"
+  }, {
+    "code" : "CL_SHS_IMPRMNT_ASSSSMNT_MTHD",
+    "description" : "The method by which it is assessed if the instrument is subject to impairment in accord-ance with applied accounting standards. Collective and individual methods are distin-guished.",
+    "domain_id" : "ECB2_CL_SHS_IMPRMNT_ASSSSMNT_MTHD",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_IMPRMNT_ASSSSMNT_MTHD",
+    "displayName" : "Impairment assessment method"
+  }, {
+    "code" : "CL_SHS_IMPRMNT_STTS",
+    "domain_id" : "ECB2_CL_SHS_IMPRMNT_STTS",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_IMPRMNT_STTS",
+    "displayName" : "Imparement status"
+  }, {
+    "code" : "CL_SHS_INPUT_TYPE",
+    "domain_id" : "ECB2_CL_SHS_INPUT_TYPE",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_INPUT_TYPE",
+    "displayName" : "Input type"
+  }, {
+    "code" : "CL_SHS_INSTR_ESA2010",
+    "domain_id" : "ECB2_CL_SHS_INSTR_ESA2010",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_INSTR_ESA2010",
+    "displayName" : "CSDB instrument ESA 2010 class code list"
+  }, {
+    "code" : "CL_SHS_ISSUER_AREA",
+    "domain_id" : "ECB2_CL_SHS_ISSUER_AREA",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_ISSUER_AREA",
+    "displayName" : "Area code list"
+  }, {
+    "code" : "CL_SHS_ISSUER_ESA2010",
+    "domain_id" : "ECB2_CL_SHS_ISSUER_ESA2010",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_ISSUER_ESA2010",
+    "displayName" : "CSDB issuer sector 2010 code list"
+  }, {
+    "code" : "CL_SHS_ISSUER_RBG",
+    "domain_id" : "ECB2_CL_SHS_ISSUER_RBG",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_ISSUER_RBG",
+    "displayName" : "Issuer is part of the reporting group code list"
+  }, {
+    "code" : "CL_SHS_NACE",
+    "domain_id" : "ECB2_CL_SHS_NACE",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_NACE",
+    "displayName" : "Issuer NACE sector code list"
+  }, {
+    "code" : "CL_SHS_ORGANISATION",
+    "domain_id" : "ECB2_CL_SHS_ORGANISATION",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_ORGANISATION",
+    "displayName" : "Number"
+  }, {
+    "code" : "CL_SHS_PRDNTL_PRTFL",
+    "domain_id" : "ECB2_CL_SHS_PRDNTL_PRTFL",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_PRDNTL_PRTFL",
+    "displayName" : "Prudential portfolio"
+  }, {
+    "code" : "CL_SHS_PRFRMNG_STTS",
+    "domain_id" : "ECB2_CL_SHS_PRFRMNG_STTS",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_PRFRMNG_STTS",
+    "displayName" : "Performing status"
+  }, {
+    "code" : "CL_SHS_REP_BASIS",
+    "domain_id" : "ECB2_CL_SHS_REP_BASIS",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_REP_BASIS",
+    "displayName" : "Reporting basis code list"
+  }, {
+    "code" : "CL_SHS_SECTOR",
+    "domain_id" : "ECB2_CL_SHS_SECTOR",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_SECTOR",
+    "displayName" : "Institutional sector code list"
+  }, {
+    "code" : "CL_SHS_SRC_ENCMBRNC",
+    "domain_id" : "ECB2_CL_SHS_SRC_ENCMBRNC",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_SRC_ENCMBRNC",
+    "displayName" : "Source of Encumbrance"
+  }, {
+    "code" : "CL_SHS_UNIT",
+    "domain_id" : "ECB2_CL_SHS_UNIT",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_SHS_UNIT",
+    "displayName" : "Unit of measure code list"
+  }, {
+    "code" : "CL_YES_NO",
+    "domain_id" : "ECB2_CL_YES_NO",
+    "is_enumerated" : true,
+    "name" : "ECB2_CL_YES_NO",
+    "displayName" : "Yes/no code list"
+  }, {
+    "code" : "DT",
+    "data_type" : "DateTime",
+    "domain_id" : "ECB2_DT",
+    "name" : "ECB2_DT",
+    "displayName" : "Date"
+  }, {
+    "code" : "InSeTy",
+    "domain_id" : "ECB2_InSeTy",
+    "is_enumerated" : true,
+    "name" : "ECB2_InSeTy",
+    "displayName" : "Instrument Seniority Type"
+  }, {
+    "code" : "MNTRY",
+    "data_type" : "Decimal",
+    "domain_id" : "ECB2_MNTRY",
+    "name" : "ECB2_MNTRY",
+    "displayName" : "Monetary"
+  }, {
+    "code" : "PrAsCl",
+    "domain_id" : "ECB2_PrAsCl",
+    "is_enumerated" : true,
+    "name" : "ECB2_PrAsCl",
+    "displayName" : "Primary Asset Classification 2"
+  }, {
+    "code" : "RL",
+    "data_type" : "Decimal",
+    "domain_id" : "ECB2_RL",
+    "name" : "ECB2_RL",
+    "displayName" : "Real"
+  }, {
+    "code" : "SecSta",
+    "domain_id" : "ECB2_SecSta",
+    "is_enumerated" : true,
+    "name" : "ECB2_SecSta",
+    "displayName" : "Security Status"
+  }, {
+    "code" : "STRNG",
+    "data_type" : "String",
+    "domain_id" : "ECB2_STRNG",
+    "name" : "ECB2_STRNG",
+    "displayName" : "String"
+  }, {
+    "code" : "ECNMC_ACTVTY",
+    "data_type" : "String",
+    "domain_id" : "ECNMC_ACTVTY",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "ECNMC_ACTVTY",
+    "displayName" : "Nomenclature of Economic Activities (NACE) codes"
+  }, {
+    "code" : "ELGBL_CNTRL_BNK_FNDNG",
+    "description" : "Domain covering the members: Eligible for central bunk funding, Not eligible for central bank funding, Eligible and not eligible for central bank funding and Not applicable.",
+    "domain_id" : "ELGBL_CNTRL_BNK_FNDNG",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "ELGBL_CNTRL_BNK_FNDNG",
+    "displayName" : "Eligible for central bank funding"
+  }, {
+    "code" : "ENTRPRS_SZ_CHC",
+    "domain_id" : "ENTRPRS_SZ_CHC",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "ENTRPRS_SZ_CHC",
+    "displayName" : "Enterprise size choice"
+  }, {
+    "code" : "ENTTY_RL",
+    "description" : "Role of the counterparties in an instrument.",
+    "domain_id" : "ENTTY_RL",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "ENTTY_RL",
+    "displayName" : "Counterparty role"
+  }, {
+    "code" : "EXCLDD_FRM_BL_IN",
+    "data_type" : "String",
+    "description" : "Domain that specifies if the liability is exluded from bail-in according to the classification in the article 44(2) of the 2014/59/EU directive.",
+    "domain_id" : "EXCLDD_FRM_BL_IN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "EXCLDD_FRM_BL_IN",
+    "displayName" : "Is excluded from bail-in"
+  }, {
+    "code" : "EXCPTN_MRG_ACQSTN",
+    "domain_id" : "EXCPTN_MRG_ACQSTN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "EXCPTN_MRG_ACQSTN",
+    "displayName" : "Exception due to merge or acquisition"
+  }, {
+    "code" : "EXPSR_CLSS",
+    "domain_id" : "EXPSR_CLSS",
+    "is_enumerated" : true,
+    "name" : "EXPSR_CLSS",
+    "displayName" : "Exposure classification"
+  }, {
+    "code" : "FDCRY",
+    "domain_id" : "FDCRY",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "FDCRY",
+    "displayName" : "Fiduciary instruments"
+  }, {
+    "code" : "FRBRNC_STTS",
+    "description" : "None",
+    "domain_id" : "FRBRNC_STTS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "FRBRNC_STTS",
+    "displayName" : "Forbearance status"
+  }, {
+    "code" : "FRBRNC_STTS_EXT_CRTR",
+    "description" : "It lists the possible exit criteria when in a forborne status.",
+    "domain_id" : "FRBRNC_STTS_EXT_CRTR",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "FRBRNC_STTS_EXT_CRTR",
+    "displayName" : "Forbearance status exit criteria"
+  }, {
+    "code" : "FRM_RFRNC",
+    "domain_id" : "FRM_RFRNC",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "FRM_RFRNC",
+    "displayName" : "Frame of reference of the data to be processed."
+  }, {
+    "code" : "FRQNCY",
+    "domain_id" : "FRQNCY",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "FRQNCY",
+    "displayName" : "Frequency"
+  }, {
+    "code" : "FV_HRRCHY",
+    "description" : "Hierarchy of fair value in accordance with IFRS13",
+    "domain_id" : "FV_HRRCHY",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "FV_HRRCHY",
+    "displayName" : "Fair Value Hierarchy"
+  }, {
+    "code" : "FVO_DSGNTN",
+    "description" : "It lists the possible options to irrevocably designate a financial instrument at fair value through profit or loss in accordance with IFRS9",
+    "domain_id" : "FVO_DSGNTN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "FVO_DSGNTN",
+    "displayName" : "Fair value option designation"
+  }, {
+    "code" : "GGRPHCL_ARS",
+    "data_type" : "String",
+    "description" : "None",
+    "domain_id" : "GGRPHCL_ARS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "GGRPHCL_ARS",
+    "displayName" : "Geographical Area"
+  }, {
+    "code" : "GRP_TYP",
+    "domain_id" : "GRP_TYP",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "GRP_TYP",
+    "displayName" : "Type of groups"
+  }, {
+    "code" : "GVRND_EU_LW",
+    "domain_id" : "GVRND_EU_LW",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "GVRND_EU_LW",
+    "displayName" : "Governed by law of an EU member state"
+  }, {
+    "code" : "IMPRMNT_ASSSSMNT_MTHD",
+    "description" : "The method by which the impairment is assessed, if the instrument is subject to impairment in accordance with applied accounting standards. Collective and individual methods are distinguished.",
+    "domain_id" : "IMPRMNT_ASSSSMNT_MTHD",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "IMPRMNT_ASSSSMNT_MTHD",
+    "displayName" : "Impairment assessment method"
+  }, {
+    "code" : "INSTRMNT_CB",
+    "domain_id" : "INSTRMNT_CB",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "INSTRMNT_CB",
+    "displayName" : "Instrument cube"
+  }, {
+    "code" : "INSTTTNL_SCTR",
+    "data_type" : "String",
+    "description" : "None",
+    "domain_id" : "INSTTTNL_SCTR",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "INSTTTNL_SCTR",
+    "displayName" : "Institutional sectors"
+  }, {
+    "code" : "INSTTTNL_SCTR_CNTRL",
+    "domain_id" : "INSTTTNL_SCTR_CNTRL",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "INSTTTNL_SCTR_CNTRL",
+    "displayName" : "Institutional sector control"
+  }, {
+    "code" : "INTGR",
+    "domain_id" : "INTGR",
+    "is_reference" : true,
+    "name" : "INTGR",
+    "displayName" : "Integer"
+  }, {
+    "code" : "IS_CNTRL_GVRNMNT_TRTD_LG",
+    "description" : "Indicates whether a regional government or local authority is treated for capital requirements purposes as exposure to its central government in accordance with Articles 115(2) of Regulation (EU) No 575/2013 (CRR)",
+    "domain_id" : "IS_CNTRL_GVRNMNT_TRTD_LG",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "IS_CNTRL_GVRNMNT_TRTD_LG",
+    "displayName" : "Is regional government or local authority treated as central government"
+  }, {
+    "code" : "IS_CNTRL_GVRNMNT_TRTD_PS",
+    "description" : "Indicates whether a public sector entity in accordance with Article 4(1) of Regulation (EU) No 575/2013 (CRR) is treated for capital requirements purposes as exposure to the central government  in accordance with  Article 116(4) of Regulation (EU) No 575/2013 (CRR)",
+    "domain_id" : "IS_CNTRL_GVRNMNT_TRTD_PS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "IS_CNTRL_GVRNMNT_TRTD_PS",
+    "displayName" : "Is public sector entity treated as central government"
+  }, {
+    "code" : "IS_LCL_GVRNMNT_TRTD_PS",
+    "description" : "Indicates whether a public sector entity in accordance with Article 4(1) of Regulation (EU) No 575/2013 (CRR) is treated for capital requirements purposes as exposure to the regional government or local authority in accordance with  Article 116(4) of Regulation (EU) No 575/2013 (CRR)",
+    "domain_id" : "IS_LCL_GVRNMNT_TRTD_PS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "IS_LCL_GVRNMNT_TRTD_PS",
+    "displayName" : "Is public sector entity treated as regional government or local authority"
+  }, {
+    "code" : "IS_RFNDBL_PPD",
+    "domain_id" : "IS_RFNDBL_PPD",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "IS_RFNDBL_PPD",
+    "displayName" : "Refundable purchase price discount"
+  }, {
+    "code" : "JNT_LBLTY",
+    "domain_id" : "JNT_LBLTY",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "JNT_LBLTY",
+    "displayName" : "Joint liability"
+  }, {
+    "code" : "LGL_FRM",
+    "data_type" : "String",
+    "domain_id" : "LGL_FRM",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "LGL_FRM",
+    "displayName" : "Legal Form"
+  }, {
+    "code" : "LGL_PRCDNG_STTS",
+    "domain_id" : "LGL_PRCDNG_STTS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "LGL_PRCDNG_STTS",
+    "displayName" : "Status of legal proceedings"
+  }, {
+    "code" : "LS_LBLTY",
+    "domain_id" : "LS_LBLTY",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "LS_LBLTY",
+    "displayName" : "Lease liability"
+  }, {
+    "code" : "LFSE_UFE",
+    "description" : "The counterparty of exposure or protection is a large financial sector entity or an unregulated financial entity, according to Article 142, par. 1 (4), (5)",
+    "domain_id" : "LSFE_UFE",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "LSFE_UFE",
+    "displayName" : "Large Financial Sector Entity_Unregulated Financial Sector Entity"
+  }, {
+    "code" : "LTGTN_STTS",
+    "description" : "It lists the possible pending status of a litigation among counterparties.",
+    "domain_id" : "LTGTN_STTS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "LTGTN_STTS",
+    "displayName" : "Litigation status"
+  }, {
+    "code" : "MNTRY",
+    "data_type" : "Decimal",
+    "description" : "None",
+    "domain_id" : "MNTRY",
+    "is_reference" : true,
+    "name" : "MNTRY",
+    "displayName" : "Monetary"
+  }, {
+    "code" : "MREL_ELGBL",
+    "domain_id" : "MREL_ELGBL",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "MREL_ELGBL",
+    "displayName" : "MREL eligible"
+  }, {
+    "code" : "MSRMNT_MTHD",
+    "domain_id" : "MSRMNT_MTHD",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "MSRMNT_MTHD",
+    "displayName" : "Measurement method"
+  }, {
+    "code" : "MVBL_PRPRTY",
+    "description" : "Domain comprising all possible values undertaken by a movable property.",
+    "domain_id" : "MVBL_PRPRTY",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "MVBL_PRPRTY",
+    "displayName" : "Movable property"
+  }, {
+    "code" : "NTTNG_APPLCBLTY",
+    "description" : "Type of netting, accounting netting applicable for FINREP, prudential netting for COREP.",
+    "domain_id" : "NTTNG_APPLCBLTY",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "NTTNG_APPLCBLTY",
+    "displayName" : "Netting applicablitiy"
+  }, {
+    "code" : "OWN_FND",
+    "description" : "Is recognised as own fund according to the regulation 575/2013/EU Article 4(1)(118) and Article 72",
+    "domain_id" : "OWN_FND",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "OWN_FND",
+    "displayName" : "Recognised as own fund"
+  }, {
+    "code" : "PRCHSD_ORGNTD",
+    "domain_id" : "PRCHSD_ORGNTD",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "PRCHSD_ORGNTD",
+    "displayName" : "Purchased or originated"
+  }, {
+    "code" : "PRDNTL_ELGBLTY",
+    "domain_id" : "PRDNTL_ELGBLTY",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "PRDNTL_ELGBLTY",
+    "displayName" : "Prudential eligibility"
+  }, {
+    "code" : "PRDNTL_PRTFL",
+    "domain_id" : "PRDNTL_PRTFL",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "PRDNTL_PRTFL",
+    "displayName" : "Prudential portfolio"
+  }, {
+    "code" : "PRFRNTL_TRTMNT",
+    "domain_id" : "PRFRNTL_TRTMNT",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "PRFRNTL_TRTMNT",
+    "displayName" : "Preferential treatment"
+  }, {
+    "code" : "PRJCT_FNNC_LN",
+    "description" : "None",
+    "domain_id" : "PRJCT_FNNC_LN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "PRJCT_FNNC_LN",
+    "displayName" : "Project finance loans"
+  }, {
+    "code" : "PRMRY_ASST_CLSS_CVR_PL",
+    "description" : "Covers the primary asset classes for cover pools according to  Article 129(4) and (5) of Regulation (EU) No 575/2013.",
+    "domain_id" : "PRMRY_ASST_CLSS_CVR_PL",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "PRMRY_ASST_CLSS_CVR_PL",
+    "displayName" : "Primary asset class of cover pool"
+  }, {
+    "code" : "PRMRY_ASST_CLSSFCTN",
+    "description" : "Securities classified according to their asset type.",
+    "domain_id" : "PRMRY_ASST_CLSSFCTN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "PRMRY_ASST_CLSSFCTN",
+    "displayName" : "Classification of the instrument"
+  }, {
+    "code" : "PRPS",
+    "description" : "None",
+    "domain_id" : "PRPS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "PRPS",
+    "displayName" : "Purpose"
+  }, {
+    "code" : "PRSPCTV",
+    "description" : "Identify the type of perspective adopted for the evaluation of the b/s items",
+    "domain_id" : "PRSPCTV",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "PRSPCTV",
+    "displayName" : "Perspective"
+  }, {
+    "code" : "PRT_RSLTN_GRP",
+    "description" : "Domain indicating whether the entity is part of the resolution group.",
+    "domain_id" : "PRT_RSLTN_GRP",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "PRT_RSLTN_GRP",
+    "displayName" : "Part of the resolution group"
+  }, {
+    "code" : "PRTCTN_VLTN_APPRCH",
+    "description" : "Type of protection valuation; method used to determine the protection value.",
+    "domain_id" : "PRTCTN_VLTN_APPRCH",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "PRTCTN_VLTN_APPRCH",
+    "displayName" : "Protection valuation approach"
+  }, {
+    "code" : "PSTN_INSTRMNT",
+    "domain_id" : "PSTN_INSTRMNT",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "PSTN_INSTRMNT",
+    "displayName" : "Position in the instrument"
+  }, {
+    "code" : "RCGNTN_STTS",
+    "domain_id" : "RCGNTN_STTS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "RCGNTN_STTS",
+    "displayName" : "Recognition"
+  }, {
+    "code" : "RCRS",
+    "domain_id" : "RCRS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "RCRS",
+    "displayName" : "Recourse"
+  }, {
+    "code" : "RFRNC_RT",
+    "domain_id" : "RFRNC_RT",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "RFRNC_RT",
+    "displayName" : "Reference rate code"
+  }, {
+    "code" : "RGHT_US",
+    "domain_id" : "RGHT_US",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "RGHT_US",
+    "displayName" : "Right of use"
+  }, {
+    "code" : "RL",
+    "data_type" : "Decimal",
+    "domain_id" : "RL",
+    "is_reference" : true,
+    "name" : "RL",
+    "displayName" : "Real"
+  }, {
+    "code" : "RLTNSHP",
+    "description" : "Relationship between entities.",
+    "domain_id" : "RLTNSHP",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "RLTNSHP",
+    "displayName" : "Relationship"
+  }, {
+    "code" : "RLTNSHP_SCRTSTN_CRDT_TRNSFR",
+    "domain_id" : "RLTNSHP_SCRTSTN_CRDT_TRNSFR",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "RLTNSHP_SCRTSTN_CRDT_TRNSFR",
+    "displayName" : "Relationship with securitisation or credit transfer"
+  }, {
+    "code" : "RLVNT_LE",
+    "description" : "Is relevant legal entity as defined in article 2(4) of the Commission implementing regulation (EU) 2018/1624",
+    "domain_id" : "RLVNT_LE",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "RLVNT_LE",
+    "displayName" : "Relevant legal entity"
+  }, {
+    "code" : "RNK_LVL",
+    "domain_id" : "RNK_LVL",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "RNK_LVL",
+    "displayName" : "Rank level"
+  }, {
+    "code" : "RPRTNG_BSS",
+    "description" : "Indicates the underlying reporting basis for the security",
+    "domain_id" : "RPRTNG_BSS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "RPRTNG_BSS",
+    "displayName" : "Reporting basis code list"
+  }, {
+    "code" : "RPRTNG_INSTTTN",
+    "domain_id" : "RPRTNG_INSTTTN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "RPRTNG_INSTTTN",
+    "displayName" : "Source"
+  }, {
+    "code" : "RPYMNT_RGHTS",
+    "description" : "None",
+    "domain_id" : "RPYMNT_RGHTS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "RPYMNT_RGHTS",
+    "displayName" : "Repayment rights"
+  }, {
+    "code" : "RTND_INSTRMNT",
+    "description" : "Domain covereing the members: Retained or bought back instrument, Not retained or bought back instrument, Retained and not retained instruments, Not applicable.",
+    "domain_id" : "RTND_INSTRMNT",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "RTND_INSTRMNT",
+    "displayName" : "Retained or bought back instrument"
+  }, {
+    "code" : "SBJCT_CCF",
+    "domain_id" : "SBJCT_CCF",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SBJCT_CCF",
+    "displayName" : "Subject to Credit conversion factor (CCF)"
+  }, {
+    "code" : "SBJCT_DBL_DFLT",
+    "data_type" : "String",
+    "description" : "Subject to double default as defined in Art. 153, par. 3 of the Regulation (EU) No 575/2013.",
+    "domain_id" : "SBJCT_DBL_DFLT",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SBJCT_DBL_DFLT",
+    "displayName" : "Subject to double default treatment"
+  }, {
+    "code" : "SBJCT_OWN_FNDS",
+    "domain_id" : "SBJCT_OWN_FNDS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SBJCT_OWN_FNDS",
+    "displayName" : "Subject to own funds requirement"
+  }, {
+    "code" : "SBRDNTD_DBT",
+    "description" : "None",
+    "domain_id" : "SBRDNTD_DBT",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SBRDNTD_DBT",
+    "displayName" : "Subordinated debt"
+  }, {
+    "code" : "SBTYP_PRTCTN",
+    "description" : "The list of the subtypes of protection.",
+    "domain_id" : "SBTYP_PRTCTN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SBTYP_PRTCTN",
+    "displayName" : "Subtype of protection"
+  }, {
+    "code" : "SCRD_IMMVBL_PRPRTY_TRNCH",
+    "description" : "It indicates to which trance the record is referring to if the instrument is secured by an immovable property",
+    "domain_id" : "SCRD_IMMVBL_PRPRTY_TRNCH",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SCRD_IMMVBL_PRPRTY_TRNCH",
+    "displayName" : "Secured by Immovable property Tranche"
+  }, {
+    "code" : "SCRTSTN_PBLC_LVL",
+    "domain_id" : "SCRTSTN_PBLC_LVL",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SCRTSTN_PBLC_LVL",
+    "displayName" : "Public level of the securitisation"
+  }, {
+    "code" : "SCRTY_GRNT_LVL",
+    "domain_id" : "SCRTY_GRNT_LVL",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SCRTY_GRNT_LVL",
+    "displayName" : "Security Guarantee level"
+  }, {
+    "code" : "SCRTY_LVL",
+    "domain_id" : "SCRTY_LVL",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SCRTY_LVL",
+    "displayName" : "Security level"
+  }, {
+    "code" : "SCRTY_RNK_LVL",
+    "domain_id" : "SCRTY_RNK_LVL",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SCRTY_RNK_LVL",
+    "displayName" : "Security rank level"
+  }, {
+    "code" : "SCRTY_STTS",
+    "domain_id" : "SCRTY_STTS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SCRTY_STTS",
+    "displayName" : "Security Status"
+  }, {
+    "code" : "SEC_ERBA_DRGTN_GRNTD",
+    "domain_id" : "SEC_ERBA_DRGTN_GRNTD",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SEC_ERBA_DRGTN_GRNTD",
+    "displayName" : "The use of SEC-ERBA instead of SEC-SA is allowed"
+  }, {
+    "code" : "SEC_SA_ALLWD",
+    "domain_id" : "SEC_SA_ALLWD",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SEC_SA_ALLWD",
+    "displayName" : "The use of SEC-SA is allowed"
+  }, {
+    "code" : "SHRT_TRM_SCRTY",
+    "description" : "It identifies a short term security as it is described by the Reporting Bank, in accordance with the definition of short term ratings of the rating agencies.",
+    "domain_id" : "SHRT_TRM_SCRTY",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SHRT_TRM_SCRTY",
+    "displayName" : "Short Term Security"
+  }, {
+    "code" : "SME_SPPRTNG_FCTR",
+    "domain_id" : "SME_SPPRTNG_FCTR",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SME_SPPRTNG_FCTR",
+    "displayName" : "Subject to small and medium enterprise supporting factor"
+  }, {
+    "code" : "SMPL_TRNSPRNT_STNDRDSD",
+    "domain_id" : "SMPL_TRNSPRNT_STNDRDSD",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SMPL_TRNSPRNT_STNDRDSD",
+    "displayName" : "Is under the Simple, Transparent, Standardised (STS) framework"
+  }, {
+    "code" : "SRC_ENCMBRNC",
+    "domain_id" : "SRC_ENCMBRNC",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SRC_ENCMBRNC",
+    "displayName" : "Encumbrance"
+  }, {
+    "code" : "STRCTRD_NT",
+    "description" : "Debt obbligation that contains embedded derivative components with returns linked to an underlying security or index. \nIt does not include debt instruments only containing call or put options only (EBA instruction Annex II ITS on reporting on resolution p",
+    "domain_id" : "STRCTRD_NT",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "STRCTRD_NT",
+    "displayName" : "Structured note"
+  }, {
+    "code" : "STRNG",
+    "data_type" : "String",
+    "description" : "None",
+    "domain_id" : "STRNG",
+    "is_reference" : true,
+    "name" : "STRNG",
+    "displayName" : "String"
+  }, {
+    "code" : "STTS",
+    "domain_id" : "STTS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "STTS",
+    "displayName" : "Status"
+  }, {
+    "code" : "SZ",
+    "description" : "None",
+    "domain_id" : "SZ",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "SZ",
+    "displayName" : "Enterprise size"
+  }, {
+    "code" : "TM_INTRVL",
+    "domain_id" : "TM_INTRVL",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TM_INTRVL",
+    "displayName" : "Time interval"
+  }, {
+    "code" : "TRGT_TYP",
+    "domain_id" : "TRGT_TYP",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TRGT_TYP",
+    "displayName" : "Type of target for an external credi assessment"
+  }, {
+    "code" : "TYP_ACCNTNG_ITM",
+    "description" : "None",
+    "domain_id" : "TYP_ACCNTNG_ITM",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_ACCNTNG_ITM",
+    "displayName" : "Type of accounting item"
+  }, {
+    "code" : "TYP_AMRTSTN",
+    "domain_id" : "TYP_AMRTSTN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_AMRTSTN",
+    "displayName" : "Amortisation type"
+  }, {
+    "code" : "TYP_ASST_SCRTSTN",
+    "domain_id" : "TYP_ASST_SCRTSTN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_ASST_SCRTSTN",
+    "displayName" : "Type of asset provided as security"
+  }, {
+    "code" : "TYP_CMMTMNT",
+    "data_type" : "String",
+    "domain_id" : "TYP_CMMTMNT",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_CMMTMNT",
+    "displayName" : "Type of commitment"
+  }, {
+    "code" : "TYP_CMPNNT",
+    "domain_id" : "TYP_CMPNNT",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_CMPNNT",
+    "displayName" : "Type of component"
+  }, {
+    "code" : "TYP_ENTRPRS",
+    "domain_id" : "TYP_ENTRPRS",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_ENTRPRS",
+    "displayName" : "Type of enterprise"
+  }, {
+    "code" : "TYP_EXPSRS_SCRTSD_PRTFL",
+    "domain_id" : "TYP_EXPSRS_SCRTSD_PRTFL",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_EXPSRS_SCRTSD_PRTFL",
+    "displayName" : "Type of exposures in the securitised portfolio"
+  }, {
+    "code" : "TYP_FCLTY",
+    "domain_id" : "TYP_FCLTY",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_FCLTY",
+    "displayName" : "Type of facility"
+  }, {
+    "code" : "TYP_HDG",
+    "description" : "Type of Hedge in accordance with the applicable accounting standard and Reg 680/2014 (Annex V)",
+    "domain_id" : "TYP_HDG",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_HDG",
+    "displayName" : "Type of hedge"
+  }, {
+    "code" : "TYP_ID",
+    "domain_id" : "TYP_ID",
+    "is_enumerated" : true,
+    "name" : "TYP_ID",
+    "displayName" : "Group/Entity ID type"
+  }, {
+    "code" : "TYP_INPT_SHS",
+    "domain_id" : "TYP_INPT_SHS",
+    "is_enumerated" : true,
+    "name" : "TYP_INPT_SHS",
+    "displayName" : "Input type"
+  }, {
+    "code" : "TYP_INSTRMNT",
+    "description" : "None",
+    "domain_id" : "TYP_INSTRMNT",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_INSTRMNT",
+    "displayName" : "Type of instrument"
+  }, {
+    "code" : "TYP_INSTRMNT_ID",
+    "description" : "The type of the code used to",
+    "domain_id" : "TYP_INSTRMNT_ID",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_INSTRMNT_ID",
+    "displayName" : "Identifier type code list"
+  }, {
+    "code" : "TYP_INTRST_RT",
+    "domain_id" : "TYP_INTRST_RT",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_INTRST_RT",
+    "displayName" : "Interest rate type"
+  }, {
+    "code" : "TYP_INVSTMNT_PRPRTY",
+    "description" : "It lists the possible classes of investment properties as defined in Annex V. Regulation (EU) no.680/2014 Part 2.173(a).",
+    "domain_id" : "TYP_INVSTMNT_PRPRTY",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_INVSTMNT_PRPRTY",
+    "displayName" : "Type of investment property"
+  }, {
+    "code" : "TYP_MRKT",
+    "domain_id" : "TYP_MRKT",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_MRKT",
+    "displayName" : "Type of market"
+  }, {
+    "code" : "TYP_PRDCT",
+    "domain_id" : "TYP_PRDCT",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_PRDCT",
+    "displayName" : "Type of product"
+  }, {
+    "code" : "TYP_PRTCTN",
+    "domain_id" : "TYP_PRTCTN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_PRTCTN",
+    "displayName" : "Type of protection"
+  }, {
+    "code" : "TYP_PRTCTN_VL",
+    "description" : "Identification of the type of value provided in the data attribute ‘Protection value’.",
+    "domain_id" : "TYP_PRTCTN_VL",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_PRTCTN_VL",
+    "displayName" : "Type of protection value"
+  }, {
+    "code" : "TYP_RSK",
+    "description" : "Type of risk in accordance with Reg. 680/2014 (Annex V)",
+    "domain_id" : "TYP_RSK",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_RSK",
+    "displayName" : "Type of Risk"
+  }, {
+    "code" : "TYP_RTNTN",
+    "domain_id" : "TYP_RTNTN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_RTNTN",
+    "displayName" : "Type of retention applied"
+  }, {
+    "code" : "TYP_SGNFCNT_RSK_TRNSFR",
+    "domain_id" : "TYP_SGNFCNT_RSK_TRNSFR",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_SGNFCNT_RSK_TRNSFR",
+    "displayName" : "Significant risk tranfer"
+  }, {
+    "code" : "TYP_TRNSCTN",
+    "domain_id" : "TYP_TRNSCTN",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_TRNSCTN",
+    "displayName" : "Type of transaction"
+  }, {
+    "code" : "TYP_TRNSFR",
+    "domain_id" : "TYP_TRNSFR",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "TYP_TRNSFR",
+    "displayName" : "Type of Transfer"
+  }, {
+    "code" : "UNIT",
+    "domain_id" : "UNIT",
+    "is_enumerated" : true,
+    "is_reference" : true,
+    "name" : "UNIT",
+    "displayName" : "Unit of measure"
+  } ]
+}

@@ -1,0 +1,2623 @@
+{
+  "eClass" : "http://www.eclipse.org/efbt/efbt_data_definition#//CubeModule",
+  "name" : "cubeStructuresModule",
+  "cubeStructures" : [ {
+    "code" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_IL",
+    "cube_structure_id" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Other financial liabilities (excluding Financial guarantees and loan commitments given)"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_PRTCTN",
+    "cube_structure_id" : "BIRD_OTHR_FNNCL_PRTCTN_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_PRTCTN_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Other financial protection"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_PRTCTN",
+    "cube_structure_id" : "BIRD_OTHR_FNNCL_PRTCTN_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_PRTCTN_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Other financial protection"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_PRTCTN_IL",
+    "cube_structure_id" : "BIRD_OTHR_FNNCL_PRTCTN_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_PRTCTN_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Other financial protection"
+  }, {
+    "code" : "BIRD_OTHR_INTNGBL_ASSTS",
+    "cube_structure_id" : "BIRD_OTHR_INTNGBL_ASSTS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_INTNGBL_ASSTS_1",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Other intangible assets"
+  }, {
+    "code" : "BIRD_OTHR_INTNGBL_ASSTS",
+    "cube_structure_id" : "BIRD_OTHR_INTNGBL_ASSTS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_INTNGBL_ASSTS_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Other intangible assets"
+  }, {
+    "code" : "BIRD_OTHR_INTNGBL_ASSTS_EIL",
+    "cube_structure_id" : "BIRD_OTHR_INTNGBL_ASSTS_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_INTNGBL_ASSTS_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Other intangible assets - enriched"
+  }, {
+    "code" : "BIRD_OTHR_INTNGBL_ASSTS_IL",
+    "cube_structure_id" : "BIRD_OTHR_INTNGBL_ASSTS_IL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_INTNGBL_ASSTS_IL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Other intangible assets"
+  }, {
+    "code" : "BIRD_OTHR_LNS",
+    "cube_structure_id" : "BIRD_OTHR_LNS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_2",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Other loans"
+  }, {
+    "code" : "BIRD_OTHR_LNS",
+    "cube_structure_id" : "BIRD_OTHR_LNS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_3",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Other loans"
+  }, {
+    "code" : "BIRD_OTHR_LNS",
+    "cube_structure_id" : "BIRD_OTHR_LNS_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_4",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Other loans"
+  }, {
+    "code" : "BIRD_OTHR_LNS_AE_AXLRY",
+    "cube_structure_id" : "BIRD_OTHR_LNS_AE_AXLRY_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_AE_AXLRY_1",
+    "valid_to" : "2019-10-31T00:00:00",
+    "displayName" : "Other loans - AE Auxiliary"
+  }, {
+    "code" : "BIRD_OTHR_LNS_AE_AXLRY",
+    "cube_structure_id" : "BIRD_OTHR_LNS_AE_AXLRY_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_AE_AXLRY_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Other loans - AE Auxiliary"
+  }, {
+    "code" : "BIRD_OTHR_LNS_AE_AXLRY_EIL",
+    "cube_structure_id" : "BIRD_OTHR_LNS_AE_AXLRY_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_AE_AXLRY_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Other loans - AE Auxiliary - Enriched"
+  }, {
+    "code" : "BIRD_OTHR_LNS_AE_AXLRY_IL",
+    "cube_structure_id" : "BIRD_OTHR_LNS_AE_AXLRY_IL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_AE_AXLRY_IL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Other loans - AE Auxiliary"
+  }, {
+    "code" : "BIRD_OTHR_LNS_IL",
+    "cube_structure_id" : "BIRD_OTHR_LNS_IL_5",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_LNS_IL_5",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Other loans"
+  }, {
+    "code" : "BIRD_OTHR_PHYSCL_PRTCTN",
+    "cube_structure_id" : "BIRD_OTHR_PHYSCL_PRTCTN_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_PHYSCL_PRTCTN_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Other physical protection"
+  }, {
+    "code" : "BIRD_OTHR_PHYSCL_PRTCTN",
+    "cube_structure_id" : "BIRD_OTHR_PHYSCL_PRTCTN_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_PHYSCL_PRTCTN_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Other physical protection"
+  }, {
+    "code" : "BIRD_OTHR_PHYSCL_PRTCTN_IL",
+    "cube_structure_id" : "BIRD_OTHR_PHYSCL_PRTCTN_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_PHYSCL_PRTCTN_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Other physical protection"
+  }, {
+    "code" : "BIRD_OTHR_TRD_RCVBLS",
+    "cube_structure_id" : "BIRD_OTHR_TRD_RCVBLS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_TRD_RCVBLS_2",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Other trade receivables"
+  }, {
+    "code" : "BIRD_OTHR_TRD_RCVBLS",
+    "cube_structure_id" : "BIRD_OTHR_TRD_RCVBLS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_TRD_RCVBLS_3",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Other trade receivables"
+  }, {
+    "code" : "BIRD_OTHR_TRD_RCVBLS",
+    "cube_structure_id" : "BIRD_OTHR_TRD_RCVBLS_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_TRD_RCVBLS_4",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Other trade receivables"
+  }, {
+    "code" : "BIRD_OTHR_TRD_RCVBLS_IL",
+    "cube_structure_id" : "BIRD_OTHR_TRD_RCVBLS_IL_5",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_TRD_RCVBLS_IL_5",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Other trade receivables"
+  }, {
+    "code" : "BIRD_OWND_SCRTS",
+    "cube_structure_id" : "BIRD_OWND_SCRTS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OWND_SCRTS_2",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Owned securities"
+  }, {
+    "code" : "BIRD_OWND_SCRTS",
+    "cube_structure_id" : "BIRD_OWND_SCRTS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OWND_SCRTS_3",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Owned securities"
+  }, {
+    "code" : "BIRD_OWND_SCRTS",
+    "cube_structure_id" : "BIRD_OWND_SCRTS_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OWND_SCRTS_4",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Owned securities"
+  }, {
+    "code" : "BIRD_OWND_SCRTS_AE_AXLRY",
+    "cube_structure_id" : "BIRD_OWND_SCRTS_AE_AXLRY_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OWND_SCRTS_AE_AXLRY_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Owned securities - AE Auxiliary"
+  }, {
+    "code" : "BIRD_OWND_SCRTS_EIL",
+    "cube_structure_id" : "BIRD_OWND_SCRTS_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OWND_SCRTS_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Owned security - Enriched"
+  }, {
+    "code" : "BIRD_OWND_SCRTS_IL",
+    "cube_structure_id" : "BIRD_OWND_SCRTS_IL_5",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OWND_SCRTS_IL_5",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Owned securities"
+  }, {
+    "code" : "BIRD_OWND_SCRTY_SHRT_PSTN",
+    "cube_structure_id" : "BIRD_OWND_SCRTY_SHRT_PSTN_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OWND_SCRTY_SHRT_PSTN_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Owned security-short position"
+  }, {
+    "code" : "BIRD_PL_ITM_IL",
+    "cube_structure_id" : "BIRD_PL_ITM_IL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PL_ITM_IL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Pool of (repo) items"
+  }, {
+    "code" : "BIRD_PRMTR",
+    "cube_structure_id" : "BIRD_PRMTR_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRMTR_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Parameters"
+  }, {
+    "code" : "BIRD_PRMTR",
+    "cube_structure_id" : "BIRD_PRMTR_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRMTR_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Parameters"
+  }, {
+    "code" : "BIRD_PRMTR_IL",
+    "cube_structure_id" : "BIRD_PRMTR_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRMTR_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Parameters"
+  }, {
+    "code" : "BIRD_PRPRTY_PLNT_EQPMNT",
+    "cube_structure_id" : "BIRD_PRPRTY_PLNT_EQPMNT_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRPRTY_PLNT_EQPMNT_1",
+    "valid_to" : "2019-10-31T00:00:00",
+    "displayName" : "Property, pland and equipment"
+  }, {
+    "code" : "BIRD_PRPRTY_PLNT_EQPMNT",
+    "cube_structure_id" : "BIRD_PRPRTY_PLNT_EQPMNT_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRPRTY_PLNT_EQPMNT_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Property, pland and equipment"
+  }, {
+    "code" : "BIRD_PRPRTY_PLNT_EQPMNT_EIL",
+    "cube_structure_id" : "BIRD_PRPRTY_PLNT_EQPMNT_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRPRTY_PLNT_EQPMNT_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Property, pland and equipment - enriched"
+  }, {
+    "code" : "BIRD_PRPRTY_PLNT_EQPMNT_IL",
+    "cube_structure_id" : "BIRD_PRPRTY_PLNT_EQPMNT_IL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRPRTY_PLNT_EQPMNT_IL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Property, pland and equipment"
+  }, {
+    "code" : "BIRD_PRSPCTV_INF_EIL",
+    "cube_structure_id" : "BIRD_PRSPCTV_INF_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRSPCTV_INF_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Perspective information - Enriched"
+  }, {
+    "code" : "BIRD_PRSPCTV_INF_IL",
+    "cube_structure_id" : "BIRD_PRSPCTV_INF_IL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRSPCTV_INF_IL_1",
+    "valid_to" : "2020-05-31T00:00:00",
+    "displayName" : "Perspective info"
+  }, {
+    "code" : "BIRD_PRTCTNS_NT_RL_ESTT_E",
+    "cube_structure_id" : "BIRD_PRTCTNS_NT_RL_ESTT_E_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRTCTNS_NT_RL_ESTT_E_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Protections not in the form of real estate - enriched"
+  }, {
+    "code" : "BIRD_PRTCTNS_NT_RL_ESTT_EIL",
+    "cube_structure_id" : "BIRD_PRTCTNS_NT_RL_ESTT_EIL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRTCTNS_NT_RL_ESTT_EIL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Protections not in the form of real estate - enriched"
+  }, {
+    "code" : "ANCRDT_ACCNTNG_C",
+    "cube_structure_id" : "ANCRDT_ACCNTNG_C_1",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_ACCNTNG_C_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Accounting data  - ECB Collection"
+  }, {
+    "code" : "ANCRDT_ENTTY_DFLT_C",
+    "cube_structure_id" : "ANCRDT_ENTTY_DFLT_C_1",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_ENTTY_DFLT_C_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Counterparty default data  - ECB Collection"
+  }, {
+    "code" : "ANCRDT_ENTTY_INSTRMNT_C",
+    "cube_structure_id" : "ANCRDT_ENTTY_INSTRMNT_C_1",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_ENTTY_INSTRMNT_C_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Counterparty-instrument data  - ECB Collection"
+  }, {
+    "code" : "ANCRDT_ENTTY_RSK_C",
+    "cube_structure_id" : "ANCRDT_ENTTY_RSK_C_1",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_ENTTY_RSK_C_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Counterparty risk data  - ECB Collection"
+  }, {
+    "code" : "ANCRDT_FNNCL_C",
+    "cube_structure_id" : "ANCRDT_FNNCL_C_1",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_FNNCL_C_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Financial data - ECB Collection"
+  }, {
+    "code" : "ANCRDT_INSTRMNT_C",
+    "cube_structure_id" : "ANCRDT_INSTRMNT_C_1",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_INSTRMNT_C_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Instrument data - ECB Collection"
+  }, {
+    "code" : "ANCRDT_INSTRMNT_PRTCTN_RCVD_C",
+    "cube_structure_id" : "ANCRDT_INSTRMNT_PRTCTN_RCVD_C_1",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_INSTRMNT_PRTCTN_RCVD_C_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Instrument-protection received data  - ECB Collection"
+  }, {
+    "code" : "ANCRDT_JNT_LBLTS_C",
+    "cube_structure_id" : "ANCRDT_JNT_LBLTS_C_1",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_JNT_LBLTS_C_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Joint liabilities data  - ECB Collection"
+  }, {
+    "code" : "ANCRDT_PRTCTN_RCVD_C",
+    "cube_structure_id" : "ANCRDT_PRTCTN_RCVD_C_1",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_PRTCTN_RCVD_C_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Protection received data  - ECB Collection"
+  }, {
+    "code" : "BIRD_ADVNCS_NT_LNS",
+    "cube_structure_id" : "BIRD_ADVNCS_NT_LNS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ADVNCS_NT_LNS_1",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Advances (that are not loans)"
+  }, {
+    "code" : "BIRD_ADVNCS_NT_LNS",
+    "cube_structure_id" : "BIRD_ADVNCS_NT_LNS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ADVNCS_NT_LNS_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Advances (that are not loans)"
+  }, {
+    "code" : "BIRD_ADVNCS_NT_LNS",
+    "cube_structure_id" : "BIRD_ADVNCS_NT_LNS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ADVNCS_NT_LNS_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Advances (that are not loans)"
+  }, {
+    "code" : "BIRD_ADVNCS_NT_LNS_E",
+    "cube_structure_id" : "BIRD_ADVNCS_NT_LNS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ADVNCS_NT_LNS_E_1",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Advances (that are not loans) - enriched"
+  }, {
+    "code" : "BIRD_ADVNCS_NT_LNS_IL",
+    "cube_structure_id" : "BIRD_ADVNCS_NT_LNS_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ADVNCS_NT_LNS_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Advances (that are not loans)"
+  }, {
+    "code" : "BIRD_ASST_PLDGD_LBLTY",
+    "cube_structure_id" : "BIRD_ASST_PLDGD_LBLTY_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ASST_PLDGD_LBLTY_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Asset pledged for liability"
+  }, {
+    "code" : "BIRD_ASST_PLDGD_OFF_BLNC_SHT_ITM_RCVD",
+    "cube_structure_id" : "BIRD_ASST_PLDGD_OFF_BLNC_SHT_ITM_RCVD_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ASST_PLDGD_OFF_BLNC_SHT_ITM_RCVD_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Asset pledged for off-balance sheet items received"
+  }, {
+    "code" : "BIRD_CIU_HRRCHY_1",
+    "cube_structure_id" : "BIRD_CIU_HRRCHY_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CIU_HRRCHY_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "CIU Hierarchy"
+  }, {
+    "code" : "BIRD_CIU_HRRCHY_STRCTR_1",
+    "cube_structure_id" : "BIRD_CIU_HRRCHY_STRCTR_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CIU_HRRCHY_STRCTR_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "CIU Hierarchical Structure"
+  }, {
+    "code" : "BIRD_CLLTRLSD_DPST_OPRTN",
+    "cube_structure_id" : "BIRD_CLLTRLSD_DPST_OPRTN_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CLLTRLSD_DPST_OPRTN_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Collateralised deposit operation"
+  }, {
+    "code" : "BIRD_CMMTMNT_PRTCTN",
+    "cube_structure_id" : "BIRD_CMMTMNT_PRTCTN_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_PRTCTN_1",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Commitments-protection"
+  }, {
+    "code" : "BIRD_CMMTMNT_PRTCTN",
+    "cube_structure_id" : "BIRD_CMMTMNT_PRTCTN_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_PRTCTN_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Commitments-protection"
+  }, {
+    "code" : "BIRD_CMMTMNT_PRTCTN_EIL",
+    "cube_structure_id" : "BIRD_CMMTMNT_PRTCTN_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_PRTCTN_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Commitments-protections - Enriched"
+  }, {
+    "code" : "BIRD_CMMTMNT_PRTCTN_IL",
+    "cube_structure_id" : "BIRD_CMMTMNT_PRTCTN_IL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_PRTCTN_IL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Commitments-protection"
+  }, {
+    "code" : "BIRD_CMMTMNT_RCVD",
+    "cube_structure_id" : "BIRD_CMMTMNT_RCVD_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_RCVD_1",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Commitment Received"
+  }, {
+    "code" : "BIRD_CMMTMNT_RCVD",
+    "cube_structure_id" : "BIRD_CMMTMNT_RCVD_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_RCVD_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Commitment Received"
+  }, {
+    "code" : "BIRD_CMMTMNT_RCVD_EIL",
+    "cube_structure_id" : "BIRD_CMMTMNT_RCVD_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_RCVD_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Commitments received - enriched"
+  }, {
+    "code" : "BIRD_CMMTMNT_RCVD_IL",
+    "cube_structure_id" : "BIRD_CMMTMNT_RCVD_IL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNT_RCVD_IL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Commitment Received"
+  }, {
+    "code" : "BIRD_CMMTMNTS_GVN_CSTMRS_RLTNSHP_E",
+    "cube_structure_id" : "BIRD_CMMTMNTS_GVN_CSTMRS_RLTNSHP_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNTS_GVN_CSTMRS_RLTNSHP_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Commitments given-customers (relationships) - enriched"
+  }, {
+    "code" : "BIRD_CMMTMNTS_GVN_CSTMRS_RLTNSHP_EIL",
+    "cube_structure_id" : "BIRD_CMMTMNTS_GVN_CSTMRS_RLTNSHP_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNTS_GVN_CSTMRS_RLTNSHP_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Commitments given-customers (relationships) - enriched"
+  }, {
+    "code" : "BIRD_CMMTMNTS_GVN_E",
+    "cube_structure_id" : "BIRD_CMMTMNTS_GVN_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNTS_GVN_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Commitments given - enriched"
+  }, {
+    "code" : "BIRD_CMMTMNTS_GVN_EIL",
+    "cube_structure_id" : "BIRD_CMMTMNTS_GVN_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNTS_GVN_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Commitments given - enriched"
+  }, {
+    "code" : "BIRD_CMMTMNTS_GVN_PRTCTNS_E",
+    "cube_structure_id" : "BIRD_CMMTMNTS_GVN_PRTCTNS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNTS_GVN_PRTCTNS_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Commitments-protections - enriched"
+  }, {
+    "code" : "BIRD_CMMTMNTS_RCVD_CSTMRS_RLTNSHP_E",
+    "cube_structure_id" : "BIRD_CMMTMNTS_RCVD_CSTMRS_RLTNSHP_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNTS_RCVD_CSTMRS_RLTNSHP_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Commitments received-customers (relationship) - enriched"
+  }, {
+    "code" : "BIRD_CMMTMNTS_RCVD_CSTMRS_RLTNSHP_EIL",
+    "cube_structure_id" : "BIRD_CMMTMNTS_RCVD_CSTMRS_RLTNSHP_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMMTMNTS_RCVD_CSTMRS_RLTNSHP_EIL_2",
+    "valid_to" : "2020-05-31T00:00:00",
+    "displayName" : "Commitments received-customers (relationship) - enriched"
+  }, {
+    "code" : "BIRD_CMPSTN_LGL_ENTTY_EIL",
+    "cube_structure_id" : "BIRD_CMPSTN_LGL_ENTTY_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMPSTN_LGL_ENTTY_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Composition of the legal entity - Enriched"
+  }, {
+    "code" : "BIRD_CMPSTN_LGL_ENTTY_IL",
+    "cube_structure_id" : "BIRD_CMPSTN_LGL_ENTTY_IL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CMPSTN_LGL_ENTTY_IL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Composition of the legal entity"
+  }, {
+    "code" : "BIRD_CNTRPRTS",
+    "cube_structure_id" : "BIRD_CNTRPRTS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRPRTS_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Counterparties"
+  }, {
+    "code" : "BIRD_CNTRPRTS",
+    "cube_structure_id" : "BIRD_CNTRPRTS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRPRTS_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Counterparties"
+  }, {
+    "code" : "BIRD_CNTRPRTS_CDS_IL",
+    "cube_structure_id" : "BIRD_CNTRPRTS_CDS_IL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRPRTS_CDS_IL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Counterparty codes"
+  }, {
+    "code" : "BIRD_CNTRPRTS_E",
+    "cube_structure_id" : "BIRD_CNTRPRTS_E_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRPRTS_E_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Counterparties - enriched"
+  }, {
+    "code" : "BIRD_CNTRPRTS_EIL",
+    "cube_structure_id" : "BIRD_CNTRPRTS_EIL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRPRTS_EIL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Counterparties - enriched"
+  }, {
+    "code" : "BIRD_CNTRPRTS_IL",
+    "cube_structure_id" : "BIRD_CNTRPRTS_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRPRTS_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Counterparties"
+  }, {
+    "code" : "BIRD_CNTRY_EIL",
+    "cube_structure_id" : "BIRD_CNTRY_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRY_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Countries reference information - Enriched"
+  }, {
+    "code" : "BIRD_CNTRY_IL",
+    "cube_structure_id" : "BIRD_CNTRY_IL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRY_IL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Countries reference information"
+  }, {
+    "code" : "BIRD_CRDT_CRD_DBT",
+    "cube_structure_id" : "BIRD_CRDT_CRD_DBT_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_CRD_DBT_1",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Credit card debt"
+  }, {
+    "code" : "BIRD_CRDT_CRD_DBT",
+    "cube_structure_id" : "BIRD_CRDT_CRD_DBT_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_CRD_DBT_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Credit card debt"
+  }, {
+    "code" : "BIRD_CRDT_CRD_DBT",
+    "cube_structure_id" : "BIRD_CRDT_CRD_DBT_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_CRD_DBT_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Credit card debt"
+  }, {
+    "code" : "BIRD_CRDT_CRD_DBT_IL",
+    "cube_structure_id" : "BIRD_CRDT_CRD_DBT_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_CRD_DBT_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Credit card debt"
+  }, {
+    "code" : "BIRD_CRDT_DRVTV",
+    "cube_structure_id" : "BIRD_CRDT_DRVTV_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_DRVTV_1",
+    "valid_to" : "2018-12-30T00:00:00",
+    "displayName" : "Credit derivatives"
+  }, {
+    "code" : "BIRD_CRDT_DRVTV",
+    "cube_structure_id" : "BIRD_CRDT_DRVTV_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_DRVTV_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Credit derivatives"
+  }, {
+    "code" : "BIRD_CRDT_DRVTV",
+    "cube_structure_id" : "BIRD_CRDT_DRVTV_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_DRVTV_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Credit derivatives"
+  }, {
+    "code" : "BIRD_CRDT_DRVTV_IL",
+    "cube_structure_id" : "BIRD_CRDT_DRVTV_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_DRVTV_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Credit derivatives"
+  }, {
+    "code" : "BIRD_CRDT_FCLTS",
+    "cube_structure_id" : "BIRD_CRDT_FCLTS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Credit facilities"
+  }, {
+    "code" : "BIRD_CRDT_FCLTS",
+    "cube_structure_id" : "BIRD_CRDT_FCLTS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Credit facilities"
+  }, {
+    "code" : "BIRD_CRDT_FCLTS_EIL",
+    "cube_structure_id" : "BIRD_CRDT_FCLTS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_EIL_2",
+    "valid_to" : "2020-05-31T00:00:00",
+    "displayName" : "Credit facilities - Enriched"
+  }, {
+    "code" : "BIRD_CRDT_FCLTS_IL",
+    "cube_structure_id" : "BIRD_CRDT_FCLTS_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Credit facilities"
+  }, {
+    "code" : "BIRD_CRDT_FCLTS_INSTRMNTS",
+    "cube_structure_id" : "BIRD_CRDT_FCLTS_INSTRMNTS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_INSTRMNTS_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Credit facilities-Instruments"
+  }, {
+    "code" : "BIRD_CRDT_FCLTS_INSTRMNTS_E",
+    "cube_structure_id" : "BIRD_CRDT_FCLTS_INSTRMNTS_E_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_INSTRMNTS_E_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Credit facilities-Instruments - enriched"
+  }, {
+    "code" : "BIRD_CRDT_FCLTS_INSTRMNTS_EIL",
+    "cube_structure_id" : "BIRD_CRDT_FCLTS_INSTRMNTS_EIL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_INSTRMNTS_EIL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Credit facilities-Instruments - enriched"
+  }, {
+    "code" : "BIRD_CRDT_FCLTS_INSTRMNTS_IL",
+    "cube_structure_id" : "BIRD_CRDT_FCLTS_INSTRMNTS_IL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRDT_FCLTS_INSTRMNTS_IL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Credit facilities-Instruments"
+  }, {
+    "code" : "BIRD_CRRNT_ACCNT",
+    "cube_structure_id" : "BIRD_CRRNT_ACCNT_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRRNT_ACCNT_1",
+    "valid_to" : "2018-12-30T00:00:00",
+    "displayName" : "Current account (including Transferable deposits)"
+  }, {
+    "code" : "BIRD_CRRNT_ACCNT",
+    "cube_structure_id" : "BIRD_CRRNT_ACCNT_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRRNT_ACCNT_2",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Current account (including Transferable deposits)"
+  }, {
+    "code" : "BIRD_CRRNT_ACCNT",
+    "cube_structure_id" : "BIRD_CRRNT_ACCNT_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRRNT_ACCNT_3",
+    "valid_to" : "2019-10-31T00:00:00",
+    "displayName" : "Current account (including Transferable deposits)"
+  }, {
+    "code" : "BIRD_CRRNT_ACCNT",
+    "cube_structure_id" : "BIRD_CRRNT_ACCNT_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRRNT_ACCNT_4",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Current account (including Transferable deposits)"
+  }, {
+    "code" : "BIRD_CRRNT_ACCNT_AE_AXLRY",
+    "cube_structure_id" : "BIRD_CRRNT_ACCNT_AE_AXLRY_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRRNT_ACCNT_AE_AXLRY_1",
+    "valid_to" : "2019-10-31T00:00:00",
+    "displayName" : "Current account (including Transferable deposits) - AE Auxiliary"
+  }, {
+    "code" : "BIRD_CRRNT_ACCNT_AE_AXLRY",
+    "cube_structure_id" : "BIRD_CRRNT_ACCNT_AE_AXLRY_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRRNT_ACCNT_AE_AXLRY_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Current account (including Transferable deposits) - AE Auxiliary"
+  }, {
+    "code" : "BIRD_CRRNT_ACCNT_IL",
+    "cube_structure_id" : "BIRD_CRRNT_ACCNT_IL_5",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CRRNT_ACCNT_IL_5",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Current account (including Transferable deposits)"
+  }, {
+    "code" : "BIRD_CSH_ON_HND",
+    "cube_structure_id" : "BIRD_CSH_ON_HND_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CSH_ON_HND_1",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Cash on hand"
+  }, {
+    "code" : "BIRD_CSH_ON_HND_EIL",
+    "cube_structure_id" : "BIRD_CSH_ON_HND_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CSH_ON_HND_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Cash on hand - enriched"
+  }, {
+    "code" : "BIRD_CSH_ON_HND_IL",
+    "cube_structure_id" : "BIRD_CSH_ON_HND_IL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CSH_ON_HND_IL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Cash on hand"
+  }, {
+    "code" : "BIRD_CVRD_BND_PRGRM",
+    "cube_structure_id" : "BIRD_CVRD_BND_PRGRM_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CVRD_BND_PRGRM_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Covered bond program"
+  }, {
+    "code" : "BIRD_CVRD_BND_PRGRM_DRVTV",
+    "cube_structure_id" : "BIRD_CVRD_BND_PRGRM_DRVTV_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CVRD_BND_PRGRM_DRVTV_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Covered bond program-derivative"
+  }, {
+    "code" : "BIRD_DBT_SCRTS_E",
+    "cube_structure_id" : "BIRD_DBT_SCRTS_E_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DBT_SCRTS_E_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Debt securities - enriched"
+  }, {
+    "code" : "BIRD_DPSTS_LBLTS",
+    "cube_structure_id" : "BIRD_DPSTS_LBLTS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DPSTS_LBLTS_1",
+    "valid_to" : "2018-12-30T00:00:00",
+    "displayName" : "Deposits (liabilities)"
+  }, {
+    "code" : "BIRD_DPSTS_LBLTS_IL",
+    "cube_structure_id" : "BIRD_DPSTS_LBLTS_IL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DPSTS_LBLTS_IL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Deposits (liabilities)"
+  }, {
+    "code" : "BIRD_DPSTS_THT_LBLTS_E",
+    "cube_structure_id" : "BIRD_DPSTS_THT_LBLTS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DPSTS_THT_LBLTS_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Deposits that are liabilities - enriched"
+  }, {
+    "code" : "BIRD_DPSTS_THT_LBLTS_EIL",
+    "cube_structure_id" : "BIRD_DPSTS_THT_LBLTS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DPSTS_THT_LBLTS_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Deposits that are liabilities - enriched"
+  }, {
+    "code" : "BIRD_DRVTV_E",
+    "cube_structure_id" : "BIRD_DRVTV_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DRVTV_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Derivatives - enriched"
+  }, {
+    "code" : "BIRD_DRVTVS_CSTMRS_RLTSHP_E",
+    "cube_structure_id" : "BIRD_DRVTVS_CSTMRS_RLTSHP_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DRVTVS_CSTMRS_RLTSHP_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Derivatives-customers (relationship) - enriched"
+  }, {
+    "code" : "BIRD_DRVTVS_CSTMRS_RLTSHP_EIL",
+    "cube_structure_id" : "BIRD_DRVTVS_CSTMRS_RLTSHP_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_DRVTVS_CSTMRS_RLTSHP_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Derivatives-customers (relationship) - enriched"
+  }, {
+    "code" : "CNTRPRTS_E",
+    "cube_structure_id" : "BIRD_EIL_CNTRPRTS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_CNTRPRTS_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Counterparties - Enriched"
+  }, {
+    "code" : "BIRD_CNTRY_E",
+    "cube_structure_id" : "BIRD_EIL_CNTRY_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_CNTRY_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Countries reference information - Enriched"
+  }, {
+    "code" : "CRDT_FCLTS_E",
+    "cube_structure_id" : "BIRD_EIL_CRDT_FCLTS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_CRDT_FCLTS_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Credit facilities - Enriched"
+  }, {
+    "code" : "CRDT_FCLTS_INSTRMNTS_E",
+    "cube_structure_id" : "BIRD_EIL_CRDT_FCLTS_INSTRMNTS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_CRDT_FCLTS_INSTRMNTS_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Credit facilities-instruments - Enriched"
+  }, {
+    "code" : "INSTRMNTS_PRTCTNS_E",
+    "cube_structure_id" : "BIRD_EIL_INSTRMNTS_PRTCTNS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_INSTRMNTS_PRTCTNS_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Instruments-protections - Enriched"
+  }, {
+    "code" : "JNT_CNTRPRTS_E",
+    "cube_structure_id" : "BIRD_EIL_JNT_CNTRPRTS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_JNT_CNTRPRTS_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Joint counterparties - Enriched"
+  }, {
+    "code" : "LN_E",
+    "cube_structure_id" : "BIRD_EIL_LN_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_LN_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Loan - Enriched"
+  }, {
+    "code" : "OWND_SCRTY_E",
+    "cube_structure_id" : "BIRD_EIL_OWND_SCRTY_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_OWND_SCRTY_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Owned security - Enriched"
+  }, {
+    "code" : "PRTCTN_RCVD_E",
+    "cube_structure_id" : "BIRD_EIL_PRTCTN_RCVD_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_PRTCTN_RCVD_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Protection received - Enriched"
+  }, {
+    "code" : "PSTV_CRRNT_ACCNT_E",
+    "cube_structure_id" : "BIRD_EIL_PSTV_CRRNT_ACCNT_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_PSTV_CRRNT_ACCNT_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Positive current accounts - Enriched"
+  }, {
+    "code" : "RGSTRY_TBL_SCRTS_E",
+    "cube_structure_id" : "BIRD_EIL_RGSTRY_TBL_SCRTS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_RGSTRY_TBL_SCRTS_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Registry table of securities - Enriched"
+  }, {
+    "code" : "RL_ESTT_CLM_E",
+    "cube_structure_id" : "BIRD_EIL_RL_ESTT_CLM_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_RL_ESTT_CLM_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Real estate claim - Enriched"
+  }, {
+    "code" : "RL_ESTT_PRTCTN_CLM_E",
+    "cube_structure_id" : "BIRD_EIL_RL_ESTT_PRTCTN_CLM_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_RL_ESTT_PRTCTN_CLM_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Real estate protection-Real estate claim - Enriched"
+  }, {
+    "code" : "RL_ESTT_PRTCTN_E",
+    "cube_structure_id" : "BIRD_EIL_RL_ESTT_PRTCTN_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_RL_ESTT_PRTCTN_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Real estate protection - Enriched"
+  }, {
+    "code" : "SCRTSTNS_OTHR_CRDT_TRNSFRS_E",
+    "cube_structure_id" : "BIRD_EIL_SCRTSTNS_OTHR_CRDT_TRNSFRS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_SCRTSTNS_OTHR_CRDT_TRNSFRS_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Securitisations and other credit transfers - Enriched"
+  }, {
+    "code" : "TRNSCTNS_CNTRPRTS_E",
+    "cube_structure_id" : "BIRD_EIL_TRNSCTNS_CNTRPRTS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EIL_TRNSCTNS_CNTRPRTS_E_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Transactions-Counterparties - Enriched"
+  }, {
+    "code" : "BIRD_ENTRPRS_SZ_PRVS_PRD_IL",
+    "cube_structure_id" : "BIRD_ENTRPRS_SZ_PRVS_PRD_IL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_ENTRPRS_SZ_PRVS_PRD_IL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Enterprise size (previous period)"
+  }, {
+    "code" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS",
+    "cube_structure_id" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_1",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Equity instruments that are not securities"
+  }, {
+    "code" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS",
+    "cube_structure_id" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Equity instruments that are not securities"
+  }, {
+    "code" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS",
+    "cube_structure_id" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Equity instruments that are not securities"
+  }, {
+    "code" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_E",
+    "cube_structure_id" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Equity instruments that are not securities - enriched"
+  }, {
+    "code" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_EIL",
+    "cube_structure_id" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Equity instruments that are not securities - enriched"
+  }, {
+    "code" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_IL",
+    "cube_structure_id" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EQTY_INSTRMNTS_NT_SCRTS_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Equity instruments that are not securities"
+  }, {
+    "code" : "BIRD_EQTY_SCRTS_E",
+    "cube_structure_id" : "BIRD_EQTY_SCRTS_E_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EQTY_SCRTS_E_2",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Equity instruments (in the form of securities) - enriched"
+  }, {
+    "code" : "BIRD_EXTRNL_CRDT_ASSSSMNT",
+    "cube_structure_id" : "BIRD_EXTRNL_CRDT_ASSSSMNT_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EXTRNL_CRDT_ASSSSMNT_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "External credit assessments"
+  }, {
+    "code" : "BIRD_EXTRNL_CRDT_ASSSSMNT",
+    "cube_structure_id" : "BIRD_EXTRNL_CRDT_ASSSSMNT_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EXTRNL_CRDT_ASSSSMNT_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "External credit assessments"
+  }, {
+    "code" : "BIRD_EXTRNL_CRDT_ASSSSMNT_AXLRY",
+    "cube_structure_id" : "BIRD_EXTRNL_CRDT_ASSSSMNT_AXLRY_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EXTRNL_CRDT_ASSSSMNT_AXLRY_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "External credit assessment auxiliary"
+  }, {
+    "code" : "BIRD_EXTRNL_CRDT_ASSSSMNT_IL",
+    "cube_structure_id" : "BIRD_EXTRNL_CRDT_ASSSSMNT_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_EXTRNL_CRDT_ASSSSMNT_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "External credit assessments"
+  }, {
+    "code" : "BIRD_FCTRNG",
+    "cube_structure_id" : "BIRD_FCTRNG_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_2",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Factoring"
+  }, {
+    "code" : "BIRD_FCTRNG",
+    "cube_structure_id" : "BIRD_FCTRNG_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_3",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Factoring"
+  }, {
+    "code" : "BIRD_FCTRNG",
+    "cube_structure_id" : "BIRD_FCTRNG_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_4",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Factoring"
+  }, {
+    "code" : "BIRD_FCTRNG_AXLRY",
+    "cube_structure_id" : "BIRD_FCTRNG_AXLRY_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_AXLRY_1",
+    "valid_to" : "2019-10-31T00:00:00",
+    "displayName" : "Factoring auxiliary"
+  }, {
+    "code" : "BIRD_FCTRNG_AXLRY_E",
+    "cube_structure_id" : "BIRD_FCTRNG_AXLRY_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_AXLRY_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Factoring auxiliary - enriched"
+  }, {
+    "code" : "BIRD_FCTRNG_AXLRY_EIL",
+    "cube_structure_id" : "BIRD_FCTRNG_AXLRY_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_AXLRY_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Factoring auxiliary - enriched"
+  }, {
+    "code" : "BIRD_FCTRNG_AXLRY_IL",
+    "cube_structure_id" : "BIRD_FCTRNG_AXLRY_IL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_AXLRY_IL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Factoring auxiliary"
+  }, {
+    "code" : "BIRD_FCTRNG_IL",
+    "cube_structure_id" : "BIRD_FCTRNG_IL_5",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FCTRNG_IL_5",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Factoring"
+  }, {
+    "code" : "BIRD_FNNCL_GRNTS_GVN",
+    "cube_structure_id" : "BIRD_FNNCL_GRNTS_GVN_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_GRNTS_GVN_1",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Financial guarantees given"
+  }, {
+    "code" : "BIRD_FNNCL_GRNTS_GVN",
+    "cube_structure_id" : "BIRD_FNNCL_GRNTS_GVN_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_GRNTS_GVN_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Financial guarantees given"
+  }, {
+    "code" : "BIRD_FNNCL_GRNTS_GVN_IL",
+    "cube_structure_id" : "BIRD_FNNCL_GRNTS_GVN_IL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_GRNTS_GVN_IL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Financial guarantees given"
+  }, {
+    "code" : "BIRD_FNNCL_LSS",
+    "cube_structure_id" : "BIRD_FNNCL_LSS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_LSS_2",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Financial leases"
+  }, {
+    "code" : "BIRD_FNNCL_LSS",
+    "cube_structure_id" : "BIRD_FNNCL_LSS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_LSS_3",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Financial leases"
+  }, {
+    "code" : "BIRD_FNNCL_LSS",
+    "cube_structure_id" : "BIRD_FNNCL_LSS_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_LSS_4",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Financial leases"
+  }, {
+    "code" : "BIRD_FNNCL_LSS_IL",
+    "cube_structure_id" : "BIRD_FNNCL_LSS_IL_5",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_LSS_IL_5",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Financial leases"
+  }, {
+    "code" : "BIRD_FNNCL_OPTN",
+    "cube_structure_id" : "BIRD_FNNCL_OPTN_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_OPTN_1",
+    "valid_to" : "2018-12-30T00:00:00",
+    "displayName" : "Financial options"
+  }, {
+    "code" : "BIRD_FNNCL_OPTN",
+    "cube_structure_id" : "BIRD_FNNCL_OPTN_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_OPTN_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Financial options"
+  }, {
+    "code" : "BIRD_FNNCL_OPTN",
+    "cube_structure_id" : "BIRD_FNNCL_OPTN_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_OPTN_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Financial options"
+  }, {
+    "code" : "BIRD_FNNCL_OPTN_IL",
+    "cube_structure_id" : "BIRD_FNNCL_OPTN_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_FNNCL_OPTN_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Financial options"
+  }, {
+    "code" : "BIRD_GDWLL_EIL",
+    "cube_structure_id" : "BIRD_GDWLL_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GDWLL_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Goodwill - enriched"
+  }, {
+    "code" : "BIRD_GDWLL_IL",
+    "cube_structure_id" : "BIRD_GDWLL_IL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GDWLL_IL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Goodwill"
+  }, {
+    "code" : "BIRD_GRP",
+    "cube_structure_id" : "BIRD_GRP_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GRP_2",
+    "valid_to" : "2018-12-30T00:00:00",
+    "displayName" : "Group"
+  }, {
+    "code" : "BIRD_GRP_CNTRPRTY_RLTNSHP",
+    "cube_structure_id" : "BIRD_GRP_CNTRPRTY_RLTNSHP_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GRP_CNTRPRTY_RLTNSHP_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Group counterparty relationship"
+  }, {
+    "code" : "BIRD_GRP_CNTRPRTY_RLTNSHP_IL",
+    "cube_structure_id" : "BIRD_GRP_CNTRPRTY_RLTNSHP_IL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GRP_CNTRPRTY_RLTNSHP_IL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Group counterparty relationship"
+  }, {
+    "code" : "BIRD_GRP_DT_IL",
+    "cube_structure_id" : "BIRD_GRP_DT_IL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GRP_DT_IL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Group data"
+  }, {
+    "code" : "BIRD_GRP_E",
+    "cube_structure_id" : "BIRD_GRP_E_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GRP_E_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Group and related entities - enriched"
+  }, {
+    "code" : "BIRD_GRP_EIL",
+    "cube_structure_id" : "BIRD_GRP_EIL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GRP_EIL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Group and related entities - enriched"
+  }, {
+    "code" : "BIRD_GRP_IL",
+    "cube_structure_id" : "BIRD_GRP_IL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_GRP_IL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Group"
+  }, {
+    "code" : "CMPSTN_LGL_ENTTY",
+    "cube_structure_id" : "BIRD_IL_CMPSTN_LGL_ENTTY_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CMPSTN_LGL_ENTTY_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Composition of the legal entity"
+  }, {
+    "code" : "CNTRPRTS",
+    "cube_structure_id" : "BIRD_IL_CNTRPRTS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CNTRPRTS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Counterparties"
+  }, {
+    "code" : "CNTRPRTS_CDS",
+    "cube_structure_id" : "BIRD_IL_CNTRPRTS_CDS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CNTRPRTS_CDS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Counterparty codes"
+  }, {
+    "code" : "CNTRPRTS_PD",
+    "cube_structure_id" : "BIRD_IL_CNTRPRTS_PD_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CNTRPRTS_PD_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Probability of default of the counterparty"
+  }, {
+    "code" : "CNTRY",
+    "cube_structure_id" : "BIRD_IL_CNTRY_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CNTRY_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Countries reference information"
+  }, {
+    "code" : "CRDT_CRD_DBT_CNVNNC_CRDT",
+    "cube_structure_id" : "BIRD_IL_CRDT_CRD_DBT_CNVNNC_CRDT_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CRDT_CRD_DBT_CNVNNC_CRDT_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Credit card debt: convenience credit"
+  }, {
+    "code" : "CRDT_CRD_DBT_EXTNDD_CRDT",
+    "cube_structure_id" : "BIRD_IL_CRDT_CRD_DBT_EXTNDD_CRDT_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CRDT_CRD_DBT_EXTNDD_CRDT_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Credit card debt: extended credit"
+  }, {
+    "code" : "CRDT_FCLTS",
+    "cube_structure_id" : "BIRD_IL_CRDT_FCLTS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CRDT_FCLTS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Credit facilities"
+  }, {
+    "code" : "CRDT_FCLTS_INSTRMNTS",
+    "cube_structure_id" : "BIRD_IL_CRDT_FCLTS_INSTRMNTS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_CRDT_FCLTS_INSTRMNTS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Credit facilities-Instruments"
+  }, {
+    "code" : "ENTRPRS_SZ_PRVS_PRD",
+    "cube_structure_id" : "BIRD_IL_ENTRPRS_SZ_PRVS_PRD_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_ENTRPRS_SZ_PRVS_PRD_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Enterprise size (previous period)"
+  }, {
+    "code" : "EXTRNL_CRDT_ASSSSMNT",
+    "cube_structure_id" : "BIRD_IL_EXTRNL_CRDT_ASSSSMNT_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_EXTRNL_CRDT_ASSSSMNT_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "External credit assessments"
+  }, {
+    "code" : "FCTRNG",
+    "cube_structure_id" : "BIRD_IL_FCTRNG_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_FCTRNG_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Factoring"
+  }, {
+    "code" : "FNNCL_LSS",
+    "cube_structure_id" : "BIRD_IL_FNNCL_LSS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_FNNCL_LSS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Financial leases"
+  }, {
+    "code" : "GRP",
+    "cube_structure_id" : "BIRD_IL_GRP_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_GRP_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Group"
+  }, {
+    "code" : "GRP_CNTRPRTY_RLTNSHP",
+    "cube_structure_id" : "BIRD_IL_GRP_CNTRPRTY_RLTNSHP_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_GRP_CNTRPRTY_RLTNSHP_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Group counterparty relationship"
+  }, {
+    "code" : "GRP_DT",
+    "cube_structure_id" : "BIRD_IL_GRP_DT_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_GRP_DT_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Group data"
+  }, {
+    "code" : "INDRCT_FCTRNG",
+    "cube_structure_id" : "BIRD_IL_INDRCT_FCTRNG_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_INDRCT_FCTRNG_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Indirect factoring"
+  }, {
+    "code" : "INSTRMNTS_PRTCTNS",
+    "cube_structure_id" : "BIRD_IL_INSTRMNTS_PRTCTNS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_INSTRMNTS_PRTCTNS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Instruments-protections"
+  }, {
+    "code" : "JNT_CNTRPRTS",
+    "cube_structure_id" : "BIRD_IL_JNT_CNTRPRTS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_JNT_CNTRPRTS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Joint counterparties"
+  }, {
+    "code" : "LNKD_ENTRPRSS",
+    "cube_structure_id" : "BIRD_IL_LNKD_ENTRPRSS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_LNKD_ENTRPRSS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Linked enterprises"
+  }, {
+    "code" : "OTHR_DPSTS",
+    "cube_structure_id" : "BIRD_IL_OTHR_DPSTS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_OTHR_DPSTS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Other deposits"
+  }, {
+    "code" : "OTHR_FNNCL_PRTCTN",
+    "cube_structure_id" : "BIRD_IL_OTHR_FNNCL_PRTCTN_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_OTHR_FNNCL_PRTCTN_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Other financial protection"
+  }, {
+    "code" : "OTHR_LNS",
+    "cube_structure_id" : "BIRD_IL_OTHR_LNS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_OTHR_LNS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Other loans"
+  }, {
+    "code" : "OTHR_PHYSCL_PRTCTN",
+    "cube_structure_id" : "BIRD_IL_OTHR_PHYSCL_PRTCTN_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_OTHR_PHYSCL_PRTCTN_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Other physical protection"
+  }, {
+    "code" : "OTHR_TRD_RCVBLS",
+    "cube_structure_id" : "BIRD_IL_OTHR_TRD_RCVBLS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_OTHR_TRD_RCVBLS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Other trade receivables"
+  }, {
+    "code" : "OVRDRFTS",
+    "cube_structure_id" : "BIRD_IL_OVRDRFTS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_OVRDRFTS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Overdrafts"
+  }, {
+    "code" : "OWND_SCRTY",
+    "cube_structure_id" : "BIRD_IL_OWND_SCRTY_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_OWND_SCRTY_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Owned securities"
+  }, {
+    "code" : "PL_ITM",
+    "cube_structure_id" : "BIRD_IL_PL_ITM_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_PL_ITM_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Pool of (repo) items"
+  }, {
+    "code" : "PRMTR",
+    "cube_structure_id" : "BIRD_IL_PRMTR_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_PRMTR_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Parameters"
+  }, {
+    "code" : "PRTNR_ENTRPRSS",
+    "cube_structure_id" : "BIRD_IL_PRTNR_ENTRPRSS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_PRTNR_ENTRPRSS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Partner enterprises"
+  }, {
+    "code" : "PSTV_CRRNT_ACCNT",
+    "cube_structure_id" : "BIRD_IL_PSTV_CRRNT_ACCNT_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_PSTV_CRRNT_ACCNT_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Positive current accounts"
+  }, {
+    "code" : "RGSTRY_TBL_SCRTS",
+    "cube_structure_id" : "BIRD_IL_RGSTRY_TBL_SCRTS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_RGSTRY_TBL_SCRTS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Registry table of securities"
+  }, {
+    "code" : "RL_ESTT_CLM",
+    "cube_structure_id" : "BIRD_IL_RL_ESTT_CLM_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_RL_ESTT_CLM_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Real estate claim"
+  }, {
+    "code" : "RL_ESTT_PRTCTN",
+    "cube_structure_id" : "BIRD_IL_RL_ESTT_PRTCTN_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_RL_ESTT_PRTCTN_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Real estate protection"
+  }, {
+    "code" : "RL_ESTT_PRTCTN_CLM",
+    "cube_structure_id" : "BIRD_IL_RL_ESTT_PRTCTN_CLM_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_RL_ESTT_PRTCTN_CLM_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Real estate protection-Real estate claim"
+  }, {
+    "code" : "RVRS_RPRCHS_LNS",
+    "cube_structure_id" : "BIRD_IL_RVRS_RPRCHS_LNS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_RVRS_RPRCHS_LNS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Reverse repurchase loans"
+  }, {
+    "code" : "SCRTS_PRTCTN",
+    "cube_structure_id" : "BIRD_IL_SCRTS_PRTCTN_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_SCRTS_PRTCTN_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Securities protection"
+  }, {
+    "code" : "SCRTSTNS_OTHR_CRDT_TRNSFRS",
+    "cube_structure_id" : "BIRD_IL_SCRTSTNS_OTHR_CRDT_TRNSFRS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_SCRTSTNS_OTHR_CRDT_TRNSFRS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Securitisations and other credit transfers"
+  }, {
+    "code" : "TRNSCTNS_CNTRPRTS",
+    "cube_structure_id" : "BIRD_IL_TRNSCTNS_CNTRPRTS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_TRNSCTNS_CNTRPRTS_1",
+    "valid_to" : "2018-06-01T00:00:00",
+    "displayName" : "Transactions-Counterparties"
+  }, {
+    "code" : "TRNSFRBL_DPSTS",
+    "cube_structure_id" : "BIRD_IL_TRNSFRBL_DPSTS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_TRNSFRBL_DPSTS_1",
+    "valid_to" : "2019-10-31T00:00:00",
+    "displayName" : "Transferable deposits"
+  }, {
+    "code" : "TRNSFRBL_DPSTS",
+    "cube_structure_id" : "BIRD_IL_TRNSFRBL_DPSTS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_IL_TRNSFRBL_DPSTS_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Transferable deposits"
+  }, {
+    "code" : "BIRD_INSTRMNTS_BNFCRS_E",
+    "cube_structure_id" : "BIRD_INSTRMNTS_BNFCRS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_BNFCRS_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Instruments-beneficiaries - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_BNFCRS_EIL",
+    "cube_structure_id" : "BIRD_INSTRMNTS_BNFCRS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_BNFCRS_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Instruments-beneficiaries - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_CRDTRS_E",
+    "cube_structure_id" : "BIRD_INSTRMNTS_CRDTRS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_CRDTRS_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Instruments-creditors - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_CRDTRS_EIL",
+    "cube_structure_id" : "BIRD_INSTRMNTS_CRDTRS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_CRDTRS_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Instruments-creditors - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_CSTMRS_E",
+    "cube_structure_id" : "BIRD_INSTRMNTS_CSTMRS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_CSTMRS_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Instruments-customers - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_CSTMRS_EIL",
+    "cube_structure_id" : "BIRD_INSTRMNTS_CSTMRS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_CSTMRS_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Instruments-customers - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_ORGNTRS_E",
+    "cube_structure_id" : "BIRD_INSTRMNTS_ORGNTRS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_ORGNTRS_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Instruments-originators - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_ORGNTRS_EIL",
+    "cube_structure_id" : "BIRD_INSTRMNTS_ORGNTRS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_ORGNTRS_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Instruments-originators - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_PRTCTNS",
+    "cube_structure_id" : "BIRD_INSTRMNTS_PRTCTNS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_PRTCTNS_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Instruments-protections"
+  }, {
+    "code" : "BIRD_INSTRMNTS_PRTCTNS",
+    "cube_structure_id" : "BIRD_INSTRMNTS_PRTCTNS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_PRTCTNS_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Instruments-protections"
+  }, {
+    "code" : "BIRD_INSTRMNTS_PRTCTNS_EIL",
+    "cube_structure_id" : "BIRD_INSTRMNTS_PRTCTNS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_PRTCTNS_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Instruments-protections - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_PRTCTNS_IL",
+    "cube_structure_id" : "BIRD_INSTRMNTS_PRTCTNS_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_PRTCTNS_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Instruments-protections"
+  }, {
+    "code" : "BIRD_INSTRMNTS_SRVCRS_E",
+    "cube_structure_id" : "BIRD_INSTRMNTS_SRVCRS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_SRVCRS_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Instruments-servicers - enriched"
+  }, {
+    "code" : "BIRD_INSTRMNTS_SRVCRS_EIL",
+    "cube_structure_id" : "BIRD_INSTRMNTS_SRVCRS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_SRVCRS_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Instruments-servicers - enriched"
+  }, {
+    "code" : "BIRD_INVSTMNT_PRPRTY",
+    "cube_structure_id" : "BIRD_INVSTMNT_PRPRTY_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INVSTMNT_PRPRTY_1",
+    "valid_to" : "2019-10-31T00:00:00",
+    "displayName" : "Investment property"
+  }, {
+    "code" : "BIRD_INVSTMNT_PRPRTY",
+    "cube_structure_id" : "BIRD_INVSTMNT_PRPRTY_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INVSTMNT_PRPRTY_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Investment property"
+  }, {
+    "code" : "BIRD_INVSTMNT_PRPRTY_EIL",
+    "cube_structure_id" : "BIRD_INVSTMNT_PRPRTY_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INVSTMNT_PRPRTY_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Investment property - enriched"
+  }, {
+    "code" : "BIRD_INVSTMNT_PRPRTY_IL",
+    "cube_structure_id" : "BIRD_INVSTMNT_PRPRTY_IL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INVSTMNT_PRPRTY_IL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Investment property"
+  }, {
+    "code" : "BIRD_JNT_CNTRPRTS",
+    "cube_structure_id" : "BIRD_JNT_CNTRPRTS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_JNT_CNTRPRTS_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Joint counterparties"
+  }, {
+    "code" : "BIRD_JNT_CNTRPRTS_EIL",
+    "cube_structure_id" : "BIRD_JNT_CNTRPRTS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_JNT_CNTRPRTS_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Joint counterparties - enriched"
+  }, {
+    "code" : "BIRD_JNT_CNTRPRTS_IL",
+    "cube_structure_id" : "BIRD_JNT_CNTRPRTS_IL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_JNT_CNTRPRTS_IL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Joint counterparties"
+  }, {
+    "code" : "BIRD_LBLTY_PL_CVRD_BND",
+    "cube_structure_id" : "BIRD_LBLTY_PL_CVRD_BND_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LBLTY_PL_CVRD_BND_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Liability pool for covered bonds"
+  }, {
+    "code" : "BIRD_LBLTY_PL_CVRD_BND_FRCST",
+    "cube_structure_id" : "BIRD_LBLTY_PL_CVRD_BND_FRCST_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LBLTY_PL_CVRD_BND_FRCST_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Liability pool for covered bonds - forcast"
+  }, {
+    "code" : "BIRD_LBLTY_PL_CVRD_BND_SCRTS_ISSD",
+    "cube_structure_id" : "BIRD_LBLTY_PL_CVRD_BND_SCRTS_ISSD_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LBLTY_PL_CVRD_BND_SCRTS_ISSD_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Liability pool for covered bonds-securities issued"
+  }, {
+    "code" : "BIRD_LBLTY_PL_OTHR",
+    "cube_structure_id" : "BIRD_LBLTY_PL_OTHR_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LBLTY_PL_OTHR_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Liability pool for other structures"
+  }, {
+    "code" : "BIRD_LBLTY_PL_OTHR_INSTRMNT",
+    "cube_structure_id" : "BIRD_LBLTY_PL_OTHR_INSTRMNT_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LBLTY_PL_OTHR_INSTRMNT_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Liability pool for other structures-instrument"
+  }, {
+    "code" : "BIRD_LBLTY_PL_SCRTSTN_INSTRMNT",
+    "cube_structure_id" : "BIRD_LBLTY_PL_SCRTSTN_INSTRMNT_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LBLTY_PL_SCRTSTN_INSTRMNT_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Liability pool for securitisations-instrument"
+  }, {
+    "code" : "LNG_STTLMNT_TRNSCTN",
+    "cube_structure_id" : "BIRD_LNG_STTLMNT_TRNSCTN_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LNG_STTLMNT_TRNSCTN_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Long Settlement Transaction"
+  }, {
+    "code" : "BIRD_LNKD_ENTRPRSS_IL",
+    "cube_structure_id" : "BIRD_LNKD_ENTRPRSS_IL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LNKD_ENTRPRSS_IL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Linked enterprises"
+  }, {
+    "code" : "BIRD_LNS_ADVNCS_EIL",
+    "cube_structure_id" : "BIRD_LNS_ADVNCS_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LNS_ADVNCS_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Loans and Advances"
+  }, {
+    "code" : "BIRD_LNS_E",
+    "cube_structure_id" : "BIRD_LNS_E_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_LNS_E_2",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Loans - enriched"
+  }, {
+    "code" : "BIRD_MSTR_NTTNG_AGRMNT",
+    "cube_structure_id" : "BIRD_MSTR_NTTNG_AGRMNT_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_MSTR_NTTNG_AGRMNT_1",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Master netting agreement"
+  }, {
+    "code" : "BIRD_MSTR_NTTNG_AGRMNT",
+    "cube_structure_id" : "BIRD_MSTR_NTTNG_AGRMNT_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_MSTR_NTTNG_AGRMNT_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Master netting agreement"
+  }, {
+    "code" : "BIRD_MSTR_NTTNG_AGRMNT_EIL",
+    "cube_structure_id" : "BIRD_MSTR_NTTNG_AGRMNT_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_MSTR_NTTNG_AGRMNT_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Master netting agreement - enriched"
+  }, {
+    "code" : "BIRD_MSTR_NTTNG_AGRMNT_IL",
+    "cube_structure_id" : "BIRD_MSTR_NTTNG_AGRMNT_IL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_MSTR_NTTNG_AGRMNT_IL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Master netting agreement"
+  }, {
+    "code" : "BIRD_MSTR_NTTNG_PRTCTN",
+    "cube_structure_id" : "BIRD_MSTR_NTTNG_PRTCTN_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_MSTR_NTTNG_PRTCTN_1",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Master netting protection"
+  }, {
+    "code" : "BIRD_MSTR_NTTNG_PRTCTN",
+    "cube_structure_id" : "BIRD_MSTR_NTTNG_PRTCTN_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_MSTR_NTTNG_PRTCTN_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Master netting protection"
+  }, {
+    "code" : "BIRD_NN_FNNCL_ASSTS_EIL",
+    "cube_structure_id" : "BIRD_NN_FNNCL_ASSTS_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_NN_FNNCL_ASSTS_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Non-financial assets (excluding tangible and intangible assets) - enriched"
+  }, {
+    "code" : "BIRD_NN_FNNCL_ASSTS_IL",
+    "cube_structure_id" : "BIRD_NN_FNNCL_ASSTS_IL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_NN_FNNCL_ASSTS_IL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Non-financial assets (excluding tangible and intangible assets)"
+  }, {
+    "code" : "BIRD_NN_FNNCL_LBLTS_EIL",
+    "cube_structure_id" : "BIRD_NN_FNNCL_LBLTS_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_NN_FNNCL_LBLTS_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Non-financial liabilities and provisions (excluding financial guarantees and commitments given) - enriched"
+  }, {
+    "code" : "BIRD_NN_FNNCL_LBLTS_IL",
+    "cube_structure_id" : "BIRD_NN_FNNCL_LBLTS_IL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_NN_FNNCL_LBLTS_IL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Non-financial liabilities and provisions (excluding financial guarantees and commitments given)"
+  }, {
+    "code" : "BIRD_OTHR_ASSTS",
+    "cube_structure_id" : "BIRD_OTHR_ASSTS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_ASSTS_1",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Other assets"
+  }, {
+    "code" : "BIRD_OTHR_ASSTS",
+    "cube_structure_id" : "BIRD_OTHR_ASSTS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_ASSTS_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Other assets"
+  }, {
+    "code" : "BIRD_OTHR_ASSTS",
+    "cube_structure_id" : "BIRD_OTHR_ASSTS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_ASSTS_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Other assets"
+  }, {
+    "code" : "BIRD_OTHR_ASSTS_E",
+    "cube_structure_id" : "BIRD_OTHR_ASSTS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_ASSTS_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Other assets - enriched"
+  }, {
+    "code" : "BIRD_OTHR_ASSTS_EIL",
+    "cube_structure_id" : "BIRD_OTHR_ASSTS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_ASSTS_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Other assets - enriched"
+  }, {
+    "code" : "BIRD_OTHR_ASSTS_IL",
+    "cube_structure_id" : "BIRD_OTHR_ASSTS_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_ASSTS_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Other assets"
+  }, {
+    "code" : "BIRD_OTHR_CMMTMNTS_GVN",
+    "cube_structure_id" : "BIRD_OTHR_CMMTMNTS_GVN_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_CMMTMNTS_GVN_1",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Commitments given other than credit facilities"
+  }, {
+    "code" : "BIRD_OTHR_CMMTMNTS_GVN",
+    "cube_structure_id" : "BIRD_OTHR_CMMTMNTS_GVN_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_CMMTMNTS_GVN_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Commitments given other than credit facilities"
+  }, {
+    "code" : "BIRD_OTHR_CMMTMNTS_GVN_IL",
+    "cube_structure_id" : "BIRD_OTHR_CMMTMNTS_GVN_IL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_CMMTMNTS_GVN_IL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Commitments given other than credit facilities"
+  }, {
+    "code" : "BIRD_OTHR_DPSTS",
+    "cube_structure_id" : "BIRD_OTHR_DPSTS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_DPSTS_2",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Other deposits (assets)"
+  }, {
+    "code" : "BIRD_OTHR_DPSTS",
+    "cube_structure_id" : "BIRD_OTHR_DPSTS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_DPSTS_3",
+    "valid_to" : "2019-10-31T00:00:00",
+    "displayName" : "Other deposits (assets)"
+  }, {
+    "code" : "BIRD_OTHR_DPSTS",
+    "cube_structure_id" : "BIRD_OTHR_DPSTS_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_DPSTS_4",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Other deposits (assets)"
+  }, {
+    "code" : "BIRD_OTHR_DPSTS_AE_AXLRY",
+    "cube_structure_id" : "BIRD_OTHR_DPSTS_AE_AXLRY_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_DPSTS_AE_AXLRY_1",
+    "valid_to" : "2019-10-31T00:00:00",
+    "displayName" : "Other deposits (assets) - AE Auxiliary"
+  }, {
+    "code" : "BIRD_OTHR_DPSTS_AE_AXLRY",
+    "cube_structure_id" : "BIRD_OTHR_DPSTS_AE_AXLRY_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_DPSTS_AE_AXLRY_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Other deposits (assets) - AE Auxiliary"
+  }, {
+    "code" : "BIRD_OTHR_DPSTS_IL",
+    "cube_structure_id" : "BIRD_OTHR_DPSTS_IL_5",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_DPSTS_IL_5",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Other deposits (assets)"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_DRVTV",
+    "cube_structure_id" : "BIRD_OTHR_FNNCL_DRVTV_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_DRVTV_1",
+    "valid_to" : "2018-12-30T00:00:00",
+    "displayName" : "Financial swaps and forwards"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_DRVTV",
+    "cube_structure_id" : "BIRD_OTHR_FNNCL_DRVTV_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_DRVTV_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Financial swaps and forwards"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_DRVTV",
+    "cube_structure_id" : "BIRD_OTHR_FNNCL_DRVTV_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_DRVTV_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Financial swaps and forwards"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_DRVTV_IL",
+    "cube_structure_id" : "BIRD_OTHR_FNNCL_DRVTV_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_DRVTV_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Financial swaps and forwards"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN",
+    "cube_structure_id" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_1",
+    "valid_to" : "2018-12-30T00:00:00",
+    "displayName" : "Other financial liabilities (excluding Financial guarantees and loan commitments given)"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN",
+    "cube_structure_id" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Other financial liabilities (excluding Financial guarantees and loan commitments given)"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN",
+    "cube_structure_id" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Other financial liabilities (excluding Financial guarantees and loan commitments given)"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_E",
+    "cube_structure_id" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Other financial liabilities (excluding Financial guarantees and loan commitments given) - enriched"
+  }, {
+    "code" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_EIL",
+    "cube_structure_id" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_OTHR_FNNCL_LBLTS_NT_FNNCL_GRNTS_LN_CMMTMNTS_GVN_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Other financial liabilities (excluding Financial guarantees and loan commitments given) - enriched"
+  }, {
+    "code" : "BIRD_PRTCTNS_PRTCTN_PRVDRS_E",
+    "cube_structure_id" : "BIRD_PRTCTNS_PRTCTN_PRVDRS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRTCTNS_PRTCTN_PRVDRS_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Protections-protection providers - enriched"
+  }, {
+    "code" : "BIRD_PRTCTNS_PRTCTN_PRVDRS_EIL",
+    "cube_structure_id" : "BIRD_PRTCTNS_PRTCTN_PRVDRS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRTCTNS_PRTCTN_PRVDRS_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Protections-protection providers - enriched"
+  }, {
+    "code" : "BIRD_PRTCTNS_RL_ESTT_EIL",
+    "cube_structure_id" : "BIRD_PRTCTNS_RL_ESTT_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRTCTNS_RL_ESTT_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Protections in the form of real estate - enriched"
+  }, {
+    "code" : "BIRD_PRTNR_ENTRPRSS_IL",
+    "cube_structure_id" : "BIRD_PRTNR_ENTRPRSS_IL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRTNR_ENTRPRSS_IL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Partner enterprises"
+  }, {
+    "code" : "BIRD_PRVSN_FLWS_NT_FNNCL_GRNTS_CMMTMNTS_GVN_EIL",
+    "cube_structure_id" : "BIRD_PRVSN_FLWS_NT_FNNCL_GRNTS_CMMTMNTS_GVN_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRVSN_FLWS_NT_FNNCL_GRNTS_CMMTMNTS_GVN_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Provision flows (excluding Financial guarantees and Commitments given) - enriched"
+  }, {
+    "code" : "BIRD_PRVSN_FLWS_NT_FNNCL_GRNTS_CMMTMNTS_GVN_IL",
+    "cube_structure_id" : "BIRD_PRVSN_FLWS_NT_FNNCL_GRNTS_CMMTMNTS_GVN_IL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRVSN_FLWS_NT_FNNCL_GRNTS_CMMTMNTS_GVN_IL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Provision flows (excluding Financial guarantees and Commitments given)"
+  }, {
+    "code" : "BIRD_RGSTRY_TBL_SCRTS",
+    "cube_structure_id" : "BIRD_RGSTRY_TBL_SCRTS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RGSTRY_TBL_SCRTS_2",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Registry table of securities"
+  }, {
+    "code" : "BIRD_RGSTRY_TBL_SCRTS",
+    "cube_structure_id" : "BIRD_RGSTRY_TBL_SCRTS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RGSTRY_TBL_SCRTS_3",
+    "valid_to" : "2019-08-01T00:00:00",
+    "displayName" : "Registry table of securities"
+  }, {
+    "code" : "BIRD_RGSTRY_TBL_SCRTS",
+    "cube_structure_id" : "BIRD_RGSTRY_TBL_SCRTS_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RGSTRY_TBL_SCRTS_4",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Registry table of securities"
+  }, {
+    "code" : "BIRD_RGSTRY_TBL_SCRTS",
+    "cube_structure_id" : "BIRD_RGSTRY_TBL_SCRTS_5",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RGSTRY_TBL_SCRTS_5",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Registry table of securities"
+  }, {
+    "code" : "BIRD_RGSTRY_TBL_SCRTS_IL",
+    "cube_structure_id" : "BIRD_RGSTRY_TBL_SCRTS_IL_6",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RGSTRY_TBL_SCRTS_IL_6",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Registry table of securities"
+  }, {
+    "code" : "BIRD_RL_ESTT_CLM_E",
+    "cube_structure_id" : "BIRD_RL_ESTT_CLM_E_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_CLM_E_2",
+    "valid_to" : "2018-07-31T00:00:00",
+    "displayName" : "Real estate claim - Enriched"
+  }, {
+    "code" : "BIRD_RL_ESTT_CLM_IL",
+    "cube_structure_id" : "BIRD_RL_ESTT_CLM_IL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_CLM_IL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Real estate claim"
+  }, {
+    "code" : "BIRD_RL_ESTT_PRTCTN",
+    "cube_structure_id" : "BIRD_RL_ESTT_PRTCTN_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_PRTCTN_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Real estate protection"
+  }, {
+    "code" : "BIRD_RL_ESTT_PRTCTN",
+    "cube_structure_id" : "BIRD_RL_ESTT_PRTCTN_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_PRTCTN_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Real estate protection"
+  }, {
+    "code" : "BIRD_RL_ESTT_PRTCTN_CLM",
+    "cube_structure_id" : "BIRD_RL_ESTT_PRTCTN_CLM_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_PRTCTN_CLM_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Real estate protection-Real estate claim"
+  }, {
+    "code" : "BIRD_RL_ESTT_PRTCTN_CLM_E",
+    "cube_structure_id" : "BIRD_RL_ESTT_PRTCTN_CLM_E_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_PRTCTN_CLM_E_2",
+    "valid_to" : "2018-07-31T00:00:00",
+    "displayName" : "Real estate protection-Real estate claim - enriched"
+  }, {
+    "code" : "BIRD_RL_ESTT_PRTCTN_CLM_IL",
+    "cube_structure_id" : "BIRD_RL_ESTT_PRTCTN_CLM_IL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_PRTCTN_CLM_IL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Real estate protection-Real estate claim"
+  }, {
+    "code" : "BIRD_RL_ESTT_PRTCTN_E",
+    "cube_structure_id" : "BIRD_RL_ESTT_PRTCTN_E_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_PRTCTN_E_2",
+    "valid_to" : "2018-07-31T00:00:00",
+    "displayName" : "Real estate protection - enriched"
+  }, {
+    "code" : "BIRD_RL_ESTT_PRTCTN_IL",
+    "cube_structure_id" : "BIRD_RL_ESTT_PRTCTN_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RL_ESTT_PRTCTN_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Real estate protection"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_1",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Repurchase agreement"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Repurchase agreement"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Repurchase agreement"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_IL",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Repurchase agreement"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_LNS",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_LNS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_LNS_1",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Repurchase agreements-loans"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_LNS",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_LNS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_LNS_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Repurchase agreements-loans"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_LNS",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_LNS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_LNS_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Repurchase agreements-loans"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_LNS_E",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_LNS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_LNS_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Repurchase agreements-loans - enriched"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_LNS_EIL",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_LNS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_LNS_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Repurchase agreements-loans - enriched"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_LNS_IL",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_LNS_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_LNS_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Repurchase agreements-loans"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_SCRTS",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_SCRTS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_SCRTS_1",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Repurchase agreements-securities"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_SCRTS",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_SCRTS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_SCRTS_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Repurchase agreements-securities"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_SCRTS",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_SCRTS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_SCRTS_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Repurchase agreements-securities"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_SCRTS_E",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_SCRTS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_SCRTS_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Repurchase agreements-securities - enriched"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_SCRTS_EIL",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_SCRTS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_SCRTS_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Repurchase agreements-securities - enriched"
+  }, {
+    "code" : "BIRD_RPRCHS_AGRMNT_SCRTS_IL",
+    "cube_structure_id" : "BIRD_RPRCHS_AGRMNT_SCRTS_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RPRCHS_AGRMNT_SCRTS_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Repurchase agreements-securities"
+  }, {
+    "code" : "BIRD_RVRS_RPRCHS_LNS",
+    "cube_structure_id" : "BIRD_RVRS_RPRCHS_LNS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RVRS_RPRCHS_LNS_2",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Reverse repurchase loans"
+  }, {
+    "code" : "BIRD_RVRS_RPRCHS_LNS",
+    "cube_structure_id" : "BIRD_RVRS_RPRCHS_LNS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RVRS_RPRCHS_LNS_3",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Reverse repurchase loans"
+  }, {
+    "code" : "BIRD_RVRS_RPRCHS_LNS",
+    "cube_structure_id" : "BIRD_RVRS_RPRCHS_LNS_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RVRS_RPRCHS_LNS_4",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Reverse repurchase loans"
+  }, {
+    "code" : "BIRD_RVRS_RPRCHS_LNS_IL",
+    "cube_structure_id" : "BIRD_RVRS_RPRCHS_LNS_IL_5",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_RVRS_RPRCHS_LNS_IL_5",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Reverse repurchase loans"
+  }, {
+    "code" : "BIRD_SCRTS_BRRWD",
+    "cube_structure_id" : "BIRD_SCRTS_BRRWD_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_BRRWD_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Securities borrowed"
+  }, {
+    "code" : "BIRD_SCRTS_BRRWD_AE_AXLRY",
+    "cube_structure_id" : "BIRD_SCRTS_BRRWD_AE_AXLRY_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_BRRWD_AE_AXLRY_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Securities borrowed - AE Auxiliary"
+  }, {
+    "code" : "BIRD_SCRTS_ISSD",
+    "cube_structure_id" : "BIRD_SCRTS_ISSD_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_ISSD_1",
+    "valid_to" : "2018-12-30T00:00:00",
+    "displayName" : "Securities issued"
+  }, {
+    "code" : "BIRD_SCRTS_ISSD",
+    "cube_structure_id" : "BIRD_SCRTS_ISSD_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_ISSD_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Securities issued"
+  }, {
+    "code" : "BIRD_SCRTS_ISSD_EIL",
+    "cube_structure_id" : "BIRD_SCRTS_ISSD_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_ISSD_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Securities issued - enriched"
+  }, {
+    "code" : "BIRD_SCRTS_ISSD_IL",
+    "cube_structure_id" : "BIRD_SCRTS_ISSD_IL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_ISSD_IL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Securities issued"
+  }, {
+    "code" : "BIRD_SCRTS_PRTCTN",
+    "cube_structure_id" : "BIRD_SCRTS_PRTCTN_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_PRTCTN_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Securities protection"
+  }, {
+    "code" : "BIRD_SCRTS_PRTCTN",
+    "cube_structure_id" : "BIRD_SCRTS_PRTCTN_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_PRTCTN_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Securities protection"
+  }, {
+    "code" : "BIRD_SCRTS_PRTCTN_IL",
+    "cube_structure_id" : "BIRD_SCRTS_PRTCTN_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_PRTCTN_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Securities protection"
+  }, {
+    "code" : "BIRD_SCRTS_RCVD_EIL",
+    "cube_structure_id" : "BIRD_SCRTS_RCVD_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_RCVD_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Securities received enriched"
+  }, {
+    "code" : "BIRD_SCRTS_RCVD_IL",
+    "cube_structure_id" : "BIRD_SCRTS_RCVD_IL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTS_RCVD_IL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Securities received"
+  }, {
+    "code" : "BIRD_SCRTSTNS_ORGNTRS_E_1",
+    "cube_structure_id" : "BIRD_SCRTSTNS_ORGNTRS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_ORGNTRS_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Securitisations-originators - enriched"
+  }, {
+    "code" : "BIRD_SCRTSTNS_ORGNTRS_EIL",
+    "cube_structure_id" : "BIRD_SCRTSTNS_ORGNTRS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_ORGNTRS_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Securitisations-originators - enriched"
+  }, {
+    "code" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS",
+    "cube_structure_id" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_2",
+    "valid_to" : "2019-04-30T00:00:00",
+    "displayName" : "Securitisations and other credit transfers"
+  }, {
+    "code" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS",
+    "cube_structure_id" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_3",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Securitisations and other credit transfers"
+  }, {
+    "code" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS",
+    "cube_structure_id" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_4",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Securitisations and other credit transfers"
+  }, {
+    "code" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_E",
+    "cube_structure_id" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_E_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_E_2",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Securitisations and other credit transfers - enriched"
+  }, {
+    "code" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_EIL",
+    "cube_structure_id" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_EIL_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_EIL_3",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Securitisations and other credit transfers - enriched"
+  }, {
+    "code" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_IL",
+    "cube_structure_id" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_IL_5",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_OTHR_CRDT_TRNSFRS_IL_5",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Securitisations and other credit transfers"
+  }, {
+    "code" : "BIRD_SCRTSTNS_SRVCRS_E_1",
+    "cube_structure_id" : "BIRD_SCRTSTNS_SRVCRS_E_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_SRVCRS_E_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Secuiritisations-servicers - enriched"
+  }, {
+    "code" : "BIRD_SCRTSTNS_SRVCRS_EIL",
+    "cube_structure_id" : "BIRD_SCRTSTNS_SRVCRS_EIL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTSTNS_SRVCRS_EIL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Secuiritisations-servicers - enriched"
+  }, {
+    "code" : "BIRD_SCRTY_BRRWNG_LNDNG",
+    "cube_structure_id" : "BIRD_SCRTY_BRRWNG_LNDNG_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTY_BRRWNG_LNDNG_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Securities or Commodities Lending and Borrowing Transactions"
+  }, {
+    "code" : "BIRD_SCRTY_BRRWNG_LNDNG_SCRTS_BRRWD_1",
+    "cube_structure_id" : "BIRD_SCRTY_BRRWNG_LNDNG_SCRTS_BRRWD_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTY_BRRWNG_LNDNG_SCRTS_BRRWD_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Securities or Commodities Lending and Borrowing Transactions - Securities Borrowed"
+  }, {
+    "code" : "BIRD_SCRTY_BRRWNG_LNDNG_SCRTS_LNT_1",
+    "cube_structure_id" : "BIRD_SCRTY_BRRWNG_LNDNG_SCRTS_LNT_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTY_BRRWNG_LNDNG_SCRTS_LNT_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Securities or Commodities Lending and Borrowing Transactions - Securities Lent"
+  }, {
+    "code" : "BIRD_SCRTY_SHRT_PSTN_EIL",
+    "cube_structure_id" : "BIRD_SCRTY_SHRT_PSTN_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTY_SHRT_PSTN_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Security-short position enriched"
+  }, {
+    "code" : "BIRD_SCRTY_SHRT_PSTN_IL",
+    "cube_structure_id" : "BIRD_SCRTY_SHRT_PSTN_IL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SCRTY_SHRT_PSTN_IL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Security-short position"
+  }, {
+    "code" : "BIRD_SHRT_PSTNS_EIL",
+    "cube_structure_id" : "BIRD_SHRT_PSTNS_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SHRT_PSTNS_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Short positions - enriched"
+  }, {
+    "code" : "BIRD_SHRT_PSTNS_IL",
+    "cube_structure_id" : "BIRD_SHRT_PSTNS_IL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_SHRT_PSTNS_IL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Short position"
+  }, {
+    "code" : "BIRD_TRNSCTNS_CNTRPRTS",
+    "cube_structure_id" : "BIRD_TRNSCTNS_CNTRPRTS_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_TRNSCTNS_CNTRPRTS_2",
+    "valid_to" : "2019-11-30T00:00:00",
+    "displayName" : "Transactions-Counterparties"
+  }, {
+    "code" : "BIRD_TRNSCTNS_CNTRPRTS",
+    "cube_structure_id" : "BIRD_TRNSCTNS_CNTRPRTS_3",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_TRNSCTNS_CNTRPRTS_3",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Transactions-Counterparties"
+  }, {
+    "code" : "BIRD_TRNSCTNS_CNTRPRTS_IL",
+    "cube_structure_id" : "BIRD_TRNSCTNS_CNTRPRTS_IL_4",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_TRNSCTNS_CNTRPRTS_IL_4",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Transactions-Counterparties"
+  }, {
+    "code" : "BIRD_UNDRLYNG_PL_ABS",
+    "cube_structure_id" : "BIRD_UNDRLYNG_PL_ABS_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_UNDRLYNG_PL_ABS_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Underlying pool for ABSs"
+  }, {
+    "code" : "BIRD_UNDRLYNG_PL_CVRD_BND",
+    "cube_structure_id" : "BIRD_UNDRLYNG_PL_CVRD_BND_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_UNDRLYNG_PL_CVRD_BND_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Underlying pool for covered bonds"
+  }, {
+    "code" : "BIRD_UNDRLYNG_PL_CVRD_BND_FRCST",
+    "cube_structure_id" : "BIRD_UNDRLYNG_PL_CVRD_BND_FRCST_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_UNDRLYNG_PL_CVRD_BND_FRCST_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Underlying pool for covered bonds - forcast"
+  }, {
+    "code" : "BIRD_UNDRLYNG_PL_CVRD_BND_INSTRMNT",
+    "cube_structure_id" : "BIRD_UNDRLYNG_PL_CVRD_BND_INSTRMNT_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_UNDRLYNG_PL_CVRD_BND_INSTRMNT_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Underlying pool-instrument"
+  }, {
+    "code" : "BIRD_UNDRLYNG_PL_INSTRMNT",
+    "cube_structure_id" : "BIRD_UNDRLYNG_PL_INSTRMNT_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_UNDRLYNG_PL_INSTRMNT_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Underlying pool-instrument"
+  }, {
+    "code" : "BIRD_UNDRLYNG_PL_OTHR",
+    "cube_structure_id" : "BIRD_UNDRLYNG_PL_OTHR_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_UNDRLYNG_PL_OTHR_1",
+    "valid_to" : "2020-01-31T00:00:00",
+    "displayName" : "Underlying pool for other structures"
+  }, {
+    "code" : "ECB2_SHS_SHSG4_ENTITY_NROL",
+    "cube_structure_id" : "ECB2_SHS_SHSG4_ENTITY_NROL_1",
+    "description" : "DESCRIPTION",
+    "name" : "ECB2_SHS_SHSG4_ENTITY_NROL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "SHSG4_ENTITY_Reporting"
+  }, {
+    "code" : "ECB2_SHS_SHSG4_GROUP_NROL",
+    "cube_structure_id" : "ECB2_SHS_SHSG4_GROUP_NROL_1",
+    "description" : "DESCRIPTION",
+    "name" : "ECB2_SHS_SHSG4_GROUP_NROL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "SHSG4_GROUP_Reporting"
+  }, {
+    "code" : "ECB2_SHS_SHSG4_ISIN_NROL",
+    "cube_structure_id" : "ECB2_SHS_SHSG4_ISIN_NROL_1",
+    "description" : "DESCRIPTION",
+    "name" : "ECB2_SHS_SHSG4_ISIN_NROL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "SHSG4_ISIN_Reporting"
+  }, {
+    "code" : "ECB2_SHS_SHSG4_NON_ISIN_NROL",
+    "cube_structure_id" : "ECB2_SHS_SHSG4_NON_ISIN_NROL_1",
+    "description" : "DESCRIPTION",
+    "name" : "ECB2_SHS_SHSG4_NON_ISIN_NROL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "SHSG4_NON_ISIN_Reporting"
+  }, {
+    "code" : "SHS_REF_SHSG4_ENTITY_ROL",
+    "cube_structure_id" : "SHS_REF_SHSG4_ENTITY_ROL_1",
+    "description" : "DESCRIPTION",
+    "name" : "SHS_REF_SHSG4_ENTITY_ROL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "SHSG4_ENTITY_Reporting - Reference"
+  }, {
+    "code" : "SHS_REF_SHSG4_GROUP_ROL",
+    "cube_structure_id" : "SHS_REF_SHSG4_GROUP_ROL_1",
+    "description" : "DESCRIPTION",
+    "name" : "SHS_REF_SHSG4_GROUP_ROL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "SHSG4_GROUP_Reporting - Reference"
+  }, {
+    "code" : "SHS_REF_SHSG4_ISIN_ROL",
+    "cube_structure_id" : "SHS_REF_SHSG4_ISIN_ROL_1",
+    "description" : "DESCRIPTION",
+    "name" : "SHS_REF_SHSG4_ISIN_ROL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "SHSG4_ISIN_Reporting - Reference"
+  }, {
+    "code" : "SHS_REF_SHSG4_NON_ISIN_ROL",
+    "cube_structure_id" : "SHS_REF_SHSG4_NON_ISIN_ROL_1",
+    "description" : "DESCRIPTION",
+    "name" : "SHS_REF_SHSG4_NON_ISIN_ROL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "SHSG4_NON_ISIN_Reporting - Reference"
+  }, {
+    "code" : "BIRD_CNTRPRTS_CDS_EIL",
+    "cube_structure_id" : "BIRD_CNTRPRTS_CDS_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_CNTRPRTS_CDS_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Enriched cube on Counterparty codes"
+  }, {
+    "code" : "BIRD_INSTRMNTS_CSTMRS_APPRCH_EIL",
+    "cube_structure_id" : "BIRD_INSTRMNTS_CSTMRS_APPRCH_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_CSTMRS_APPRCH_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Instrument - customers representing components or single debtors"
+  }, {
+    "code" : "BIRD_PRSPCTV_INF_IL",
+    "cube_structure_id" : "BIRD_PRSPCTV_INF_IL_2",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_PRSPCTV_INF_IL_2",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Perspective info"
+  }, {
+    "code" : "BIRD_INSTRMNTS_TRNSFR_EIL",
+    "cube_structure_id" : "BIRD_INSTRMNTS_TRNSFR_EIL_1",
+    "description" : "DESCRIPTION",
+    "name" : "BIRD_INSTRMNTS_TRNSFR_EIL_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Instruments-Transferee - Enriched "
+  }, {
+    "code" : "ANCRDT_ENTTY_C",
+    "cube_structure_id" : "ANCRDT_ENTTY_C_1",
+    "description" : "DESCRIPTION",
+    "name" : "ANCRDT_ENTTY_C_1",
+    "valid_to" : "9999-12-31T00:00:00",
+    "displayName" : "Counterparty"
+  } ]
+}
